@@ -1,0 +1,13 @@
+import React from 'react';
+import { screen, render } from '@testing-library/react';
+import {{pascalCase name}} from '../../../../../src/pages/{{kebabCase name}}/view/{{kebabCase name}}.view';
+
+describe('{{pascalCase name}}', () => {
+    it('should render {{pascalCase name}} with text {{pascalCase name}}', () => {
+        const { container } = render(<{{pascalCase name}} />);
+
+        expect(screen.getByText('{{pascalCase name}}')).toBeInTheDocument();
+
+        expect(container.firstChild).toMatchSnapshot();
+    });
+});

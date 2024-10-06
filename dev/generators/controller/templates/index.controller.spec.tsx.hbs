@@ -1,0 +1,19 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import {{pascalCase name}} from '../../../../../../src/pages/{{kebabCase name}}/index.page';
+
+const mockedRouter = {
+    push: jest.fn(),
+};
+
+jest.mock('next/router', () => ({
+    useRouter: () => mockedRouter,
+}));
+
+describe('{{pascalCase name}}', () => {
+    it('should render {{pascalCase name}}', async () => {
+        const { container } = await render(<{{pascalCase name}} />);
+
+        expect(container.firstChild).toMatchSnapshot();
+    });
+});
