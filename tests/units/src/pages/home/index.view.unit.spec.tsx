@@ -6,8 +6,8 @@ describe('Home', () => {
     it('should render Home with text Home', () => {
         const { container } = render(<Home />);
 
-        expect(screen.getByText('Home')).toBeInTheDocument();
+        expect(screen.getByText('Home - Generated page')).toBeInTheDocument();
 
-        expect(container.firstChild).toMatchSnapshot();
+        expect(container).toMatchSnapshot();
     });
 });
