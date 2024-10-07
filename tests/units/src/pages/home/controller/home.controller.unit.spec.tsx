@@ -14,6 +14,6 @@ describe('Home', () => {
     it('should render Home', async () => {
         const { container } = await render(<Home />);
 
-        expect(container.firstChild).toMatchSnapshot();
+        expect(container).toMatchSnapshot();
     });
 });

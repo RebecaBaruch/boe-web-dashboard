@@ -40,7 +40,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
+        run: npm run test:unit
 
       - name: Run Prettier (Optional)
         run: npm run prettier --check

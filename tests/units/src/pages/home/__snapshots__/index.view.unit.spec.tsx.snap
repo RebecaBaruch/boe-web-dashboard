@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home should render Home 1`] = `
+exports[`Home should render Home with text Home 1`] = `
 <div>
   <h1>
     Home - Generated page
