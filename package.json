@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test:unit": "jest --silent --maxWorkers=50%",
+    "test:unit": "jest --maxWorkers=50%",
     "eject": "react-scripts eject",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "prettier": "prettier './src/**/*.{ts,tsx}' --write",
