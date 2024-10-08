@@ -3,26 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ThemeContextProvider, getO2Skin } from '@telefonica/mistica';
+import { ThemeContextProvider } from '@telefonica/mistica';
+import { theme } from './config/theme';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
 
 root.render(
-  <React.StrictMode>
-    <ThemeContextProvider
-      theme={{
-        skin: getO2Skin(),
-        i18n: {
-          locale: 'es-ES',
-          phoneNumberFormattingRegionCode: 'ES',
-        },
-      }}
-    >
+  <ThemeContextProvider theme={theme}>
+    <React.StrictMode>
       <App />
-    </ThemeContextProvider>
-  </React.StrictMode>,
+    </React.StrictMode>
+    ,
+  </ThemeContextProvider>,
 );
 
 // If you want to start measuring performance in your app, pass a function
