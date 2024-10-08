@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render Login 1`] = `
+<div
+  class="sc-blHHSb fGQVCr"
+>
+  <div
+    class="sc-gtLWhw gZyWjZ"
+  >
+    <div
+      class="_1y2v1nf5z _1y2v1nf78 _1y2v1nf8h _1y2v1nf9q"
+    >
+      <span
+        class="splu5g7 splu5g5"
+        data-component-name="Text2"
+        style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere;"
+      >
+        Teste
+      </span>
+      <div
+        class="_15k6ur96 _1y2v1nfb4 _1y2v1nfba _15k6ur99 _1y2v1nfbr"
+      >
+        <div
+          class="_1y2v1nfe4 _1y2v1nfdl _1y2v1nfb4 _1y2v1nfdu _1y2v1nfaz _15k6ur9d _1y2v1nfck _1y2v1nf31"
+        >
+          <div
+            class="rhey4t4"
+            style="align-self: initial;"
+          >
+            <div
+              class="splu5g7 splu5g5"
+              data-component-name="Text3"
+              style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere;"
+            >
+              <input
+                class="rhey4ta _1y2v1nfaz _1y2v1nfc8 rhey4t1 _1y2v1nfdm _1y2v1nfcp _1y2v1nf1w _1y2v1nfbr rhey4tc _1y2v1nfa5 _1y2v1nf8t"
+                id="aria-id-hook-1"
+                name="teste"
+                required=""
+                style="font-family: inherit;"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <label
+            class="_15k6ur91 _1y2v1nfb0 _1y2v1nfe6 _1y2v1nfcg _1y2v1nfb4 _1y2v1nfb9 _1y2v1nfep _1y2v1nf1y"
+            for="aria-id-hook-1"
+            style="left: 12px; padding-right: 0px; transition: initial;"
+          >
+            <span
+              class="_15k6ur93 _1y2v1nfe4 _1y2v1nfbn"
+            >
+              Teste
+            </span>
+          </label>
+        </div>
+        <div
+          class="_1y2v1nf8t _1y2v1nfa5 _1y2v1nfb4"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-gtLWhw gZyWjZ"
+  >
+    World
+  </div>
+</div>
+`;

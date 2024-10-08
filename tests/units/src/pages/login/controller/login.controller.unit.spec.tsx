@@ -1,19 +1,19 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import Login from '../../../../../../src/pages/login/index.page';
+import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 
 const mockedRouter = {
-    push: jest.fn(),
+  push: jest.fn(),
 };
 
 jest.mock('next/router', () => ({
-    useRouter: () => mockedRouter,
+  useRouter: () => mockedRouter,
 }));
 
 describe('Login', () => {
-    it('should render Login', async () => {
-        const { container } = await render(<Login />);
+  it('should render Login', async () => {
+    const { container } = await renderWithTheme(<Login />);
 
-        expect(container.firstChild).toMatchSnapshot();
-    });
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });

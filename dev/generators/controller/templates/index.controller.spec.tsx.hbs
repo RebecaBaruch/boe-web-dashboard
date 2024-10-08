@@ -1,6 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import {{pascalCase name}} from '../../../../../../src/pages/{{kebabCase name}}/index.page';
+import { ThemeContextProvider } from '@telefonica/mistica';
+import {theme} from '../../../config/theme';
 
 const mockedRouter = {
     push: jest.fn(),
