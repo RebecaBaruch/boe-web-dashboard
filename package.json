@@ -17,7 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "start": "react-scripts start --overlay=false",
+    "dev": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test:unit": "jest --maxWorkers=50%",
     "eject": "react-scripts eject",

@@ -3,17 +3,39 @@ import {
   SideWrapper,
   Wrapper,
 } from '../components/login-template/index.component';
-import InputBox from '../../../components/input/input.component';
-import { TextField } from '@telefonica/mistica';
+import InputBox from '../../../components/input-box/input-box.component';
+import { PasswordField, Stack } from '@telefonica/mistica';
+import Input from 'src/components/input/input.component';
+import { LoginProps } from '../types';
 
-export default function Login() {
+export default function Login({ email }: LoginProps) {
   return (
     <Wrapper>
       <SideWrapper>
-        <InputBox
-          title="Teste"
-          input={<TextField name="teste" label="Teste" />}
-        />
+        <Stack space={32}>
+          <InputBox
+            title="E-mail"
+            input={
+              <Input
+                placeholder="Digite aqui..."
+                name="myInput"
+                type="text"
+                value={email}
+                onChange={() => console.log('oi')}
+              />
+            }
+          />
+          <InputBox
+            title="Senha"
+            input={
+              <PasswordField
+                name="password"
+                label=""
+                placeholder="Digite a sua senha"
+              />
+            }
+          />
+        </Stack>
       </SideWrapper>
       <SideWrapper>World</SideWrapper>
     </Wrapper>

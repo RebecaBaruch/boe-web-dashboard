@@ -1,12 +1,34 @@
 import React from 'react';
-import { Box, Text2 } from '@telefonica/mistica';
-import { InputProps } from './types';
+import { InputProps } from './types'; // Ajuste o caminho de importação
+import { StyledInput } from './styled'; // Ajuste o caminho de importação
 
-export default function InputBox({ title, input }: InputProps) {
+export default function Input({
+  placeholder,
+  name,
+  type,
+  value,
+  onChange,
+  readOnly = false,
+  disabled = false,
+  error = false,
+}: InputProps) {
+  const [isFocused, setIsFocused] = React.useState(false);
+
   return (
-    <Box>
-      <Text2 medium>{title}</Text2>
-      {input}
-    </Box>
+    <StyledInput
+      value={value}
+      onChange={onChange}
+      onFocus={() => setIsFocused(true)}
+      onBlur={() => setIsFocused(false)}
+      readOnly={readOnly}
+      disabled={disabled}
+      isFocused={isFocused}
+      isFilled={!!value}
+      isDisabled={disabled}
+      isError={error}
+      placeholder={placeholder}
+      name={name}
+      type={type}
+    />
   );
 }
