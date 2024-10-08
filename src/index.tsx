@@ -1,3 +1,4 @@
+import '@telefonica/mistica/css/mistica.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -15,7 +16,6 @@ root.render(
     <React.StrictMode>
       <App />
     </React.StrictMode>
-    ,
   </ThemeContextProvider>,
 );
 
