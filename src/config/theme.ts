@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { getSkinByName, ThemeConfig, O2_SKIN } from '@telefonica/mistica';
 
 const theme: ThemeConfig = {

@@ -1,28 +1,42 @@
 {
-    "env": {
-      "browser": true,
-      "es2021": true
-    },
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended",
-      "plugin:@typescript-eslint/recommended",
-      "prettier"
-    ],
-    "plugins": ["prettier", "unused-imports"],
-    "rules": {
-      "prettier/prettier": ["error"],
-      "react/react-in-jsx-scope": "off",
-      "no-unused-vars": "warn",
-      "unused-imports/no-unused-imports": "warn",
-      "unused-imports/no-unused-vars": [
-        "warn",
-        {
-          "vars": "all",
-          "varsIgnorePattern": "^_",
-          "args": "after-used",
-          "argsIgnorePattern": "^_"
-        }
-      ]
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "eslint-config-prettier"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
     }
+  },
+  "ignores": ["\"src/dev/generators/*\""],
+  "plugins": ["eslint-config-prettier", "unused-imports"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-require-imports": "off",
+    "unused-imports/no-unused-imports": "warn",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-undef": "off",
+    "no-unused-expressions": "off"
+  },
+  "globals": {
+    "module": "readonly",
+    "require": "readonly"
   }
+}

@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import nextJest from 'next/jest.js';
 
 const createJestConfig = nextJest({

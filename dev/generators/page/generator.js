@@ -1,4 +1,4 @@
-module.exports = (plop) => {
+export default (plop) => {
     plop.setGenerator('page', {
         description: 'Create a page',
         prompts: [
@@ -27,8 +27,7 @@ module.exports = (plop) => {
             {
                 type: 'add',
                 path: '../../tests/units/src/pages/{{kebabCase name}}/controller/{{kebabCase name}}.controller.unit.spec.tsx',
-                templateFile:
-                    'controller/templates/index.controller.spec.tsx.hbs',
+                templateFile: 'controller/templates/index.controller.spec.tsx.hbs',
             },
             {
                 type: 'add',

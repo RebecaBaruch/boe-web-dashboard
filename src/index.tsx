@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import '@telefonica/mistica/css/mistica.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';

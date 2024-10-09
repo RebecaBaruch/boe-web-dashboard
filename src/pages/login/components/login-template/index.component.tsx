@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -16,4 +15,4 @@ export const SideWrapper = styled.div`
   justify-content: center;
   width: 50%;
   height: 100%;
-`
+`;

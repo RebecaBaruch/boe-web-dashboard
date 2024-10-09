@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import { ThemeContextProvider } from '@telefonica/mistica';
 import { render, RenderResult } from '@testing-library/react';

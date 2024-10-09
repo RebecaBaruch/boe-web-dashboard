@@ -1,7 +1,7 @@
-const componentGenerator =  require('./component/generator');
-const pageGenerator =  require('./page/generator');
+import componentGenerator from './component/generator.js';
+import pageGenerator from './page/generator.js';
 
-module.exports = (plop) => {
-    componentGenerator(plop),
-    pageGenerator(plop)
-}
+export default (plop) => {
+    componentGenerator(plop);
+    pageGenerator(plop);
+};
