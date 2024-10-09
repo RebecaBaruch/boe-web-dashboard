@@ -1,9 +1,13 @@
 import React from 'react';
 import {{pascalCase name}} from '../view/{{kebabCase name}}.view';
+import { ThemeContextProvider } from '@telefonica/mistica';
+import {theme} from '../../../config/theme';
 
 export default function {{pascalCase name}}Controller() {
    
     return (
-        <{{pascalCase name}} />
+        <ThemeContextProvider theme={theme}>
+            <{{pascalCase name}} />
+        </ThemeContextProvider>
     );
 }

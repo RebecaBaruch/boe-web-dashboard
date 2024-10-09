@@ -3,11 +3,11 @@ import { screen, render } from '@testing-library/react';
 import Home from '../../../../../src/pages/home/view/home.view';
 
 describe('Home', () => {
-    it('should render Home with text Home', () => {
-        const { container } = render(<Home />);
+  it('should render Home with text Home', () => {
+    const { container } = render(<Home />);
 
-        expect(screen.getByText('Home - Generated page')).toBeInTheDocument();
+    expect(screen.getByText('Home - Generated page')).toBeInTheDocument();
 
-        expect(container).toMatchSnapshot();
-    });
+    expect(container).toMatchSnapshot();
+  });
 });

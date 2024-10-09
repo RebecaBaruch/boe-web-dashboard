@@ -6,21 +6,26 @@
       "dom.iterable",
       "esnext"
     ],
+    "types": [
+      "jest",
+      "@testing-library/jest-dom"
+    ],
+    
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve",
+    "baseUrl": "./"
   },
   "include": [
     "src"
-  ]
+  ],
 }
