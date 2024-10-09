@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.module.css';
 import { Box, Stack } from '@telefonica/mistica';
 import { SideWrapper } from '../login-template/index.component';
-import bgFrame from '../../../../assets/bg-frame.png';
+import bgFrame from '../../../../assets/bg-frame.svg';
 import boeLogo from '../../../../assets/boe-logo.svg';
 
 export default function RightSideFrame() {
