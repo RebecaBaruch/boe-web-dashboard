@@ -16,7 +16,13 @@
       "version": "detect"
     }
   },
-  "ignores": ["\"src/dev/generators/*\""],
+  "ignorePatterns": [
+    "node_modules/",
+    "build/",
+    "public/",
+    "dev/",
+    "*.config.js"
+  ],
   "plugins": ["eslint-config-prettier", "unused-imports"],
   "rules": {
     "react/react-in-jsx-scope": "off",
