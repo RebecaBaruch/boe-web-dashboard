@@ -1,0 +1,13 @@
+.link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #282fd9;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.side-bg {
+  background-image: '../../../assets/bg-frame.png' !important;
+  background-size: cover;
+  background-position: center;
+}
+
+h2,
+p {
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  font-size: 0.85rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}

@@ -7,14 +7,14 @@ export const StyledInput = styled.input<{
   isError: boolean;
 }>`
   width: 100%;
-  height: 48px;
+  height: 3rem;
   border-radius: 10px;
   border: 1px solid #a6a5b0;
   background-color: transparent;
   font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   color: #171a21;
-  transition: border 0.3s; /* Adiciona uma transição suave */
+  transition: border 0.3s;
 
   &::placeholder {
     color: #a6a5b0;
@@ -23,7 +23,7 @@ export const StyledInput = styled.input<{
   ${({ isFocused }) =>
     isFocused &&
     `
-    outline: 2px solid #282FD9;
+    outline: 1.5px solid #282FD9;
     &::placeholder {
       color: #171A21; /* Muda a cor do placeholder */
     }
@@ -55,6 +55,6 @@ export const StyledInput = styled.input<{
   ${({ isError }) =>
     isError &&
     `
-    outline: 2x solid #FF5454;
+    outline: 1.5x solid #FF5454;
   `}
 `;
