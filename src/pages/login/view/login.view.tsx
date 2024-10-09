@@ -65,7 +65,7 @@ export default function Login({
                 onClick={onLogin}
               />
 
-              <Inline space={8} alignItems='center'>
+              <Inline space={8} alignItems="center">
                 <Text1 regular>Não tem conta?</Text1>
                 <LinkComponent to={''} text={'Registre-se'} />
               </Inline>
@@ -73,7 +73,9 @@ export default function Login({
           </Stack>
         </Box>
 
-        <span className={styles.allRights}>@2024 Böe Todos os direitos reservados</span>
+        <span className={styles.allRights}>
+          @2024 Böe Todos os direitos reservados
+        </span>
       </SideWrapper>
 
       <RightSideFrame />

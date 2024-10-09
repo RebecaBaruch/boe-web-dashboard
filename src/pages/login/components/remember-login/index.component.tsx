@@ -5,8 +5,8 @@ import { Checkbox } from '@telefonica/mistica';
 export default function RememberLogin() {
   return (
     <div className={styles.checkboxContainer}>
-        <Checkbox name="remember-login" />
-        <h3>Lembre-se de mim</h3>
+      <Checkbox name="remember-login" />
+      <h3>Lembre-se de mim</h3>
     </div>
   );
 }

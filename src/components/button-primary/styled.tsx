@@ -11,7 +11,7 @@ export const Button = styled.button<ButtonStyledProps>`
   border-radius: 10px;
   border: none;
   outline: none;
-  background-color: #282FD9;
+  background-color: #282fd9;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: bold;
