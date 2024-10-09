@@ -9,7 +9,7 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "eslint-config-prettier"
+    "plugin:prettier/recommended"
   ],
   "settings": {
     "react": {
@@ -23,7 +23,7 @@
     "dev/",
     "*.config.js"
   ],
-  "plugins": ["eslint-config-prettier", "unused-imports"],
+  "plugins": ["prettier", "unused-imports"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "warn",
