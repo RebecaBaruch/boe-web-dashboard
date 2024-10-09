@@ -14,6 +14,6 @@ describe('Login', () => {
   it('should render Login', async () => {
     const { container } = await renderWithTheme(<Login />);
 
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 });

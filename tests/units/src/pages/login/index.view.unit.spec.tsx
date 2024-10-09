@@ -8,6 +8,6 @@ describe('Login', () => {
     const { container } = renderWithTheme(<Login />);
 
     expect(screen.getByText('World')).toBeInTheDocument();
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 });
