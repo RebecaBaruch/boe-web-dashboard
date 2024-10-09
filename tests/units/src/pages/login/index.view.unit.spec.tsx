@@ -7,7 +7,7 @@ describe('Login', () => {
   it('should render Login with text Login', () => {
     const { container } = renderWithTheme(<Login />);
 
-    expect(screen.getByText('World')).toBeInTheDocument();
+    expect(screen.getByText('Log in')).toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });
 });
