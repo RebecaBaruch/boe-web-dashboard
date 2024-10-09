@@ -1,0 +1,21 @@
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.divider {
+  min-width: 25%;
+  max-width: 50%;
+  height: 1px;
+  background-color: #a6a5b0;
+}
+
+.text {
+  width: fit-content;
+  font-size: 12px;
+  color: #a6a5b0;
+  text-align: center;
+}
