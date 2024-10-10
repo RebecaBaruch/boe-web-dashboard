@@ -31,6 +31,7 @@ export default function TopLoginBox({ onClickButton }: TopLoginBoxProps) {
           }
           onClick={onClickButton}
           height="3rem"
+          gray
         />
 
         <TextDivider text="Ou entre com o e-mail" />

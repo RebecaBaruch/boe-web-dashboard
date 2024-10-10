@@ -7,9 +7,17 @@ export default function ButtonSecondary({
   onClick,
   disabled,
   height,
+  gray,
+  blue,
 }: ButtonSecondaryProps) {
   return (
-    <Button disabled={disabled} onClick={onClick} height={height}>
+    <Button
+      disabled={disabled}
+      onClick={onClick}
+      height={height}
+      gray={gray}
+      blue={blue}
+    >
       {content}
     </Button>
   );
