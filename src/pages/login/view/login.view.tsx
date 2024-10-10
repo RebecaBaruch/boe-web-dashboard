@@ -9,10 +9,11 @@ import { Box, Inline, Stack, Text1 } from '@telefonica/mistica';
 import Input from 'src/components/input/input.component';
 import { LoginProps } from '../types';
 import RightSideFrame from '../components/right-side-frame/index.component';
-import TopLoginBox from '../components/top-login-box/index.component';
+import TopFormBox from '../../../components/top-form-box/index.component';
 import ButtonPrimary from 'src/components/button-primary/button-primary.component';
 import RememberLogin from '../components/remember-login/index.component';
 import LinkComponent from 'src/components/link-component/link.component';
+import boeLogo02 from '../../../assets/boe-logo02.svg';
 
 export default function Login({
   email,
@@ -23,8 +24,16 @@ export default function Login({
     <Wrapper>
       <SideWrapper>
         <Box width={'56%'}>
-          <Stack space={40}>
-            <TopLoginBox onClickButton={() => {}} />
+          <Stack space={32}>
+            <img src={boeLogo02} alt="boe-logo" width={60} />
+
+            <TopFormBox
+              title="Log in"
+              description="Bem vindo de volta! Monitore da melhor forma a saúde do seu gado!"
+              dividerText="Ou entre com o e-mail"
+              buttonText="Entre com Google"
+              onClickButton={() => {}}
+            />
 
             <Stack space={16}>
               <InputBox
