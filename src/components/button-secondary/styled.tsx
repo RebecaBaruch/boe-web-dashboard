@@ -7,7 +7,9 @@ type ButtonStyledProps = {
   blue?: boolean;
 };
 
-export const Button = styled.button<ButtonStyledProps>`
+export const Button = styled.button.withConfig({
+  shouldForwardProp: (prop) => !['gray', 'blue', 'disabled'].includes(prop),
+})<ButtonStyledProps>`
   width: 100%;
   height: ${({ height }) => (height ? height : '3.5rem')};
   margin: 0;
@@ -27,15 +29,15 @@ export const Button = styled.button<ButtonStyledProps>`
     cursor: pointer;
   }
 
-  ${({ disabled }) =>
+  ${({ disabled, gray }) =>
     disabled &&
     `
-    background-color: ${({ gray }) => gray && '#a6a5b085'};
-    border: ${({ gray }) => (gray ? 'none' : '1.7px solid rgba(40, 47, 217, 0.35)')};
-    color: ${({ gray }) => (gray ? '#171a21' : 'rgba(40, 47, 217, 0.35)')};
+    background-color: ${gray ? '#a6a5b085' : 'transparent'};
+    border: ${gray ? 'none' : '1.7px solid rgba(40, 47, 217, 0.35)'};
+    color: ${gray ? '#171a21' : 'rgba(40, 47, 217, 0.35)'};
 
     &:hover {
-      background-color: ${({ gray }) => gray && '#a6a5b085'};
+      background-color: ${gray ? '#a6a5b085' : 'transparent'};
       cursor: not-allowed;
     }
   `}

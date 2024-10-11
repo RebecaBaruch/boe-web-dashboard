@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const StyledInput = styled.input<{
+export const StyledInput = styled.input.withConfig({
+  shouldForwardProp: (prop) =>
+    !['isFocused', 'isFilled', 'isDisabled', 'isError'].includes(prop),
+})<{
   isFocused: boolean;
   isFilled: boolean;
   isDisabled: boolean;
@@ -25,7 +28,7 @@ export const StyledInput = styled.input<{
     `
     outline: 1.5px solid #282FD9;
     &::placeholder {
-      color: #171A21; /* Muda a cor do placeholder */
+      color: #171A21;
     }
   `}
 
