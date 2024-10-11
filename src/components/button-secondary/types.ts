@@ -3,4 +3,6 @@ export interface ButtonSecondaryProps {
   onClick: () => void;
   disabled?: boolean;
   height?: string;
+  gray?: boolean;
+  blue?: boolean;
 }

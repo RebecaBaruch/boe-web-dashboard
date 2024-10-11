@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './pages/login/view/login.view';
+import UserRegister from './pages/register/user-register/view/user-register.view';
 
 function App() {
   return (
     <>
-      <Login />
+      <UserRegister />
     </>
   );
 }
