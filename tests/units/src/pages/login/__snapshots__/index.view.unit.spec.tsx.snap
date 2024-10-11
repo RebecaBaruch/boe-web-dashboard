@@ -16,8 +16,15 @@ exports[`Login should render Login with text Login 1`] = `
       >
         <div
           class="xjgm6d4"
-          style="--xjgm6d0: 40px;"
+          style="--xjgm6d0: 32px;"
         >
+          <div>
+            <img
+              alt="boe-logo"
+              src="[object Object]"
+              width="60"
+            />
+          </div>
           <div>
             <div
               class="_1xgjmkvc"
@@ -27,13 +34,6 @@ exports[`Login should render Login with text Login 1`] = `
                 class="xjgm6d4"
                 style="--xjgm6d0: 32px;"
               >
-                <div>
-                  <img
-                    alt="boe-logo"
-                    src="[object Object]"
-                    width="60"
-                  />
-                </div>
                 <div>
                   <div
                     class="xjgm6d4"
@@ -65,7 +65,7 @@ exports[`Login should render Login with text Login 1`] = `
                 </div>
                 <div>
                   <button
-                    class="sc-fAUdSK ftzrLL"
+                    class="sc-fAUdSK cLXBqY"
                     height="3rem"
                   >
                     <div
@@ -107,119 +107,129 @@ exports[`Login should render Login with text Login 1`] = `
             >
               <div>
                 <div
-                  class="xjgm6d4"
-                  style="--xjgm6d0: 4px;"
+                  class="_1xgjmkvc"
+                  style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
                 >
-                  <div>
-                    <span
-                      class="splu5g7 splu5g5"
-                      data-component-name="Text2"
-                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                    >
-                      E-mail
-                    </span>
-                  </div>
-                  <div>
-                    <input
-                      class="sc-egkSDF dvNsAb"
-                      name="myInput"
-                      placeholder="Insira seu e-mail"
-                      type="text"
-                    />
+                  <div
+                    class="xjgm6d4"
+                    style="--xjgm6d0: 4px;"
+                  >
+                    <div>
+                      <span
+                        class="splu5g7 splu5g5"
+                        data-component-name="Text2"
+                        style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                      >
+                        E-mail
+                      </span>
+                    </div>
+                    <div>
+                      <input
+                        class="sc-egkSDF dvNsAb"
+                        name="myInput"
+                        placeholder="Insira seu e-mail"
+                        type="text"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
               <div>
                 <div
-                  class="xjgm6d4"
-                  style="--xjgm6d0: 4px;"
+                  class="_1xgjmkvc"
+                  style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
                 >
-                  <div>
-                    <span
-                      class="splu5g7 splu5g5"
-                      data-component-name="Text2"
-                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                    >
-                      Senha
-                    </span>
-                  </div>
-                  <div>
-                    <div
-                      class="xjgm6d4"
-                      style="--xjgm6d0: 4px;"
-                    >
-                      <div>
-                        <input
-                          class="sc-egkSDF dvNsAb"
-                          name="myInput"
-                          placeholder="Digite a sua senha"
-                          type="text"
-                        />
-                      </div>
-                      <div>
-                        <div
-                          class="kkfbnv5 kkfbnv8 kkfbnv9"
-                          data-component-name="Inline"
-                          style="--kkfbnv0: space-between; align-items: center;"
-                        >
-                          <div>
-                            <div
-                              class="checkboxContainer"
-                            >
+                  <div
+                    class="xjgm6d4"
+                    style="--xjgm6d0: 4px;"
+                  >
+                    <div>
+                      <span
+                        class="splu5g7 splu5g5"
+                        data-component-name="Text2"
+                        style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                      >
+                        Senha
+                      </span>
+                    </div>
+                    <div>
+                      <div
+                        class="xjgm6d4"
+                        style="--xjgm6d0: 4px;"
+                      >
+                        <div>
+                          <input
+                            class="sc-egkSDF dvNsAb"
+                            name="myInput"
+                            placeholder="Digite a sua senha"
+                            type="text"
+                          />
+                        </div>
+                        <div>
+                          <div
+                            class="kkfbnv5 kkfbnv8 kkfbnv9"
+                            data-component-name="Inline"
+                            style="--kkfbnv0: space-between; align-items: center;"
+                          >
+                            <div>
                               <div
-                                aria-checked="false"
-                                aria-labelledby=":r0:"
-                                class="_1rz9b12 _1rz9b11 _1y2v1nfhn"
-                                data-component-name="Checkbox"
-                                role="checkbox"
-                                tabindex="0"
+                                class="checkboxContainer"
                               >
                                 <div
-                                  class="kkfbnv5 kkfbnv8 kkfbnv4"
-                                  data-component-name="Inline"
-                                  style="--kkfbnv0: 16px; align-items: stretch;"
+                                  aria-checked="false"
+                                  aria-labelledby=":r0:"
+                                  class="_1rz9b12 _1rz9b11 _1y2v1nfhn"
+                                  data-component-name="Checkbox"
+                                  role="checkbox"
+                                  tabindex="0"
                                 >
-                                  <div>
-                                    <div
-                                      class="splu5g7 splu5g5"
-                                      data-component-name="Text3"
-                                      style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                                    >
+                                  <div
+                                    class="kkfbnv5 kkfbnv8 kkfbnv4"
+                                    data-component-name="Inline"
+                                    style="--kkfbnv0: 16px; align-items: stretch;"
+                                  >
+                                    <div>
                                       <div
-                                        style="position: relative; top: -2px;"
+                                        class="splu5g7 splu5g5"
+                                        data-component-name="Text3"
+                                        style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
                                       >
                                         <div
-                                          class="_1rz9b17 _1rz9b15 _1y2v1nfhl _1y2v1nfht _1y2v1nfhz _1y2v1nfi2 _1y2v1nfke _1y2v1nf3p"
+                                          style="position: relative; top: -2px;"
                                         >
-                                          <svg
-                                            class="_1rz9b1a _1y2v1nfhm"
-                                            height="10"
-                                            viewBox="0 0 14 10"
-                                            width="14"
+                                          <div
+                                            class="_1rz9b17 _1rz9b15 _1y2v1nfhl _1y2v1nfht _1y2v1nfhz _1y2v1nfi2 _1y2v1nfke _1y2v1nf3p"
                                           >
-                                            <path
-                                              d="M5 10L0 5.192l1.4-1.346L5 7.308 12.6 0 14 1.346z"
-                                              fill="var(--_1vqcj1i1u)"
-                                            />
-                                          </svg>
+                                            <svg
+                                              class="_1rz9b1a _1y2v1nfhm"
+                                              height="10"
+                                              viewBox="0 0 14 10"
+                                              width="14"
+                                            >
+                                              <path
+                                                d="M5 10L0 5.192l1.4-1.346L5 7.308 12.6 0 14 1.346z"
+                                                fill="var(--_1vqcj1i1u)"
+                                              />
+                                            </svg>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
+                                <h3>
+                                  Lembre-se de mim
+                                </h3>
                               </div>
-                              <h3>
-                                Lembre-se de mim
-                              </h3>
                             </div>
-                          </div>
-                          <div>
-                            <a
-                              class="link"
-                              href=""
-                            >
-                              Esqueceu a senha?
-                            </a>
+                            <div>
+                              <a
+                                class="link"
+                                href=""
+                              >
+                                Esqueceu a senha?
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -270,10 +280,7 @@ exports[`Login should render Login with text Login 1`] = `
       </span>
     </div>
     <div
-      align="start"
-      bgimage="[object Object]"
       class="sc-gtLWhw hxSQND"
-      justify="start"
     >
       <div
         class="_1xgjmkvc"

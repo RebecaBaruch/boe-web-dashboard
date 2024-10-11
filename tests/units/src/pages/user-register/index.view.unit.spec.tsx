@@ -7,7 +7,7 @@ describe('UserRegister', () => {
   it('should render UserRegister with text UserRegister', () => {
     const { container } = renderWithTheme(<UserRegister />);
 
-    expect(screen.getByText('UserRegister')).toBeInTheDocument();
+    expect(screen.getByText('Crie a sua conta')).toBeInTheDocument();
 
     expect(container).toMatchSnapshot();
   });
