@@ -4,10 +4,10 @@ import FarmRegister from '../../../../../src/pages/register/farm-register/view/f
 import { renderWithTheme } from '../../../../../src/utils/render-with-theme';
 
 describe('FarmRegister', () => {
-  it('should render FarmRegister with text FarmRegister', () => {
+  it('should render FarmRegister', () => {
     const { container } = renderWithTheme(<FarmRegister />);
 
-    expect(screen.getByText('FarmRegister')).toBeInTheDocument();
+    expect(screen.getByText('Dados da fazenda')).toBeInTheDocument();
 
     expect(container).toMatchSnapshot();
   });
