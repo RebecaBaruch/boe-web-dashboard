@@ -11,4 +11,5 @@ export interface InputProps {
   isFilled?: boolean;
   isDisabled?: boolean;
   isError?: boolean;
+  width?: string;
 }

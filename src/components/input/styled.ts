@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
-export const StyledInput = styled.input.withConfig({
-  shouldForwardProp: (prop) =>
-    !['isFocused', 'isFilled', 'isDisabled', 'isError'].includes(prop),
-})<{
+type StyledInputProps = {
   isFocused: boolean;
   isFilled: boolean;
   isDisabled: boolean;
   isError: boolean;
-}>`
-  width: 100%;
+};
+
+export const StyledInput = styled.input.withConfig({
+  shouldForwardProp: (prop) =>
+    !['isFocused', 'isFilled', 'isDisabled', 'isError'].includes(prop),
+})<StyledInputProps>`
+  width: '100%';
   height: 3rem;
   border-radius: 10px;
   border: 1px solid #a6a5b0;

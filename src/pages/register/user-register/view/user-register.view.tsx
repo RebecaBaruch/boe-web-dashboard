@@ -21,15 +21,15 @@ export default function UserRegister() {
       <FormContainer
         formHeader={
           <TopFormBox
-            title={'Crie a sua conta'}
+            title="Crie a sua conta"
             description={
               <Inline space={8} alignItems="center">
                 <Text1 regular>Já possui uma conta?</Text1>
-                <LinkComponent to={''} text={'Log in'} />
+                <LinkComponent to={''} text="Log in" />
               </Inline>
             }
-            buttonText={'Criar com Google'}
-            dividerText={'Ou crie com o e-mail'}
+            buttonText="Criar com Google"
+            dividerText="Ou crie com o e-mail"
             onClickButton={() => {}}
           />
         }
@@ -93,10 +93,10 @@ export default function UserRegister() {
             <Box width="100%">
               <ButtonLayout
                 primaryButton={
-                  <ButtonPrimary content={'Continuar'} onClick={() => {}} />
+                  <ButtonPrimary content="Continuar" onClick={() => {}} />
                 }
                 secondaryButton={
-                  <ButtonSecondary content={'Cancelar'} onClick={() => {}} />
+                  <ButtonSecondary content="Cancelar" onClick={() => {}} />
                 }
               />
             </Box>

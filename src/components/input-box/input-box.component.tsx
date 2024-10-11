@@ -1,14 +1,13 @@
 import React from 'react';
-import { Box, Stack, Text2 } from '@telefonica/mistica';
+import { Text2 } from '@telefonica/mistica';
 import { InputProps } from './types';
+import { StyledBox } from './syled';
 
-export default function InputBox({ title, input }: InputProps) {
+export default function InputBox({ title, input, size }: InputProps) {
   return (
-    <Box width="100%">
-      <Stack space={4}>
-        <Text2 medium>{title}</Text2>
-        {input}
-      </Stack>
-    </Box>
+    <StyledBox size={size}>
+      <Text2 medium>{title}</Text2>
+      {input}
+    </StyledBox>
   );
 }

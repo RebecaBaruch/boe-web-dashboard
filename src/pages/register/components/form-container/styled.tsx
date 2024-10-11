@@ -14,4 +14,18 @@ export const Wrapper = styled.div`
   box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+
+  @media (max-width: 1200px) {
+    max-width: 50%;
+  }
+
+  @media (max-width: 800px) {
+    max-width: 80%;
+    padding: 20px;
+  }
+
+  @media (max-width: 500px) {
+    max-width: 90%;
+    padding: 15px;
+  }
 `;
