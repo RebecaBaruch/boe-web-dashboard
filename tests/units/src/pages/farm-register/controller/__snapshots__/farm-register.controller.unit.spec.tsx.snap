@@ -4,8 +4,239 @@ exports[`FarmRegister should render FarmRegister 1`] = `
 <div
   style="isolation: isolate;"
 >
-  <h1>
-    FarmRegister
-  </h1>
+  <div
+    class="sc-kLhKbu iqvYOb"
+  >
+    <div
+      class="_1xgjmkvc"
+      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 48px; --_1xgjmkv4: 48px; --_1xgjmkv3: 48px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+    >
+      <img
+        alt="boe-logo"
+        src="[object Object]"
+        width="60"
+      />
+    </div>
+    <div
+      class="sc-blHHSb jJZtrt"
+    >
+      <div
+        class="_1xgjmkvc"
+        style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 16px; --_1xgjmkv4: 16px; --_1xgjmkv3: 16px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
+      >
+        <div
+          class="xjgm6d4"
+          style="--xjgm6d0: 8px;"
+        >
+          <div>
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text5"
+              style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              <div
+                class="sc-dntaoT uKOJv"
+              >
+                Dados da fazenda
+              </div>
+            </span>
+          </div>
+          <div>
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text1"
+              style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              <div
+                class="kkfbnv5 kkfbnv8 kkfbnv4"
+                data-component-name="Inline"
+                style="--kkfbnv0: 8px; align-items: center;"
+              >
+                <div>
+                  <span
+                    class="splu5g7 splu5g5"
+                    data-component-name="Text1"
+                    style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                  >
+                    Já possui uma conta?
+                  </span>
+                </div>
+                <div>
+                  <a
+                    class="link"
+                    href=""
+                  >
+                    Log in
+                  </a>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fAUdSK dsHnqC"
+      >
+        <div
+          class="sc-gtLWhw kKVola"
+        >
+          <span
+            class="splu5g7 splu5g5"
+            data-component-name="Text2"
+            style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+          >
+            Nome da propriedade
+          </span>
+          <input
+            class="sc-egkSDF liSHnv"
+            name="property-name"
+            placeholder="Insira o nome da fazenda"
+            type=""
+            value=""
+          />
+        </div>
+        <div
+          class="sc-ixGGxD djXVOz"
+        >
+          <div
+            class="sc-gtLWhw embItg"
+          >
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text2"
+              style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              Telefone da propriedade
+            </span>
+            <input
+              class="sc-egkSDF liSHnv"
+              name="property-phone"
+              placeholder="(00) 00000-0000"
+              type=""
+              value=""
+            />
+          </div>
+          <div
+            class="sc-gtLWhw kKVola"
+          >
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text2"
+              style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              CNPJ
+            </span>
+            <input
+              class="sc-egkSDF liSHnv"
+              name="cnpj"
+              placeholder="0.000.000/0000-00"
+              type=""
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="sc-ixGGxD djXVOz"
+        >
+          <div
+            class="sc-gtLWhw keomJK"
+          >
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text2"
+              style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              CEP
+            </span>
+            <input
+              class="sc-egkSDF liSHnv"
+              name="postal-code"
+              placeholder="00000-000"
+              type=""
+              value=""
+            />
+          </div>
+          <div
+            class="sc-gtLWhw embItg"
+          >
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text2"
+              style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              Estado
+            </span>
+            <input
+              class="sc-egkSDF liSHnv"
+              name="uf-stae"
+              placeholder="UF"
+              type=""
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="sc-ixGGxD djXVOz"
+        >
+          <div
+            class="sc-gtLWhw embItg"
+          >
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text2"
+              style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              Cidade
+            </span>
+            <input
+              class="sc-egkSDF liSHnv"
+              name="city"
+              placeholder="Localidade"
+              type=""
+              value=""
+            />
+          </div>
+          <div
+            class="sc-gtLWhw keomJK"
+          >
+            <span
+              class="splu5g7 splu5g5"
+              data-component-name="Text2"
+              style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+            >
+              Endereço
+            </span>
+            <input
+              class="sc-egkSDF liSHnv"
+              name="street-address"
+              placeholder="Bairro, Rua, nº"
+              type=""
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="_1xgjmkvc"
+          style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
+        >
+          <div
+            class="kfxylh1 _1y2v1nfhk _1y2v1nfhz kfxylha _1y2v1nfht kfxylh2"
+            data-component-name="ButtonLayout"
+          >
+            <button
+              class="sc-ivxoEo duwQdc"
+            >
+              Concluir registro
+            </button>
+            <button
+              class="sc-ghWlax dwDOIO"
+            >
+              Voltar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

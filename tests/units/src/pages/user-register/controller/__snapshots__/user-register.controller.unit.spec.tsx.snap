@@ -5,7 +5,7 @@ exports[`UserRegister should render UserRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-ivxoEo cxhMkO"
+    class="sc-ghWlax jGjhNJ"
   >
     <div
       class="_1xgjmkvc"
@@ -18,7 +18,7 @@ exports[`UserRegister should render UserRegister 1`] = `
       />
     </div>
     <div
-      class="sc-blHHSb gpFSIM"
+      class="sc-blHHSb jJZtrt"
     >
       <div
         class="_1xgjmkvc"
@@ -116,30 +116,65 @@ exports[`UserRegister should render UserRegister 1`] = `
         </div>
       </div>
       <div
-        class="sc-fAUdSK ihzmgz"
+        class="sc-dntaoT lhYLiR"
       >
         <div
+          class="sc-egkSDF jFpkDV"
+        >
+          <span
+            class="splu5g7 splu5g5"
+            data-component-name="Text2"
+            style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+          >
+            Nome
+          </span>
+          <input
+            class="sc-fAUdSK lbNUdd"
+            name="name"
+            placeholder="Insira seu nome"
+            type=""
+            value=""
+          />
+        </div>
+        <div
           class="_1xgjmkvc"
           style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
         >
           <div
-            class="xjgm6d4"
-            style="--xjgm6d0: 4px;"
+            class="sc-kLhKbu kQYtwp"
           >
-            <div>
+            <div
+              class="sc-egkSDF jFpkDV"
+            >
               <span
                 class="splu5g7 splu5g5"
                 data-component-name="Text2"
                 style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
               >
-                Nome
+                E-mail
               </span>
-            </div>
-            <div>
               <input
-                class="sc-egkSDF dvNsAb"
-                name="name"
-                placeholder="Insira seu nome"
+                class="sc-fAUdSK lbNUdd"
+                name="email"
+                placeholder="seu.email@email.com"
+                type=""
+                value=""
+              />
+            </div>
+            <div
+              class="sc-egkSDF jFpkDV"
+            >
+              <span
+                class="splu5g7 splu5g5"
+                data-component-name="Text2"
+                style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+              >
+                Telefone
+              </span>
+              <input
+                class="sc-fAUdSK lbNUdd"
+                name="phone"
+                placeholder="(00) 00000-0000"
                 type=""
                 value=""
               />
@@ -147,97 +182,22 @@ exports[`UserRegister should render UserRegister 1`] = `
           </div>
         </div>
         <div
-          class="_1xgjmkvc"
-          style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
+          class="sc-egkSDF jFpkDV"
         >
-          <div
-            class="sc-ghWlax csErjV"
+          <span
+            class="splu5g7 splu5g5"
+            data-component-name="Text2"
+            style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
           >
-            <div
-              class="_1xgjmkvc"
-              style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
-            >
-              <div
-                class="xjgm6d4"
-                style="--xjgm6d0: 4px;"
-              >
-                <div>
-                  <span
-                    class="splu5g7 splu5g5"
-                    data-component-name="Text2"
-                    style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                  >
-                    E-mail
-                  </span>
-                </div>
-                <div>
-                  <input
-                    class="sc-egkSDF dvNsAb"
-                    name="email"
-                    placeholder="seu.email@email.com"
-                    type=""
-                    value=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="_1xgjmkvc"
-              style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
-            >
-              <div
-                class="xjgm6d4"
-                style="--xjgm6d0: 4px;"
-              >
-                <div>
-                  <span
-                    class="splu5g7 splu5g5"
-                    data-component-name="Text2"
-                    style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                  >
-                    Telefone
-                  </span>
-                </div>
-                <div>
-                  <input
-                    class="sc-egkSDF dvNsAb"
-                    name="phone"
-                    placeholder="(00) 00000-0000"
-                    type=""
-                    value=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="_1xgjmkvc"
-          style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
-        >
-          <div
-            class="xjgm6d4"
-            style="--xjgm6d0: 4px;"
-          >
-            <div>
-              <span
-                class="splu5g7 splu5g5"
-                data-component-name="Text2"
-                style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-              >
-                Senha
-              </span>
-            </div>
-            <div>
-              <input
-                class="sc-egkSDF dvNsAb"
-                name="password"
-                placeholder="Crie a sua senha"
-                type=""
-                value=""
-              />
-            </div>
-          </div>
+            Senha
+          </span>
+          <input
+            class="sc-fAUdSK lbNUdd"
+            name="password"
+            placeholder="Crie a sua senha"
+            type=""
+            value=""
+          />
         </div>
         <div
           class="_1xgjmkvc"
@@ -248,7 +208,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-dntaoT eIwYtC"
+              class="sc-ivxoEo duwQdc"
             >
               Continuar
             </button>
