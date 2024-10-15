@@ -26,7 +26,7 @@ export default function TopFormBox({
         <ButtonSecondary
           content={
             <div className="button-content">
-              <img src={GoogleImg} alt="google-logo" width="20px" />
+              <img src={GoogleImg.src} alt="google-logo" width="20px" />
               {buttonText}
             </div>
           }

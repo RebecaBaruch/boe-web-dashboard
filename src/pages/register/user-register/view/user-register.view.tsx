@@ -9,14 +9,14 @@ import { UserFormWrapper } from './styled';
 import ButtonPrimary from 'src/components/button-primary/button-primary.component';
 import ButtonSecondary from 'src/components/button-secondary/button-secondary.component';
 import { Viewport } from 'src/components/viewport/styled';
-import boeLogo02 from '../../../../assets/boe-logo02.svg';
+import boeLogo02 from '../../../../../public/assets/boe-logo02.svg';
 import { Row } from 'src/components/row/styled';
 
 export default function UserRegister() {
   return (
     <Viewport>
       <Box paddingBottom={48}>
-        <img src={boeLogo02} alt="boe-logo" width={60} />
+        <img src={boeLogo02.src} alt="boe-logo" width={60} />
       </Box>
       <FormContainer
         formHeader={

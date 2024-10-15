@@ -19,6 +19,11 @@
 .env.production.local
 .env
 
+# next
+.next
+next-env.d.ts
+dist
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
