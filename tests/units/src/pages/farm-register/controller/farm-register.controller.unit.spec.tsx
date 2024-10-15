@@ -1,5 +1,5 @@
 import React from 'react';
-import FarmRegister from '../../../../../../src/pages/register/farm-register/index.page';
+import FarmRegister from '../../../../../../src/pages/register/farm-register/index';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 
 const mockedRouter = {

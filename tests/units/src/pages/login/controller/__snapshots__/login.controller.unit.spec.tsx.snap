@@ -5,10 +5,10 @@ exports[`Login should render Login 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-blHHSb fGQVCr"
+    class="sc-b39d5805-0 dAeAeA"
   >
     <div
-      class="sc-gtLWhw dNridZ"
+      class="sc-b39d5805-1 kxBsYc"
     >
       <div
         class="_1xgjmkvc"
@@ -21,7 +21,7 @@ exports[`Login should render Login 1`] = `
           <div>
             <img
               alt="boe-logo"
-              src="[object Object]"
+              src="/img.jpg"
               width="60"
             />
           </div>
@@ -65,7 +65,7 @@ exports[`Login should render Login 1`] = `
                 </div>
                 <div>
                   <button
-                    class="sc-dntaoT hPDAJS"
+                    class="sc-82bf28e1-0 elVoEZ"
                     height="3rem"
                   >
                     <div
@@ -73,7 +73,7 @@ exports[`Login should render Login 1`] = `
                     >
                       <img
                         alt="google-logo"
-                        src="[object Object]"
+                        src="/img.jpg"
                         width="20px"
                       />
                       Entre com Google
@@ -107,7 +107,7 @@ exports[`Login should render Login 1`] = `
             >
               <div>
                 <div
-                  class="sc-egkSDF jFpkDV"
+                  class="sc-2f619ebf-0 jtjPJR"
                 >
                   <span
                     class="splu5g7 splu5g5"
@@ -117,7 +117,7 @@ exports[`Login should render Login 1`] = `
                     E-mail
                   </span>
                   <input
-                    class="sc-fAUdSK lbNUdd"
+                    class="sc-f5e6a36f-0 WlpJI"
                     name="myInput"
                     placeholder="Insira seu e-mail"
                     type="text"
@@ -126,7 +126,7 @@ exports[`Login should render Login 1`] = `
               </div>
               <div>
                 <div
-                  class="sc-egkSDF jFpkDV"
+                  class="sc-2f619ebf-0 jtjPJR"
                 >
                   <span
                     class="splu5g7 splu5g5"
@@ -141,7 +141,7 @@ exports[`Login should render Login 1`] = `
                   >
                     <div>
                       <input
-                        class="sc-fAUdSK lbNUdd"
+                        class="sc-f5e6a36f-0 WlpJI"
                         name="myInput"
                         placeholder="Digite a sua senha"
                         type="text"
@@ -219,7 +219,7 @@ exports[`Login should render Login 1`] = `
               </div>
               <div>
                 <button
-                  class="sc-ivxoEo duwQdc"
+                  class="sc-85d686d1-0 jbzrFZ"
                 >
                   Login
                 </button>
@@ -260,7 +260,7 @@ exports[`Login should render Login 1`] = `
       </span>
     </div>
     <div
-      class="sc-gtLWhw hxSQND"
+      class="sc-b39d5805-1 lgLprr"
     >
       <div
         class="_1xgjmkvc"
@@ -273,7 +273,7 @@ exports[`Login should render Login 1`] = `
           <div>
             <img
               alt="boe-logo"
-              src="[object Object]"
+              src="/img.jpg"
               width="70"
             />
           </div>
@@ -283,12 +283,16 @@ exports[`Login should render Login 1`] = `
               style="--xjgm6d0: 8px;"
             >
               <div>
-                <h2>
+                <h2
+                  class="title"
+                >
                   O melhor para a saúde do seu gado
                 </h2>
               </div>
               <div>
-                <p>
+                <p
+                  class="text"
+                >
                   Registre as análises da saúde dermatológica do seu gado e monitore todos os processos através do dashboard web.
                 </p>
               </div>
@@ -298,6 +302,5 @@ exports[`Login should render Login 1`] = `
       </div>
     </div>
   </div>
-  ;
 </div>
 `;
