@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.module.css';
+import styles from './styles.module.css';
 import { Box, Stack } from '@telefonica/mistica';
 import { SideWrapper } from '../login-template/index.component';
 import bgFrame from '../../../../../public/assets/bg-frame.svg';
@@ -13,8 +13,8 @@ export default function RightSideFrame() {
           <img src={boeLogo.src} alt="boe-logo" width={70} />
 
           <Stack space={8}>
-            <h2>O melhor para a saúde do seu gado</h2>
-            <p>
+            <h2 className={styles.title}>O melhor para a saúde do seu gado</h2>
+            <p className={styles.text}>
               Registre as análises da saúde dermatológica do seu gado e monitore
               todos os processos através do dashboard web.
             </p>

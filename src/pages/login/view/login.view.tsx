@@ -6,14 +6,14 @@ import {
 } from '../components/login-template/index.component';
 import InputBox from '../../../components/input-box/input-box.component';
 import { Box, Inline, Stack, Text1 } from '@telefonica/mistica';
-import Input from 'src/components/input/input.component';
+import Input from '../../../components/input/input.component';
 import { LoginProps } from '../types';
 import RightSideFrame from '../components/right-side-frame/index.component';
 import TopFormBox from '../../../components/top-form-box/index.component';
-import ButtonPrimary from 'src/components/button-primary/button-primary.component';
+import ButtonPrimary from '../../../components/button-primary/button-primary.component';
 import RememberLogin from '../components/remember-login/index.component';
-import LinkComponent from 'src/components/link-component/link.component';
-import boeLogo02 from '../../../assets/boe-logo02.svg';
+import LinkComponent from '../../../components/link-component/link.component';
+import boeLogo02 from '../../../../public/assets/boe-logo02.svg';
 
 export default function Login({
   email,

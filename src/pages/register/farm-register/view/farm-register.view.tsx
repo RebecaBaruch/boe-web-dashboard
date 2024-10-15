@@ -1,13 +1,6 @@
 import React from 'react';
 import FormContainer from '../../components/form-container/index.component';
-import {
-  Box,
-  ButtonLayout,
-  Inline,
-  Stack,
-  Text1,
-  Text5,
-} from '@telefonica/mistica';
+import { Box, ButtonLayout, Stack, Text1, Text5 } from '@telefonica/mistica';
 import LinkComponent from '../../../../components/link-component/link.component';
 import InputBox from '../../../../components/input-box/input-box.component';
 import Input from '../../../../components/input/input.component';
@@ -32,10 +25,10 @@ export default function UserRegister() {
                 <MidTitle>Dados da fazenda</MidTitle>
               </Text5>
               <Text1 regular>
-                <Inline space={8} alignItems="center">
+                <Row space="0.7rem">
                   <Text1 regular>Já possui uma conta?</Text1>
                   <LinkComponent to={''} text={'Log in'} />
-                </Inline>
+                </Row>
               </Text1>
             </Stack>
           </Box>
@@ -56,7 +49,7 @@ export default function UserRegister() {
             />
             <Row>
               <InputBox
-                title="Telefone da propriedade"
+                title="Telefone (fazenda)"
                 size="1"
                 input={
                   <Input
@@ -104,7 +97,7 @@ export default function UserRegister() {
                 input={
                   <Input
                     value={''}
-                    name="uf-stae"
+                    name="uf-state"
                     type={''}
                     placeholder="UF"
                     onChange={() => {}}

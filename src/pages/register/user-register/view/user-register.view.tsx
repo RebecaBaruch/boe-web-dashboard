@@ -1,16 +1,16 @@
 import React from 'react';
 import FormContainer from '../../components/form-container/index.component';
-import TopFormBox from 'src/components/top-form-box/index.component';
+import TopFormBox from '../../../../components/top-form-box/index.component';
 import { Box, ButtonLayout, Inline, Text1 } from '@telefonica/mistica';
-import LinkComponent from 'src/components/link-component/link.component';
-import InputBox from 'src/components/input-box/input-box.component';
-import Input from 'src/components/input/input.component';
+import LinkComponent from '../../../../components/link-component/link.component';
+import InputBox from '../../../../components/input-box/input-box.component';
+import Input from '../../../../components/input/input.component';
 import { UserFormWrapper } from './styled';
-import ButtonPrimary from 'src/components/button-primary/button-primary.component';
-import ButtonSecondary from 'src/components/button-secondary/button-secondary.component';
-import { Viewport } from 'src/components/viewport/styled';
+import ButtonPrimary from '../../../../components/button-primary/button-primary.component';
+import ButtonSecondary from '../../../../components/button-secondary/button-secondary.component';
+import { Viewport } from '../../../../components/viewport/styled';
 import boeLogo02 from '../../../../../public/assets/boe-logo02.svg';
-import { Row } from 'src/components/row/styled';
+import { Row } from '../../../../components/row/styled';
 
 export default function UserRegister() {
   return (

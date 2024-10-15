@@ -6,7 +6,7 @@ import { ThemeContextProvider } from '@telefonica/mistica';
 export default function LoginController() {
   return (
     <ThemeContextProvider theme={theme}>
-      <Login />;
+      <Login />
     </ThemeContextProvider>
   );
 }

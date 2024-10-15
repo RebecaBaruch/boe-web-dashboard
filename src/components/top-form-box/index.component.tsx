@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles.modules.css';
+import './styles.module.css';
 import { Box, Stack, Text1, Text5 } from '@telefonica/mistica';
-import ButtonSecondary from 'src/components/button-secondary/button-secondary.component';
+import ButtonSecondary from '../button-secondary/button-secondary.component';
 import { TopFormBoxProps } from './types';
-import GoogleImg from '../../assets/google-logo.svg';
+import GoogleImg from '../../../public/assets/google-logo.svg';
 import TextDivider from '../text-divider/index.component';
 
 export default function TopFormBox({
