@@ -5,7 +5,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-kLhKbu iqvYOb"
+    class="sc-3475e50e-0 GShXl"
   >
     <div
       class="_1xgjmkvc"
@@ -13,12 +13,12 @@ exports[`FarmRegister should render FarmRegister 1`] = `
     >
       <img
         alt="boe-logo"
-        src="[object Object]"
+        src="/img.jpg"
         width="60"
       />
     </div>
     <div
-      class="sc-blHHSb jJZtrt"
+      class="sc-c11c7bb3-0 geqYUz"
     >
       <div
         class="_1xgjmkvc"
@@ -35,7 +35,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="sc-dntaoT uKOJv"
+                class="sc-27a4d30c-1 iYhVWn"
               >
                 Dados da fazenda
               </div>
@@ -48,37 +48,31 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="kkfbnv5 kkfbnv8 kkfbnv4"
-                data-component-name="Inline"
-                style="--kkfbnv0: 8px; align-items: center;"
+                class="sc-f65acc80-0 fpQbof"
               >
-                <div>
-                  <span
-                    class="splu5g7 splu5g5"
-                    data-component-name="Text1"
-                    style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                  >
-                    Já possui uma conta?
-                  </span>
-                </div>
-                <div>
-                  <a
-                    class="link"
-                    href=""
-                  >
-                    Log in
-                  </a>
-                </div>
+                <span
+                  class="splu5g7 splu5g5"
+                  data-component-name="Text1"
+                  style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                >
+                  Já possui uma conta?
+                </span>
+                <a
+                  class="link"
+                  href=""
+                >
+                  Log in
+                </a>
               </div>
             </span>
           </div>
         </div>
       </div>
       <div
-        class="sc-fAUdSK dsHnqC"
+        class="sc-27a4d30c-0 bImiIJ"
       >
         <div
-          class="sc-gtLWhw kKVola"
+          class="sc-2f619ebf-0 jtjPJR"
         >
           <span
             class="splu5g7 splu5g5"
@@ -88,7 +82,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             Nome da propriedade
           </span>
           <input
-            class="sc-egkSDF liSHnv"
+            class="sc-f5e6a36f-0 WlpJI"
             name="property-name"
             placeholder="Insira o nome da fazenda"
             type=""
@@ -96,20 +90,20 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           />
         </div>
         <div
-          class="sc-ixGGxD djXVOz"
+          class="sc-f65acc80-0 dRCLtj"
         >
           <div
-            class="sc-gtLWhw embItg"
+            class="sc-2f619ebf-0 ddNlQX"
           >
             <span
               class="splu5g7 splu5g5"
               data-component-name="Text2"
               style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
-              Telefone da propriedade
+              Telefone (fazenda)
             </span>
             <input
-              class="sc-egkSDF liSHnv"
+              class="sc-f5e6a36f-0 WlpJI"
               name="property-phone"
               placeholder="(00) 00000-0000"
               type=""
@@ -117,7 +111,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-gtLWhw kKVola"
+            class="sc-2f619ebf-0 jtjPJR"
           >
             <span
               class="splu5g7 splu5g5"
@@ -127,7 +121,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               CNPJ
             </span>
             <input
-              class="sc-egkSDF liSHnv"
+              class="sc-f5e6a36f-0 WlpJI"
               name="cnpj"
               placeholder="0.000.000/0000-00"
               type=""
@@ -136,10 +130,10 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-ixGGxD djXVOz"
+          class="sc-f65acc80-0 dRCLtj"
         >
           <div
-            class="sc-gtLWhw keomJK"
+            class="sc-2f619ebf-0 kLbdQZ"
           >
             <span
               class="splu5g7 splu5g5"
@@ -149,7 +143,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               CEP
             </span>
             <input
-              class="sc-egkSDF liSHnv"
+              class="sc-f5e6a36f-0 WlpJI"
               name="postal-code"
               placeholder="00000-000"
               type=""
@@ -157,7 +151,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-gtLWhw embItg"
+            class="sc-2f619ebf-0 ddNlQX"
           >
             <span
               class="splu5g7 splu5g5"
@@ -167,8 +161,8 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Estado
             </span>
             <input
-              class="sc-egkSDF liSHnv"
-              name="uf-stae"
+              class="sc-f5e6a36f-0 WlpJI"
+              name="uf-state"
               placeholder="UF"
               type=""
               value=""
@@ -176,10 +170,10 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-ixGGxD djXVOz"
+          class="sc-f65acc80-0 dRCLtj"
         >
           <div
-            class="sc-gtLWhw embItg"
+            class="sc-2f619ebf-0 ddNlQX"
           >
             <span
               class="splu5g7 splu5g5"
@@ -189,7 +183,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Cidade
             </span>
             <input
-              class="sc-egkSDF liSHnv"
+              class="sc-f5e6a36f-0 WlpJI"
               name="city"
               placeholder="Localidade"
               type=""
@@ -197,7 +191,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-gtLWhw keomJK"
+            class="sc-2f619ebf-0 kLbdQZ"
           >
             <span
               class="splu5g7 splu5g5"
@@ -207,7 +201,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Endereço
             </span>
             <input
-              class="sc-egkSDF liSHnv"
+              class="sc-f5e6a36f-0 WlpJI"
               name="street-address"
               placeholder="Bairro, Rua, nº"
               type=""
@@ -224,12 +218,12 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-ivxoEo duwQdc"
+              class="sc-85d686d1-0 jbzrFZ"
             >
               Concluir registro
             </button>
             <button
-              class="sc-ghWlax dwDOIO"
+              class="sc-82bf28e1-0 fcqrvg"
             >
               Voltar
             </button>

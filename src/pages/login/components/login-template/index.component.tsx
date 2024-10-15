@@ -7,7 +7,9 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   margin: 0;
+  padding: 0;
 `;
 
 export const SideWrapper = styled.div.withConfig({

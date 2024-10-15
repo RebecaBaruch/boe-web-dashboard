@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
 import { renderWithTheme } from '../../../../../src/utils/render-with-theme';
-import Login from '../../../../../src/pages/login/index.page';
+import Login from '../../../../../src/pages/login/index';
 
 describe('Login', () => {
   it('should render Login with text Login', () => {

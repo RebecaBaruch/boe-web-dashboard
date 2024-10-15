@@ -1,19 +1,21 @@
-.side-bg {
-  background-image: '../../../assets/bg-frame.png' !important;
-  background-size: cover;
+.sideBg {
+  background-image: url('../../../../../public/assets/bg-frame.png');
   background-position: center;
+  background-size: cover;
+  height: 100%;
 }
 
-h2,
-p {
+.title,
+.text {
   color: #fff;
   margin: 0;
 }
 
-p {
+.text {
   font-size: 0.85rem;
+  color: #fff;
 }
 
-h2 {
+.title {
   font-size: 1.3rem;
 }

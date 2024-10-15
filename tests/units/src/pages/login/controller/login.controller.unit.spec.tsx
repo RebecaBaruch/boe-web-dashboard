@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from '../../../../../../src/pages/login/index.page';
+import Login from '../../../../../../src/pages/login/index';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 
 const mockedRouter = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Home from '../../../../../../src/pages/home/index.page';
+import Home from '../../../../../../src/pages/home/index';
 
 const mockedRouter = {
   push: jest.fn(),
