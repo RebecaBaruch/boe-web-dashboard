@@ -7,28 +7,41 @@ export const Container = styled.div`
 
 export const Sidebar = styled.div<{ isExpanded: boolean }>`
   width: ${(props) => (props.isExpanded ? '220px' : '100px')};
+  height: 100%;
   transition: width 0.3s ease;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
   border-right: 0.5px solid #63607530;
   box-sizing: border-box;
 `;
 
+export const NavItemsBox = styled.div`
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0;
+  transition: width 0.3s ease;
+`;
+
 export const NavItem = styled.div`
-  margin: 15px 0;
+  width: 100%;
   transition: width 0.3s ease;
 `;
 
 export const Content = styled.div`
   flex: 1;
-  padding: 0;
+  padding: 20px 40px;
   transition: width 0.3s ease;
+  box-sizing: border-box;
 `;
 
 export const NavButton = styled.button<{
-  active: boolean;
+  active?: boolean;
   isExpanded: boolean;
 }>`
   display: flex;
