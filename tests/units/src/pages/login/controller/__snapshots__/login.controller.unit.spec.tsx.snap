@@ -5,10 +5,10 @@ exports[`Login should render Login 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-b39d5805-0 dAeAeA"
+    class="sc-13dcec79-0 jWzbSy"
   >
     <div
-      class="sc-b39d5805-1 kxBsYc"
+      class="sc-13dcec79-1 fAEFiZ"
     >
       <div
         class="_1xgjmkvc"
@@ -117,7 +117,7 @@ exports[`Login should render Login 1`] = `
                     E-mail
                   </span>
                   <input
-                    class="sc-f5e6a36f-0 WlpJI"
+                    class="sc-b5ab6d6c-0 iVevTl"
                     name="myInput"
                     placeholder="Insira seu e-mail"
                     type="text"
@@ -141,7 +141,7 @@ exports[`Login should render Login 1`] = `
                   >
                     <div>
                       <input
-                        class="sc-f5e6a36f-0 WlpJI"
+                        class="sc-b5ab6d6c-0 iVevTl"
                         name="myInput"
                         placeholder="Digite a sua senha"
                         type="text"
@@ -260,7 +260,7 @@ exports[`Login should render Login 1`] = `
       </span>
     </div>
     <div
-      class="sc-b39d5805-1 lgLprr"
+      class="sc-13dcec79-1 fpATBq"
     >
       <div
         class="_1xgjmkvc"
