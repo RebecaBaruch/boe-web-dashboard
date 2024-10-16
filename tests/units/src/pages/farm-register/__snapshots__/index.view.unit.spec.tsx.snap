@@ -82,7 +82,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             Nome da propriedade
           </span>
           <input
-            class="sc-f5e6a36f-0 WlpJI"
+            class="sc-b5ab6d6c-0 iVevTl"
             name="property-name"
             placeholder="Insira o nome da fazenda"
             type=""
@@ -103,7 +103,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Telefone (fazenda)
             </span>
             <input
-              class="sc-f5e6a36f-0 WlpJI"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="property-phone"
               placeholder="(00) 00000-0000"
               type=""
@@ -121,7 +121,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               CNPJ
             </span>
             <input
-              class="sc-f5e6a36f-0 WlpJI"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="cnpj"
               placeholder="0.000.000/0000-00"
               type=""
@@ -143,7 +143,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               CEP
             </span>
             <input
-              class="sc-f5e6a36f-0 WlpJI"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="postal-code"
               placeholder="00000-000"
               type=""
@@ -161,7 +161,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Estado
             </span>
             <input
-              class="sc-f5e6a36f-0 WlpJI"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="uf-state"
               placeholder="UF"
               type=""
@@ -183,7 +183,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Cidade
             </span>
             <input
-              class="sc-f5e6a36f-0 WlpJI"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="city"
               placeholder="Localidade"
               type=""
@@ -201,7 +201,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Endereço
             </span>
             <input
-              class="sc-f5e6a36f-0 WlpJI"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="street-address"
               placeholder="Bairro, Rua, nº"
               type=""

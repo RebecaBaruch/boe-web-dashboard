@@ -3,6 +3,7 @@ import '../global.styles.css';
 import '@telefonica/mistica/css/mistica.css';
 import { ThemeContextProvider } from '@telefonica/mistica';
 import { theme } from '../config/theme';
+import SidebarLayout from 'components/sidebar-menu/index.componente';
 
 type MyAppProps = {
   Component: React.ElementType; // Tipo para o componente
@@ -12,7 +13,9 @@ type MyAppProps = {
 function MyApp({ Component, pageProps }: MyAppProps) {
   return (
     <ThemeContextProvider theme={theme}>
-      <Component {...pageProps} />
+      <SidebarLayout>
+        <Component {...pageProps} />
+      </SidebarLayout>
     </ThemeContextProvider>
   );
 }

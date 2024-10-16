@@ -11,7 +11,7 @@ export enum RoutesUrls {
   CHANGE_PASSWORD = '/user-profile/change-password',
 }
 
-export type RouteUrs =
+export type RouteUrl =
   | RoutesUrls.BASE_URL
   | RoutesUrls.LOGIN
   | RoutesUrls.REGISTER

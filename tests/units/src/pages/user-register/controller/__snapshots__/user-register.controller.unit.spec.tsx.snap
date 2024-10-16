@@ -129,7 +129,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             Nome
           </span>
           <input
-            class="sc-f5e6a36f-0 WlpJI"
+            class="sc-b5ab6d6c-0 iVevTl"
             name="name"
             placeholder="Insira seu nome"
             type=""
@@ -154,7 +154,7 @@ exports[`UserRegister should render UserRegister 1`] = `
                 E-mail
               </span>
               <input
-                class="sc-f5e6a36f-0 WlpJI"
+                class="sc-b5ab6d6c-0 iVevTl"
                 name="email"
                 placeholder="seu.email@email.com"
                 type=""
@@ -172,7 +172,7 @@ exports[`UserRegister should render UserRegister 1`] = `
                 Telefone
               </span>
               <input
-                class="sc-f5e6a36f-0 WlpJI"
+                class="sc-b5ab6d6c-0 iVevTl"
                 name="phone"
                 placeholder="(00) 00000-0000"
                 type=""
@@ -192,7 +192,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             Senha
           </span>
           <input
-            class="sc-f5e6a36f-0 WlpJI"
+            class="sc-b5ab6d6c-0 iVevTl"
             name="password"
             placeholder="Crie a sua senha"
             type=""
