@@ -11,6 +11,7 @@ import {
   CollapseButton,
   ButtonWrapper,
   NavItemsBox,
+  BoeText,
 } from './styled';
 import { useRouter } from 'next/router';
 import { navItems } from './constant/navItems';
@@ -23,6 +24,7 @@ import {
 } from 'react-feather';
 import { Divider } from '../divider/styled';
 import { Column } from 'components/column/styled';
+import { Row } from 'components/row/styled';
 
 const SidebarLayout = ({ children }: { children: ReactNode }) => {
   const BoeLogo: string = '/assets/boe-logo03.svg';
@@ -36,8 +38,12 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
   return (
     <Container>
       <Sidebar isExpanded={isExpanded}>
-        <Column space="2.3rem">
-          <Image src={BoeLogo} alt={'boe-logo'} width={30} height={40} />
+        <Column space="1.9rem">
+          <Row align={isExpanded ? undefined : 'center'}>
+            <Image src={BoeLogo} alt={'boe-logo'} width={20} height={30} />
+
+            {isExpanded && <BoeText isVisible={isExpanded} />}
+          </Row>
           <NavItemsBox>
             {navItems.map((item) => {
               const isActive = router.pathname === item.path;
@@ -61,8 +67,8 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
               active={router.pathname === '/settings'}
               isExpanded={isExpanded}
             >
-              <Settings />
-              {isExpanded && 'Extra Route'}
+              <Settings width={20} />
+              {isExpanded && 'Configurações'}
             </NavButton>
           </NavItem>
 
@@ -71,19 +77,19 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
               active={router.pathname === '/help'}
               isExpanded={isExpanded}
             >
-              <HelpCircle />
-              {isExpanded && 'Extra Route'}
+              <HelpCircle width={20} />
+              {isExpanded && 'Ajuda'}
             </NavButton>
           </NavItem>
 
           <NavItem>
             <NavButton
-              active={router.pathname === '/help'}
+              active={router.pathname === '/logout'}
               isExpanded={isExpanded}
               onClick={() => {}}
             >
-              <LogOut />
-              {isExpanded && 'Extra Route'}
+              <LogOut width={20} />
+              {isExpanded && 'Log out'}
             </NavButton>
           </NavItem>
 
@@ -91,7 +97,11 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
 
           <ButtonWrapper isExpanded={isExpanded}>
             <CollapseButton onClick={handleCollapseToggle}>
-              {isExpanded ? <ChevronsLeft /> : <ChevronsRight />}
+              {isExpanded ? (
+                <ChevronsLeft width={20} />
+              ) : (
+                <ChevronsRight width={20} />
+              )}
             </CollapseButton>
           </ButtonWrapper>
         </NavItemsBox>

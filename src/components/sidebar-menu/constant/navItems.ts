@@ -37,7 +37,7 @@ export const navItems: NavItem[] = [
       }),
   },
   {
-    label: 'User profile',
+    label: 'Meu perfil',
     path: RoutesUrls.USER_PROFILE,
     icon: (isActive) =>
       React.createElement(UserIcon, {

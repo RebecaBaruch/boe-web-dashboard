@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 import './styles.module.css';
 import { Box, Stack, Text1, Text5 } from '@telefonica/mistica';
 import ButtonSecondary from '../button-secondary/button-secondary.component';
 import { TopFormBoxProps } from './types';
-import GoogleImg from '../../../public/assets/google-logo.svg';
 import TextDivider from '../text-divider/index.component';
+import { Row } from 'components/row/styled';
 
 export default function TopFormBox({
   title,
@@ -13,6 +14,7 @@ export default function TopFormBox({
   buttonText,
   onClickButton,
 }: TopFormBoxProps) {
+  const GoogleImg: string = '/assets/google-logo.svg';
   return (
     <Box width={'100%'}>
       <Stack space={32}>
@@ -25,10 +27,10 @@ export default function TopFormBox({
 
         <ButtonSecondary
           content={
-            <div className="button-content">
-              <img src={GoogleImg.src} alt="google-logo" width="20px" />
+            <Row align='center'>
+              <Image src={GoogleImg} alt="google-logo" width={20} height={20} />
               {buttonText}
-            </div>
+            </Row>
           }
           onClick={onClickButton}
           height="3rem"
