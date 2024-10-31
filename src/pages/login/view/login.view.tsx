@@ -26,7 +26,7 @@ export default function Login({
       <SideWrapper>
         <Box width={'56%'}>
           <Stack space={32}>
-            <Image src={BoeLogo02} alt="boe-logo" width={60} height={60}/>
+            <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
 
             <TopFormBox
               title="Log in"

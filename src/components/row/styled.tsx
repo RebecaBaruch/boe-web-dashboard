@@ -13,6 +13,6 @@ export const Row = styled.div.withConfig({
   flex-direction: row;
   align-items: center;
   justify-content: ${({ align }) => align || 'start'};
-  gap: ${({ space }) => space ? `${space}rem` : '1rem'};
+  gap: ${({ space }) => (space ? `${space}rem` : '1rem')};
   width: ${({ width }) => width || '100%'};
 `;

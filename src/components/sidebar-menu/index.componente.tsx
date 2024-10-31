@@ -113,7 +113,6 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
         <TopDashboardBar />
         <Content>{children}</Content>
       </Viewboard>
-      
     </Container>
   );
 };

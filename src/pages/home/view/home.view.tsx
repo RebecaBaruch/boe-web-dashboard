@@ -8,7 +8,9 @@ export default function Home({ greetingText, userName }: HomeProps) {
       <Box>
         <Stack space={4}>
           <Text4 regular>{greetingText + ', ' + userName}</Text4>
-          <Text7><b>Overview</b></Text7>
+          <Text7>
+            <b>Overview</b>
+          </Text7>
         </Stack>
       </Box>
     </>

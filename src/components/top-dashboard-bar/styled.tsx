@@ -13,6 +13,6 @@ export const DataContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: .9rem;
-  color: #0080F8;
+  font-size: 0.9rem;
+  color: #0080f8;
 `;

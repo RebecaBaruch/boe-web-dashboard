@@ -1,38 +1,38 @@
 import styled from 'styled-components';
 
-  export const Container = styled.div`
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-  `;
+export const Container = styled.div`
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+`;
 
-  export const Viewboard = styled.div`
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: start;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  `;
+export const Viewboard = styled.div`
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: start;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+`;
 
-  export const Content = styled.div`
-    flex: 1;
-    padding: 20px 40px;
-    width: 100%;
-    transition: width 0.3s ease;
-    box-sizing: border-box;
-    background-color: #f1f1f1;
+export const Content = styled.div`
+  flex: 1;
+  padding: 20px 40px;
+  width: 100%;
+  transition: width 0.3s ease;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
 
-    @media (max-width: 1280px) {
-      padding: 15px 30px;
-    }
+  @media (max-width: 1280px) {
+    padding: 15px 30px;
+  }
 
-    @media (max-width: 1024px) {
-      padding: 10px 20px;
-    }
-  `;
+  @media (max-width: 1024px) {
+    padding: 10px 20px;
+  }
+`;
 
 export const Sidebar = styled.div<{ isExpanded: boolean }>`
   width: ${(props) => (props.isExpanded ? '210px' : '85px')};

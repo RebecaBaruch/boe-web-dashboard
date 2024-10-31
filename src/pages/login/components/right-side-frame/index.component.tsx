@@ -9,7 +9,12 @@ export default function RightSideFrame() {
     <SideWrapper bgImage="/assets/bg-frame.svg" align="start" justify="start">
       <Box paddingLeft={48} paddingTop={48} width={'70%'}>
         <Stack space={32}>
-          <Image src="/assets/boe-logo.svg" alt="boe-logo" width={70} height={70}/>
+          <Image
+            src="/assets/boe-logo.svg"
+            alt="boe-logo"
+            width={70}
+            height={70}
+          />
 
           <Stack space={8}>
             <h2 className={styles.title}>O melhor para a saúde do seu gado</h2>

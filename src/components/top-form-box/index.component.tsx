@@ -27,7 +27,7 @@ export default function TopFormBox({
 
         <ButtonSecondary
           content={
-            <Row align='center'>
+            <Row align="center">
               <Image src={GoogleImg} alt="google-logo" width={20} height={20} />
               {buttonText}
             </Row>
