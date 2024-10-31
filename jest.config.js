@@ -13,7 +13,7 @@ const config = {
   preset: 'ts-jest',
   verbose: true,
   moduleNameMapper: {
-    '^src/(.*)$': '<rootDir>/src/$1', 
+    '^utils/(.*)$': '<rootDir>/src/utils/$1',
   },
 };
 
