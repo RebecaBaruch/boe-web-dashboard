@@ -25,7 +25,7 @@ export default function UserRegister() {
                 <MidTitle>Dados da fazenda</MidTitle>
               </Text5>
               <Text1 regular>
-                <Row space="0.7rem">
+                <Row space={0.7}>
                   <Text1 regular>Já possui uma conta?</Text1>
                   <LinkComponent to={''} text={'Log in'} />
                 </Row>

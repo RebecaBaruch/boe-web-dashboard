@@ -12,6 +12,7 @@ import {
   ButtonWrapper,
   NavItemsBox,
   BoeText,
+  Viewboard,
 } from './styled';
 import { useRouter } from 'next/router';
 import { navItems } from './constant/navItems';
@@ -25,6 +26,7 @@ import {
 import { Divider } from '../divider/styled';
 import { Column } from 'components/column/styled';
 import { Row } from 'components/row/styled';
+import TopDashboardBar from 'components/top-dashboard-bar';
 
 const SidebarLayout = ({ children }: { children: ReactNode }) => {
   const BoeLogo: string = '/assets/boe-logo03.svg';
@@ -106,7 +108,12 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
           </ButtonWrapper>
         </NavItemsBox>
       </Sidebar>
-      <Content>{children}</Content>
+
+      <Viewboard>
+        <TopDashboardBar />
+        <Content>{children}</Content>
+      </Viewboard>
+      
     </Container>
   );
 };
