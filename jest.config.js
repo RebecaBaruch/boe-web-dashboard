@@ -14,6 +14,7 @@ const config = {
   verbose: true,
   moduleNameMapper: {
     '^utils/(.*)$': '<rootDir>/src/utils/$1',
+    '^components/(.*)$': '<rootDir>/src/components/$1',
   },
 };
 

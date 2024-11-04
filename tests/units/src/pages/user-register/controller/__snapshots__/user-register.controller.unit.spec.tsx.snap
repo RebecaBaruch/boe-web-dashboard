@@ -13,7 +13,12 @@ exports[`UserRegister should render UserRegister 1`] = `
     >
       <img
         alt="boe-logo"
-        src="/img.jpg"
+        data-nimg="1"
+        decoding="async"
+        height="60"
+        loading="lazy"
+        src="/assets/boe-logo02.svg"
+        style="color: transparent;"
         width="60"
       />
     </div>
@@ -85,12 +90,17 @@ exports[`UserRegister should render UserRegister 1`] = `
               height="3rem"
             >
               <div
-                class="button-content"
+                class="sc-1e3df9c9-0 cGpLAY"
               >
                 <img
                   alt="google-logo"
-                  src="/img.jpg"
-                  width="20px"
+                  data-nimg="1"
+                  decoding="async"
+                  height="20"
+                  loading="lazy"
+                  src="/assets/google-logo.svg"
+                  style="color: transparent;"
+                  width="20"
                 />
                 Criar com Google
               </div>
@@ -141,7 +151,7 @@ exports[`UserRegister should render UserRegister 1`] = `
           style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
         >
           <div
-            class="sc-f65acc80-0 dRCLtj"
+            class="sc-1e3df9c9-0 bxWNfn"
           >
             <div
               class="sc-2f619ebf-0 jtjPJR"

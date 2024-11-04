@@ -17,7 +17,7 @@ export default function UserRegister() {
   return (
     <Viewport>
       <Box paddingBottom={48}>
-        <Image src={BoeLogo02} alt="boe-logo" width={60} />
+        <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
       </Box>
       <FormContainer
         formHeader={

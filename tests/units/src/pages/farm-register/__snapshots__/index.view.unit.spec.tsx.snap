@@ -48,7 +48,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="sc-f65acc80-0 fpQbof"
+                class="sc-1e3df9c9-0 leTfAb"
               >
                 <span
                   class="splu5g7 splu5g5"
@@ -90,7 +90,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           />
         </div>
         <div
-          class="sc-f65acc80-0 dRCLtj"
+          class="sc-1e3df9c9-0 bxWNfn"
         >
           <div
             class="sc-2f619ebf-0 ddNlQX"
@@ -130,7 +130,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-f65acc80-0 dRCLtj"
+          class="sc-1e3df9c9-0 bxWNfn"
         >
           <div
             class="sc-2f619ebf-0 kLbdQZ"
@@ -170,7 +170,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-f65acc80-0 dRCLtj"
+          class="sc-1e3df9c9-0 bxWNfn"
         >
           <div
             class="sc-2f619ebf-0 ddNlQX"
