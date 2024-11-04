@@ -8,8 +8,8 @@ interface IconProps {
 
 const AccountsIcon: React.FC<IconProps> = ({
   color = '#636075',
-  width = 33,
-  height = 34,
+  width = 23,
+  height = 24,
 }) => (
   <svg
     width={width}

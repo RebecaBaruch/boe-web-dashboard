@@ -21,7 +21,12 @@ exports[`Login should render Login 1`] = `
           <div>
             <img
               alt="boe-logo"
-              src="/img.jpg"
+              data-nimg="1"
+              decoding="async"
+              height="60"
+              loading="lazy"
+              src="/assets/boe-logo02.svg"
+              style="color: transparent;"
               width="60"
             />
           </div>
@@ -69,12 +74,17 @@ exports[`Login should render Login 1`] = `
                     height="3rem"
                   >
                     <div
-                      class="button-content"
+                      class="sc-1e3df9c9-0 cGpLAY"
                     >
                       <img
                         alt="google-logo"
-                        src="/img.jpg"
-                        width="20px"
+                        data-nimg="1"
+                        decoding="async"
+                        height="20"
+                        loading="lazy"
+                        src="/assets/google-logo.svg"
+                        style="color: transparent;"
+                        width="20"
                       />
                       Entre com Google
                     </div>
@@ -260,7 +270,7 @@ exports[`Login should render Login 1`] = `
       </span>
     </div>
     <div
-      class="sc-13dcec79-1 fpATBq"
+      class="sc-13dcec79-1 epBuFT"
     >
       <div
         class="_1xgjmkvc"
@@ -273,7 +283,12 @@ exports[`Login should render Login 1`] = `
           <div>
             <img
               alt="boe-logo"
-              src="/img.jpg"
+              data-nimg="1"
+              decoding="async"
+              height="70"
+              loading="lazy"
+              src="/assets/boe-logo.svg"
+              style="color: transparent;"
               width="70"
             />
           </div>

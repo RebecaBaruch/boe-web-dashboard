@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import FormContainer from '../../components/form-container/index.component';
 import TopFormBox from '../../../../components/top-form-box/index.component';
 import { Box, ButtonLayout, Inline, Text1 } from '@telefonica/mistica';
@@ -9,14 +10,14 @@ import { UserFormWrapper } from './styled';
 import ButtonPrimary from '../../../../components/button-primary/button-primary.component';
 import ButtonSecondary from '../../../../components/button-secondary/button-secondary.component';
 import { Viewport } from '../../../../components/viewport/styled';
-import boeLogo02 from '../../../../../public/assets/boe-logo02.svg';
 import { Row } from '../../../../components/row/styled';
 
 export default function UserRegister() {
+  const BoeLogo02: string = '/assets/boe-logo02.svg';
   return (
     <Viewport>
       <Box paddingBottom={48}>
-        <img src={boeLogo02.src} alt="boe-logo" width={60} />
+        <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
       </Box>
       <FormContainer
         formHeader={

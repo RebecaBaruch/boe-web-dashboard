@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from './styles.module.css';
 import {
   SideWrapper,
@@ -13,19 +14,19 @@ import TopFormBox from '../../../components/top-form-box/index.component';
 import ButtonPrimary from '../../../components/button-primary/button-primary.component';
 import RememberLogin from '../components/remember-login/index.component';
 import LinkComponent from '../../../components/link-component/link.component';
-import boeLogo02 from '../../../../public/assets/boe-logo02.svg';
 
 export default function Login({
   email,
   isButtonDisabled,
   onLogin,
 }: LoginProps) {
+  const BoeLogo02: string = '/assets/boe-logo02.svg';
   return (
     <Wrapper>
       <SideWrapper>
         <Box width={'56%'}>
           <Stack space={32}>
-            <img src={boeLogo02.src} alt="boe-logo" width={60} />
+            <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
 
             <TopFormBox
               title="Log in"
