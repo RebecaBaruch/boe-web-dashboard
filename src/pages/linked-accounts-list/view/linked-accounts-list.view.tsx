@@ -23,7 +23,7 @@ export default function LinkedAccountsList({
         </Title3>
 
         <Column width='100%' height='100%' justify='space-between'>
-          <DataTable data={accountsData} columns={columnsHeader} />
+          <DataTable data={accountsData} columns={columnsHeader} action />
 
           <Row align="flex-end">
             <PageStepper

@@ -24,44 +24,44 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
       class="sc-2033c768-0 aEyeT"
     >
       <table
-        class="sc-52590dfb-0 eXpLCY"
+        class="sc-2280f976-0 gHjOwh"
       >
         <thead>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               Id
             </th>
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               Foto
             </th>
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               Nome
             </th>
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               E-mail
             </th>
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               N° de registros
             </th>
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               Data de ingresso
             </th>
             <th
-              class="sc-52590dfb-2 lmzsgj"
+              class="sc-2280f976-2 AWwtq"
             >
               Ação
             </th>
@@ -69,315 +69,555 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
         </thead>
         <tbody>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               01
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_1
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Claudio Buarque
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               claudio.buarque@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               02
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               10/01/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 1
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               02
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_2
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Fabrício Neves
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               fabricio.neves@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               12
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               10/01/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 2
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               03
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_3
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               José Henrique
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               jose.henrique@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               03
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               02/02/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 3
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               04
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_4
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Luana Buarque
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               luana.buarque@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               02
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               05/03/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 4
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               05
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_5
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Augusto Buarque
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               augusto.buarque@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               04
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               02/02/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 5
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               06
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_6
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Nelson Oliveira
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               nelson.oliveira@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               07
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               10/01/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 6
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               07
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_7
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Mariana Silva
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               mariana.silva@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               01
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               11/01/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 7
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
           <tr
-            class="sc-52590dfb-1 iCmRRH"
+            class="sc-2280f976-1 DriRK"
           >
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               08
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               link_da_foto_8
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               Roberto Carlos
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               roberto.carlos@gmail.com
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               05
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
               15/01/2024
             </td>
             <td
-              class="sc-52590dfb-3 UjGrD"
+              class="sc-2280f976-3 fUzYSm"
             >
-              Ação 8
+              <button
+                class="sc-2280f976-5 YXpFq"
+              >
+                <svg
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="5"
+                    r="1"
+                  />
+                  <circle
+                    cx="12"
+                    cy="19"
+                    r="1"
+                  />
+                </svg>
+              </button>
             </td>
           </tr>
         </tbody>

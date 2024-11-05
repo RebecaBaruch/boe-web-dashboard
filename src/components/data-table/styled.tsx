@@ -39,14 +39,42 @@ export const Picture = styled.img`
   object-fit: cover;
 `;
 
-export const ActionBtn = styled.button`
-  background: none;
+export const ActionButton = styled.button`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  background-color: #f2f2f5;
+  outline: none;
   border: none;
-  font-size: 1rem;
+  border-radius: 5px;
   cursor: pointer;
-  color: #888;
+  color: #7e7b8e;
 
   &:hover {
-    color: #555;
+    background-color: #e3e3eb;
   }
+`;
+
+export const ActionModal = styled.div`
+  position: absolute;
+  background-color: #a0a0b8;
+  border-radius: 5px;
+  padding: 1rem;
+  width: fit-content;
+  box-shadow: 0 0 10px rgba(76, 83, 101, 0.1);
+  z-index: 1;
+`;
+
+export const ActionModalButton = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #373751;
 `;

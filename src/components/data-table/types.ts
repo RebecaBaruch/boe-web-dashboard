@@ -16,4 +16,5 @@ export interface Column {
 export interface TableProps {
   data: TableData[];
   columns: Column[];
+  action?: boolean;
 }

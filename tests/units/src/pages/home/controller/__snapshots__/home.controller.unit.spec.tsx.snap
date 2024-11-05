@@ -18,7 +18,7 @@ exports[`Home should render Home 1`] = `
           data-component-name="Text4"
           style="--splu5g0: 1.125rem; --splu5g2: 1.500rem; --splu5g1: 1.250rem; --splu5g3: 1.750rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
         >
-          Boa tarde, Rebeca
+          Boa noite, Rebeca
         </span>
       </div>
       <div>
