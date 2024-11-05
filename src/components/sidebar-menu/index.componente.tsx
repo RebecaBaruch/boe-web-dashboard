@@ -30,7 +30,7 @@ import TopDashboardBar from 'components/top-dashboard-bar';
 
 const SidebarLayout = ({ children }: { children: ReactNode }) => {
   const BoeLogo: string = '/assets/boe-logo03.svg';
-  const [isExpanded, setIsExpanded] = React.useState(true);
+  const [isExpanded, setIsExpanded] = React.useState(false);
   const router = useRouter();
 
   const handleCollapseToggle = React.useCallback(() => {

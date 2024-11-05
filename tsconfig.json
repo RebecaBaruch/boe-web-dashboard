@@ -16,7 +16,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": "./src",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "paths": {
+      "config/*": ["config/*"]
+    }
   },
   "include": ["src", "next-env.d.ts"],
   "exclude": ["node_modules"]

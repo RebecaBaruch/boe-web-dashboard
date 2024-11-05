@@ -4,6 +4,9 @@ export const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  max-height: 450px;
+  box-sizing: border-box;
 `;
 
 export const TableRow = styled.tr`
@@ -15,15 +18,16 @@ export const TableRow = styled.tr`
 export const TableHeader = styled.th`
   padding: 12px;
   text-align: left;
-  background-color: #f9f9f9;
-  color: #666;
+  background-color: #f1f1f1;
+  color: #717171;
   font-weight: bold;
   border-bottom: 1px solid #ddd;
 `;
 
 export const TableCell = styled.td`
   padding: 12px;
-  color: #333;
+  font-size: 0.9rem;
+  color: #717171;
   border-bottom: 1px solid #ddd;
 `;
 
@@ -37,7 +41,7 @@ export const Picture = styled.img`
 export const ActionBtn = styled.button`
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 1rem;
   cursor: pointer;
   color: #888;
 
