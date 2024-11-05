@@ -2,7 +2,7 @@ import React from 'react';
 import { Table, TableRow, TableHeader, TableCell } from './styled';
 import { TableProps } from './types';
 
-const Tabela = ({ data, columns }: TableProps) => {
+const DataTable = ({ data, columns }: TableProps) => {
   return (
     <Table>
       <thead>
@@ -17,7 +17,7 @@ const Tabela = ({ data, columns }: TableProps) => {
           <TableRow key={rowIndex}>
             {columns.map((col, colIndex) => (
               <TableCell key={colIndex}>
-                {col.render ? col.render(item, rowIndex) : item[col.accessor!]}
+                {col.render ? col.render(item) : item[col.accessor!]}
               </TableCell>
             ))}
           </TableRow>
@@ -27,4 +27,4 @@ const Tabela = ({ data, columns }: TableProps) => {
   );
 };
 
-export default Tabela;
+export default DataTable;

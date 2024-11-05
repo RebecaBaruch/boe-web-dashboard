@@ -19,7 +19,9 @@ export const Viewboard = styled.div`
 
 export const Content = styled.div`
   flex: 1;
-  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 25px 25px 25px;
   width: 100%;
   transition: width 0.3s ease;
   box-sizing: border-box;
