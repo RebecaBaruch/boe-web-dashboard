@@ -10,4 +10,9 @@ export interface LinkedAccountsProps {
     date: string;
   }>;
   columnsHeader: Column[];
+
+  currentPage: number | string;
+  lastPage: number | string;
+  prevPage: () => void;
+  nextPage: () => void;
 }

@@ -7,6 +7,7 @@ export const Table = styled.table`
   background-color: #ffffff;
   max-height: 450px;
   box-sizing: border-box;
+  border: 1px solid #ddd;
 `;
 
 export const TableRow = styled.tr`

@@ -20,326 +20,432 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
         </b>
       </h3>
     </div>
-    <table
-      class="sc-73d4add1-0 cMwyLF"
+    <div
+      class="sc-2033c768-0 aEyeT"
     >
-      <thead>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
+      <table
+        class="sc-52590dfb-0 eXpLCY"
+      >
+        <thead>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              Id
+            </th>
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              Foto
+            </th>
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              Nome
+            </th>
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              E-mail
+            </th>
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              N° de registros
+            </th>
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              Data de ingresso
+            </th>
+            <th
+              class="sc-52590dfb-2 lmzsgj"
+            >
+              Ação
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              01
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_1
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Claudio Buarque
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              claudio.buarque@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              02
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              10/01/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 1
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              02
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_2
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Fabrício Neves
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              fabricio.neves@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              12
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              10/01/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 2
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              03
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_3
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              José Henrique
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              jose.henrique@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              03
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              02/02/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 3
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              04
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_4
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Luana Buarque
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              luana.buarque@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              02
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              05/03/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 4
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              05
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_5
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Augusto Buarque
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              augusto.buarque@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              04
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              02/02/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 5
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              06
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_6
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Nelson Oliveira
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              nelson.oliveira@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              07
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              10/01/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 6
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              07
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_7
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Mariana Silva
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              mariana.silva@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              01
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              11/01/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 7
+            </td>
+          </tr>
+          <tr
+            class="sc-52590dfb-1 iCmRRH"
+          >
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              08
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              link_da_foto_8
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Roberto Carlos
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              roberto.carlos@gmail.com
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              05
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              15/01/2024
+            </td>
+            <td
+              class="sc-52590dfb-3 UjGrD"
+            >
+              Ação 8
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        class="sc-1e3df9c9-0 jtYRti"
+      >
+        <div
+          class="sc-1e3df9c9-0 cnYTPV"
         >
-          <th
-            class="sc-73d4add1-2 gkAQVs"
+          <button
+            class="sc-5c90cea2-0 jYqxSE"
           >
-            Id
-          </th>
-          <th
-            class="sc-73d4add1-2 gkAQVs"
+            <svg
+              fill="none"
+              height="23"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="23"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+            Prev
+          </button>
+          <div
+            class="sc-1e3df9c9-0 leTfAb"
           >
-            Foto
-          </th>
-          <th
-            class="sc-73d4add1-2 gkAQVs"
+            <div
+              class="sc-5c90cea2-1 feVavH"
+            >
+              1
+            </div>
+             - 
+            <div
+              class="sc-5c90cea2-1 iTvjtn"
+            >
+              3
+            </div>
+          </div>
+          <button
+            class="sc-5c90cea2-0 jYqxSE"
           >
-            Nome
-          </th>
-          <th
-            class="sc-73d4add1-2 gkAQVs"
-          >
-            E-mail
-          </th>
-          <th
-            class="sc-73d4add1-2 gkAQVs"
-          >
-            N° de registros
-          </th>
-          <th
-            class="sc-73d4add1-2 gkAQVs"
-          >
-            Data de ingresso
-          </th>
-          <th
-            class="sc-73d4add1-2 gkAQVs"
-          >
-            Ação
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            01
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_1
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Claudio Buarque
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            claudio.buarque@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            02
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            10/01/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 1
-          </td>
-        </tr>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            02
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_2
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Fabrício Neves
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            fabricio.neves@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            12
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            10/01/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 2
-          </td>
-        </tr>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            03
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_3
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            José Henrique
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            jose.henrique@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            03
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            02/02/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 3
-          </td>
-        </tr>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            04
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_4
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Luana Buarque
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            luana.buarque@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            02
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            05/03/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 4
-          </td>
-        </tr>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            05
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_5
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Augusto Buarque
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            augusto.buarque@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            04
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            02/02/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 5
-          </td>
-        </tr>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            06
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_6
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Nelson Oliveira
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            nelson.oliveira@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            07
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            10/01/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 6
-          </td>
-        </tr>
-        <tr
-          class="sc-73d4add1-1 gsFmqs"
-        >
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            07
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            link_da_foto_7
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Mariana Silva
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            mariana.silva@gmail.com
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            01
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            11/01/2024
-          </td>
-          <td
-            class="sc-73d4add1-3 gOsREM"
-          >
-            Ação 7
-          </td>
-        </tr>
-      </tbody>
-    </table>
+            Prox
+            <svg
+              fill="none"
+              height="23"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="23"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

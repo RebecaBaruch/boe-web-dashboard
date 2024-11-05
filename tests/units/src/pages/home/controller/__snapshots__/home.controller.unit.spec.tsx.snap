@@ -6,7 +6,7 @@ exports[`Home should render Home 1`] = `
 >
   <div
     class="_1xgjmkvc"
-    style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+    style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
   >
     <div
       class="xjgm6d4"
@@ -18,7 +18,7 @@ exports[`Home should render Home 1`] = `
           data-component-name="Text4"
           style="--splu5g0: 1.125rem; --splu5g2: 1.500rem; --splu5g1: 1.250rem; --splu5g3: 1.750rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
         >
-          Boa noite, Rebeca
+          Boa tarde, Rebeca
         </span>
       </div>
       <div>
