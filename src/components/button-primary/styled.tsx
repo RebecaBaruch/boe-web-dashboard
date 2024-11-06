@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import { ButtonPrimaryProps } from './types';
 
-type ButtonStyledProps = Pick<ButtonPrimaryProps, 'disabled' | 'width'>;
+type ButtonStyledProps = Pick<
+  ButtonPrimaryProps,
+  'disabled' | 'width' | 'height'
+>;
 
 export const Button = styled.button<ButtonStyledProps>`
   display: flex;
@@ -11,8 +14,8 @@ export const Button = styled.button<ButtonStyledProps>`
   gap: 0.5rem;
   padding: 0px 16px;
   margin: 0;
-  width: ${({ width }) => width ?? '100%'};
-  height: 3.2rem;
+  width: ${({ width }) => `${width ?? 100}%`};
+  height: ${({ height }) => `${height ?? 3.2}rem`};
   border-radius: 10px;
   border: none;
   outline: none;

@@ -10,7 +10,7 @@ type MyAppProps = {
   pageProps: Record<string, unknown>; // Tipo genérico para as propriedades da página
 };
 
-const isLogged = false;
+const isLogged = true;
 
 function MyApp({ Component, pageProps }: MyAppProps) {
   return (

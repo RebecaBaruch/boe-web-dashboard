@@ -3,4 +3,5 @@ export interface ButtonPrimaryProps {
   onClick: () => void;
   disabled?: boolean;
   width?: number | string | 'fit-content';
+  height?: number | string | 'fit-content';
 }

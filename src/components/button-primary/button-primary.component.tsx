@@ -7,9 +7,10 @@ export default function ButtonPrimary({
   onClick,
   disabled,
   width,
+  height,
 }: ButtonPrimaryProps) {
   return (
-    <Button disabled={disabled} onClick={onClick} width={width}>
+    <Button disabled={disabled} onClick={onClick} width={width} height={height}>
       {content}
     </Button>
   );

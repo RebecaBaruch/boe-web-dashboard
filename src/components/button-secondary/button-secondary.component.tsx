@@ -6,6 +6,7 @@ export default function ButtonSecondary({
   content,
   onClick,
   disabled,
+  width,
   height,
   gray,
   blue,
@@ -14,7 +15,8 @@ export default function ButtonSecondary({
     <Button
       disabled={disabled}
       onClick={onClick}
-      height={height}
+      width={width}
+      height={height?.toString()}
       gray={gray}
       blue={blue}
     >

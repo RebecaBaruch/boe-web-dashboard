@@ -2,7 +2,8 @@ export interface ButtonSecondaryProps {
   content: string | React.ReactNode;
   onClick: () => void;
   disabled?: boolean;
-  height?: string;
+  width?: string | 'fit-content';
+  height?: string | number;
   gray?: boolean;
   blue?: boolean;
 }

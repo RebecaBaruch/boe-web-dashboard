@@ -5,15 +5,22 @@ type ButtonStyledProps = {
   height?: string;
   gray?: boolean;
   blue?: boolean;
+  width?: string | 'fit-content';
 };
 
 export const Button = styled.button.withConfig({
-  shouldForwardProp: (prop) => !['gray', 'blue', 'disabled'].includes(prop),
+  shouldForwardProp: (prop) =>
+    !['gray', 'blue', 'disabled', 'width'].includes(prop),
 })<ButtonStyledProps>`
-  width: 100%;
-  height: ${({ height }) => (height ? height : '3.5rem')};
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0px 16px;
+  margin: 0;
+  width: ${({ width }) => width ?? '100%'};
+  height: ${({ height }) => `${height ?? 3.2}rem`};
   border-radius: 10px;
   border: 1.7px solid ${({ gray }) => (gray ? '#a6a5b0' : '#282FD9')};
   outline: none;
@@ -21,7 +28,7 @@ export const Button = styled.button.withConfig({
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: ${({ gray }) => (gray ? '#171a21' : '#282FD9')};
+  color: ${({ gray }) => (gray ? '#8a8992' : '#282FD9')};
   transition: 0.3s;
 
   &:hover {

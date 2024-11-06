@@ -8,7 +8,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList with text LinkedAcc
     class="sc-dc1b69e8-0 bmwvjx"
   >
     <div
-      class="sc-db005953-0 dFzyIa"
+      class="sc-a9fd00b4-0 igHitS"
     >
       <div
         data-component-name="Title3"
@@ -23,39 +23,135 @@ exports[`LinkedAccountsList should render LinkedAccountsList with text LinkedAcc
           </b>
         </h3>
       </div>
-      <button
-        class="sc-79b254d-0 JcYDj"
-        width="fit-content"
+      <div
+        class="sc-a9fd00b4-0 hJanZu"
       >
-        <svg
-          fill="none"
-          height="23"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="23"
-          xmlns="http://www.w3.org/2000/svg"
+        <div
+          class="_15k6ur96 _1y2v1nfhk _1y2v1nfhq _15k6ur99 _1y2v1nfi7"
+          data-component-name="SearchField"
         >
-          <line
-            x1="12"
-            x2="12"
-            y1="5"
-            y2="19"
+          <div
+            class="_1y2v1nfkl _1y2v1nfk1 _1y2v1nfhk _1y2v1nfka _1y2v1nfhe _1y2v1nf3q"
+          >
+            <div
+              class="rhey4tj _1y2v1nfbg _1y2v1nfhk _1y2v1nfhz _1y2v1nfio _1y2v1nfhf"
+            >
+              <svg
+                height="1.5rem"
+                role="presentation"
+                viewBox="0 0 24 24"
+                width="1.5rem"
+              >
+                <path
+                  d="m15.702 14.884 5.619 5.896a.744.744 0 0 1-.004 1.012.66.66 0 0 1-.96 0l-5.62-5.9c-1.299 1.136-2.967 1.82-4.785 1.82-4.126 0-7.482-3.524-7.482-7.856S5.826 2 9.952 2s7.487 3.524 7.483 7.86c0 1.908-.651 3.66-1.733 5.024M9.952 3.428c-3.375 0-6.122 2.884-6.122 6.428s2.747 6.428 6.122 6.428 6.123-2.884 6.123-6.428-2.747-6.428-6.123-6.428"
+                  fill="var(--_1vqcj1i1v)"
+                />
+              </svg>
+            </div>
+            <div
+              class="rhey4t4"
+            >
+              <div
+                class="splu5g7 splu5g5"
+                data-component-name="Text3"
+                style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+              >
+                <input
+                  class="rhey4ta _1y2v1nfhe rhey4t1 _1y2v1nfk2 _1y2v1nfj5 _1y2v1nf26 _1y2v1nfi7 rhey4td"
+                  id=":r0:"
+                  name=""
+                  required=""
+                  style="padding-right: 15px; font-family: inherit;"
+                  type="search"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="_1y2v1nfa7 _1y2v1nfbj _1y2v1nfhk"
           />
-          <line
-            x1="5"
-            x2="19"
-            y1="12"
-            y2="12"
-          />
-        </svg>
-         Add
-      </button>
+        </div>
+        <button
+          class="sc-12056556-0 fliyUc"
+          height="2.7"
+        >
+          Ordenar 
+          <svg
+            fill="none"
+            height="23"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="23"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline
+              points="6 9 12 15 18 9"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-12056556-0 fliyUc"
+          height="2.7"
+        >
+          <svg
+            fill="none"
+            height="23"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="23"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polyline
+              points="9 11 12 14 22 4"
+            />
+            <path
+              d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+            />
+          </svg>
+           Selecionar
+        </button>
+        <button
+          class="sc-928c6ca3-0 iqOklj"
+          height="2.7"
+          width="fit-content"
+        >
+          <svg
+            fill="none"
+            height="23"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="23"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="5"
+              y2="19"
+            />
+            <line
+              x1="5"
+              x2="19"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+           Add
+        </button>
+      </div>
     </div>
     <div
-      class="sc-2033c768-0 aEyeT"
+      class="sc-d20d7534-0 iRLHxM"
     >
       <table
         class="sc-fa13d0b9-0 imWdhh"
@@ -1485,13 +1581,13 @@ exports[`LinkedAccountsList should render LinkedAccountsList with text LinkedAcc
         </tbody>
       </table>
       <div
-        class="sc-db005953-0 hPkqIw"
+        class="sc-a9fd00b4-0 cygdJs"
       >
         <div
-          class="sc-db005953-0 EJywb"
+          class="sc-a9fd00b4-0 iPmrrv"
         >
           <button
-            class="sc-5c90cea2-0 jYqxSE"
+            class="sc-c0b14a47-0 fjjElM"
           >
             <svg
               fill="none"
@@ -1511,18 +1607,18 @@ exports[`LinkedAccountsList should render LinkedAccountsList with text LinkedAcc
             Prev
           </button>
           <div
-            class="sc-db005953-0 jJCsNN"
+            class="sc-a9fd00b4-0 jobZvF"
           >
             <div
-              class="sc-5c90cea2-1 feVavH"
+              class="sc-c0b14a47-1 A-DKPL"
             />
              - 
             <div
-              class="sc-5c90cea2-1 iTvjtn"
+              class="sc-c0b14a47-1 iiLHmL"
             />
           </div>
           <button
-            class="sc-5c90cea2-0 jYqxSE"
+            class="sc-c0b14a47-0 fjjElM"
           >
             Prox
             <svg
