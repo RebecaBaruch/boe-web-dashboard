@@ -11,13 +11,13 @@ export default function PageStepper({
   nextPage,
 }: PageStepperProps) {
   return (
-    <Row space={1.7} width='fit-content'>
+    <Row space={1.7} width="fit-content">
       <StepperButton onClick={prevPage}>
         <ChevronLeft width={23} height={23} />
         Prev
       </StepperButton>
 
-      <Row space={.7}>
+      <Row space={0.7}>
         <Step active>{currentPage}</Step> - <Step>{lastPage}</Step>
       </Row>
 

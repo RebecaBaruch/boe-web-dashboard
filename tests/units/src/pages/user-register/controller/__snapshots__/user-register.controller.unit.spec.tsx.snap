@@ -9,7 +9,7 @@ exports[`UserRegister should render UserRegister 1`] = `
   >
     <div
       class="_1xgjmkvc"
-      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 48px; --_1xgjmkv4: 48px; --_1xgjmkv3: 48px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 24px; --_1xgjmkv4: 24px; --_1xgjmkv3: 24px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
     >
       <img
         alt="boe-logo"
@@ -90,7 +90,7 @@ exports[`UserRegister should render UserRegister 1`] = `
               height="3rem"
             >
               <div
-                class="sc-1e3df9c9-0 cGpLAY"
+                class="sc-db005953-0 kuDflu"
               >
                 <img
                   alt="google-logo"
@@ -151,7 +151,7 @@ exports[`UserRegister should render UserRegister 1`] = `
           style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
         >
           <div
-            class="sc-1e3df9c9-0 bxWNfn"
+            class="sc-db005953-0 iDvNnx"
           >
             <div
               class="sc-2f619ebf-0 jtjPJR"
@@ -218,7 +218,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-85d686d1-0 jbzrFZ"
+              class="sc-79b254d-0 cdCafc"
             >
               Continuar
             </button>

@@ -12,7 +12,7 @@ export const Table = styled.table`
 
 export const TableRow = styled.tr`
   &:hover {
-    background-color: #f1f1f1;
+    background-color: #d3e7eb31;
   }
 `;
 
@@ -77,4 +77,5 @@ export const ActionModalButton = styled.button`
   outline: none;
   background-color: transparent;
   color: #373751;
+  cursor: pointer;
 `;

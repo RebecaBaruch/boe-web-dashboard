@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import FormContainer from '../../components/form-container/index.component';
 import { Box, ButtonLayout, Stack, Text1, Text5 } from '@telefonica/mistica';
 import LinkComponent from '../../../../components/link-component/link.component';
@@ -8,14 +9,14 @@ import { FarmFormWrapper, MidTitle } from './styled';
 import ButtonPrimary from '../../../../components/button-primary/button-primary.component';
 import ButtonSecondary from '../../../../components/button-secondary/button-secondary.component';
 import { Viewport } from '../../../../components/viewport/styled';
-import boeLogo02 from '../../../../../public/assets/boe-logo02.svg';
 import { Row } from '../../../../components/row/styled';
 
 export default function UserRegister() {
+  const BoeLogo02: string = '/assets/boe-logo02.svg';
   return (
     <Viewport>
-      <Box paddingBottom={48}>
-        <img src={boeLogo02.src} alt="boe-logo" width={60} />
+      <Box paddingBottom={24}>
+        <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
       </Box>
       <FormContainer
         formHeader={
@@ -50,7 +51,7 @@ export default function UserRegister() {
             <Row>
               <InputBox
                 title="Telefone (fazenda)"
-                size="1"
+                size={1}
                 input={
                   <Input
                     value={''}
@@ -64,6 +65,7 @@ export default function UserRegister() {
 
               <InputBox
                 title="CNPJ"
+                size={2}
                 input={
                   <Input
                     value={''}
@@ -79,7 +81,7 @@ export default function UserRegister() {
             <Row>
               <InputBox
                 title="CEP"
-                size="3"
+                size={3}
                 input={
                   <Input
                     value={''}
@@ -93,7 +95,7 @@ export default function UserRegister() {
 
               <InputBox
                 title="Estado"
-                size="1"
+                size={1}
                 input={
                   <Input
                     value={''}

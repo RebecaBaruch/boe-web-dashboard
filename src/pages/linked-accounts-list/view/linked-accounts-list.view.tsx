@@ -6,6 +6,8 @@ import { Title3 } from '@telefonica/mistica';
 import PageStepper from 'components/page-stepper/page-stepper.component';
 import { Row } from 'components/row/styled';
 import { Column } from 'components/column/styled';
+import ButtonPrimary from 'components/button-primary/button-primary.component';
+import { Plus } from 'react-feather';
 
 export default function LinkedAccountsList({
   accountsData,
@@ -18,11 +20,23 @@ export default function LinkedAccountsList({
   return (
     <>
       <Container space={2} padding={1.5}>
-        <Title3>
-          <b>Contas vinculadas</b>
-        </Title3>
+        <Row align="space-between">
+          <Title3>
+            <b>Contas vinculadas</b>
+          </Title3>
 
-        <Column width='100%' height='100%' justify='space-between'>
+          <ButtonPrimary
+            content={
+              <>
+                <Plus width={23} height={23} /> Add
+              </>
+            }
+            onClick={() => {}}
+            width="fit-content"
+          />
+        </Row>
+
+        <Column width="100%" height="100%" justify="space-between">
           <DataTable data={accountsData} columns={columnsHeader} action />
 
           <Row align="flex-end">

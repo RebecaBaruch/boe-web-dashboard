@@ -7,7 +7,7 @@ import { accountsColumns } from 'config/constants/column-headers';
 
 export default function LinkedAccountsListController() {
   const [currentPage, setCurrentPage] = React.useState(1);
-  const itemsPerPage = 8;
+  const itemsPerPage = 7;
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;

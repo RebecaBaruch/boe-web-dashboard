@@ -3,7 +3,12 @@ import styled from 'styled-components';
 type RowProps = {
   width?: string;
   space?: string | number;
-  align?: string;
+  align?:
+    | 'space-between'
+    | 'space-around'
+    | 'center'
+    | 'flex-start'
+    | 'flex-end';
 };
 
 export const Row = styled.div.withConfig({

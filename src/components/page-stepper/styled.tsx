@@ -9,9 +9,9 @@ export const StepperButton = styled.button`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: .3rem;
+  gap: 0.3rem;
   font-size: 1rem;
-  padding: .5rem;
+  padding: 0.5rem;
   height: 2rem;
   outline: none;
   border: none;
@@ -33,7 +33,7 @@ export const Step = styled.div.withConfig({
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
   width: 1rem;
   height: 1rem;
   border-radius: 5px;

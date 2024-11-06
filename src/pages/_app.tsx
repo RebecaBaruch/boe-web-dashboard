@@ -10,12 +10,18 @@ type MyAppProps = {
   pageProps: Record<string, unknown>; // Tipo genérico para as propriedades da página
 };
 
+const isLogged = false;
+
 function MyApp({ Component, pageProps }: MyAppProps) {
   return (
     <ThemeContextProvider theme={theme}>
-      <SidebarLayout>
+      {isLogged ? (
+        <SidebarLayout>
+          <Component {...pageProps} />
+        </SidebarLayout>
+      ) : (
         <Component {...pageProps} />
-      </SidebarLayout>
+      )}
     </ThemeContextProvider>
   );
 }
