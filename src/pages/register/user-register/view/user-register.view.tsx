@@ -16,7 +16,7 @@ export default function UserRegister() {
   const BoeLogo02: string = '/assets/boe-logo02.svg';
   return (
     <Viewport>
-      <Box paddingBottom={48}>
+      <Box paddingBottom={24}>
         <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
       </Box>
       <FormContainer

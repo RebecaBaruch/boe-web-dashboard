@@ -5,10 +5,10 @@ exports[`Login should render Login with text Login 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-13dcec79-0 jWzbSy"
+    class="sc-b39d5805-0 dAeAeA"
   >
     <div
-      class="sc-13dcec79-1 fAEFiZ"
+      class="sc-b39d5805-1 kxBsYc"
     >
       <div
         class="_1xgjmkvc"
@@ -70,11 +70,11 @@ exports[`Login should render Login with text Login 1`] = `
                 </div>
                 <div>
                   <button
-                    class="sc-82bf28e1-0 elVoEZ"
+                    class="sc-5796d2d3-0 hrHxZV"
                     height="3rem"
                   >
                     <div
-                      class="sc-1e3df9c9-0 cGpLAY"
+                      class="sc-7117240f-0 jGflut"
                     >
                       <img
                         alt="google-logo"
@@ -229,7 +229,7 @@ exports[`Login should render Login with text Login 1`] = `
               </div>
               <div>
                 <button
-                  class="sc-85d686d1-0 jbzrFZ"
+                  class="sc-a75731b0-0 liVnZQ"
                 >
                   Login
                 </button>
@@ -270,7 +270,7 @@ exports[`Login should render Login with text Login 1`] = `
       </span>
     </div>
     <div
-      class="sc-13dcec79-1 epBuFT"
+      class="sc-b39d5805-1 jmdDhu"
     >
       <div
         class="_1xgjmkvc"

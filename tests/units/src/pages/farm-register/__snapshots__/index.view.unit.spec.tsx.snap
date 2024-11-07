@@ -9,11 +9,16 @@ exports[`FarmRegister should render FarmRegister 1`] = `
   >
     <div
       class="_1xgjmkvc"
-      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 48px; --_1xgjmkv4: 48px; --_1xgjmkv3: 48px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 24px; --_1xgjmkv4: 24px; --_1xgjmkv3: 24px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
     >
       <img
         alt="boe-logo"
-        src="/img.jpg"
+        data-nimg="1"
+        decoding="async"
+        height="60"
+        loading="lazy"
+        src="/assets/boe-logo02.svg"
+        style="color: transparent;"
         width="60"
       />
     </div>
@@ -48,7 +53,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="sc-1e3df9c9-0 leTfAb"
+                class="sc-7117240f-0 eyrdUy"
               >
                 <span
                   class="splu5g7 splu5g5"
@@ -90,7 +95,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           />
         </div>
         <div
-          class="sc-1e3df9c9-0 bxWNfn"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
             class="sc-2f619ebf-0 ddNlQX"
@@ -111,7 +116,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-2f619ebf-0 jtjPJR"
+            class="sc-2f619ebf-0 khnHM"
           >
             <span
               class="splu5g7 splu5g5"
@@ -130,7 +135,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-1e3df9c9-0 bxWNfn"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
             class="sc-2f619ebf-0 kLbdQZ"
@@ -170,7 +175,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-1e3df9c9-0 bxWNfn"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
             class="sc-2f619ebf-0 ddNlQX"
@@ -218,12 +223,12 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-85d686d1-0 jbzrFZ"
+              class="sc-a75731b0-0 liVnZQ"
             >
               Concluir registro
             </button>
             <button
-              class="sc-82bf28e1-0 fcqrvg"
+              class="sc-5796d2d3-0 bySUev"
             >
               Voltar
             </button>

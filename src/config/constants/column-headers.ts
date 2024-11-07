@@ -7,5 +7,4 @@ export const accountsColumns: Column[] = [
   { header: 'E-mail', accessor: 'email' },
   { header: 'N° de registros', accessor: 'registers' },
   { header: 'Data de ingresso', accessor: 'date' },
-  { header: 'Ação', accessor: 'action' },
 ];

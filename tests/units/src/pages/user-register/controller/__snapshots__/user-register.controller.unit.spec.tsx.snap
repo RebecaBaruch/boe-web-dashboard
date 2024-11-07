@@ -9,7 +9,7 @@ exports[`UserRegister should render UserRegister 1`] = `
   >
     <div
       class="_1xgjmkvc"
-      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 48px; --_1xgjmkv4: 48px; --_1xgjmkv3: 48px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+      style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 24px; --_1xgjmkv4: 24px; --_1xgjmkv3: 24px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
     >
       <img
         alt="boe-logo"
@@ -86,11 +86,11 @@ exports[`UserRegister should render UserRegister 1`] = `
           </div>
           <div>
             <button
-              class="sc-82bf28e1-0 elVoEZ"
+              class="sc-5796d2d3-0 hrHxZV"
               height="3rem"
             >
               <div
-                class="sc-1e3df9c9-0 cGpLAY"
+                class="sc-7117240f-0 jGflut"
               >
                 <img
                   alt="google-logo"
@@ -151,7 +151,7 @@ exports[`UserRegister should render UserRegister 1`] = `
           style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
         >
           <div
-            class="sc-1e3df9c9-0 bxWNfn"
+            class="sc-7117240f-0 cCCHfK"
           >
             <div
               class="sc-2f619ebf-0 jtjPJR"
@@ -218,12 +218,12 @@ exports[`UserRegister should render UserRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-85d686d1-0 jbzrFZ"
+              class="sc-a75731b0-0 liVnZQ"
             >
               Continuar
             </button>
             <button
-              class="sc-82bf28e1-0 fcqrvg"
+              class="sc-5796d2d3-0 bySUev"
             >
               Cancelar
             </button>

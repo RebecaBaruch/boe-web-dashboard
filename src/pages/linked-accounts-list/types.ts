@@ -10,4 +10,14 @@ export interface LinkedAccountsProps {
     date: string;
   }>;
   columnsHeader: Column[];
+
+  currentPage: number | string;
+  lastPage: number | string;
+  prevPage: () => void;
+  nextPage: () => void;
+  selectMode?: boolean;
+  selectedRows?: Set<number>;
+  toggleSelectRow?: (rowIndex: number) => void;
+  onSelectMode: () => void;
+  onDeleteSelected?: (rowIndex: number) => void;
 }
