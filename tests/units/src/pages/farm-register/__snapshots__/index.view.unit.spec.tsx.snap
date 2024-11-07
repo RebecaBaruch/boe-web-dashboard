@@ -53,7 +53,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="sc-a9fd00b4-0 jobZvF"
+                class="sc-7117240f-0 eyrdUy"
               >
                 <span
                   class="splu5g7 splu5g5"
@@ -95,7 +95,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           />
         </div>
         <div
-          class="sc-a9fd00b4-0 inRHst"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
             class="sc-2f619ebf-0 ddNlQX"
@@ -135,7 +135,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-a9fd00b4-0 inRHst"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
             class="sc-2f619ebf-0 kLbdQZ"
@@ -175,7 +175,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-a9fd00b4-0 inRHst"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
             class="sc-2f619ebf-0 ddNlQX"
@@ -223,12 +223,12 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-928c6ca3-0 ldSfnB"
+              class="sc-a75731b0-0 liVnZQ"
             >
               Concluir registro
             </button>
             <button
-              class="sc-12056556-0 iosepn"
+              class="sc-5796d2d3-0 bySUev"
             >
               Voltar
             </button>

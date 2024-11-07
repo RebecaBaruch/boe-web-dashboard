@@ -10,9 +10,16 @@ import {
 } from './styled';
 import { TableProps } from './types';
 import { MoreVertical, Trash } from 'react-feather';
-import { Text1 } from '@telefonica/mistica';
+import { Checkbox, Text1 } from '@telefonica/mistica';
 
-const DataTable = ({ data, columns, action }: TableProps) => {
+const DataTable = ({
+  data,
+  columns,
+  action,
+  selectMode,
+  selectedRows,
+  toggleSelectRow,
+}: TableProps) => {
   const [activeRowIndex, setActiveRowIndex] = React.useState<number | null>(
     null,
   );
@@ -79,9 +86,17 @@ const DataTable = ({ data, columns, action }: TableProps) => {
             ))}
             {action && (
               <TableCell>
-                <ActionButton onClick={(event) => onAction(rowIndex, event)}>
-                  <MoreVertical width={20} height={20} />
-                </ActionButton>
+                {selectMode ? (
+                  <Checkbox
+                    name="select"
+                    checked={selectedRows?.has(rowIndex) ?? false}
+                    onChange={() => toggleSelectRow?.(rowIndex)}
+                  />
+                ) : (
+                  <ActionButton onClick={(event) => onAction(rowIndex, event)}>
+                    <MoreVertical width={17} height={17} />
+                  </ActionButton>
+                )}
               </TableCell>
             )}
           </TableRow>

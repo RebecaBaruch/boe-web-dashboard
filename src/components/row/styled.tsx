@@ -20,4 +20,6 @@ export const Row = styled.div.withConfig({
   justify-content: ${({ align }) => align || 'start'};
   gap: ${({ space }) => (space ? `${space}rem` : '1rem')};
   width: ${({ width }) => width || '100%'};
+  padding: 0;
+  margin: 0;
 `;

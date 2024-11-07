@@ -11,6 +11,7 @@ export const Table = styled.table`
 `;
 
 export const TableRow = styled.tr`
+  height: 3.5rem;
   &:hover {
     background-color: #d3e7eb31;
   }
@@ -18,6 +19,7 @@ export const TableRow = styled.tr`
 
 export const TableHeader = styled.th`
   padding: 12px;
+  height: 3rem;
   text-align: left;
   background-color: #f1f1f1;
   color: #717171;
@@ -44,8 +46,8 @@ export const ActionButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.3rem;
-  background-color: #f2f2f5;
+  padding: 0.15rem;
+  background-color: #e9e9ed;
   outline: none;
   border: none;
   border-radius: 5px;

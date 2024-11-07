@@ -1,12 +1,19 @@
 import styled from 'styled-components';
-import { ButtonPrimaryProps } from './types';
 
-type ButtonStyledProps = Pick<
-  ButtonPrimaryProps,
-  'disabled' | 'width' | 'height'
->;
+type SizeProp =
+  | number
+  | string
+  | { value: number; unit: 'rem' | '%' | 'px' | 'fit-content' };
 
-export const Button = styled.button<ButtonStyledProps>`
+type ButtonStyledProps = {
+  disabled?: boolean;
+  height?: SizeProp;
+  width?: SizeProp;
+};
+
+export const Button = styled.button.withConfig({
+  shouldForwardProp: (prop) => !['disabled', 'width', 'height'].includes(prop),
+})<ButtonStyledProps>`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,14 +21,31 @@ export const Button = styled.button<ButtonStyledProps>`
   gap: 0.5rem;
   padding: 0px 16px;
   margin: 0;
-  width: ${({ width }) => `${width ?? 100}%`};
-  height: ${({ height }) => `${height ?? 3.2}rem`};
+  box-sizing: border-box;
+  width: ${({ width }) => {
+    if (typeof width === 'number') return `${width}rem`;
+    if (typeof width === 'object' && width.unit)
+      return `${width.value}${width.unit}`;
+    if (typeof width === 'string' && width === 'fit-content')
+      return 'fit-content';
+    return '100%';
+  }};
+  height: ${({ height }) => {
+    if (typeof height === 'number') return `${height}rem`;
+    if (typeof height === 'object' && height.unit)
+      return `${height.value}${height.unit}`;
+    if (typeof height === 'string' && height.endsWith('%')) {
+      return height;
+    }
+    return '3.2rem';
+  }};
   border-radius: 10px;
   border: none;
   outline: none;
   background-color: #282fd9;
+
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: bold;
   color: #ffffff;
   transition: 0.3s;

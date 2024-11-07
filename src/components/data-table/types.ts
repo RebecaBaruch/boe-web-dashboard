@@ -17,4 +17,7 @@ export interface TableProps {
   data: TableData[];
   columns: Column[];
   action?: boolean;
+  selectMode?: boolean;
+  selectedRows?: Set<number>;
+  toggleSelectRow?: (rowIndex: number) => void;
 }

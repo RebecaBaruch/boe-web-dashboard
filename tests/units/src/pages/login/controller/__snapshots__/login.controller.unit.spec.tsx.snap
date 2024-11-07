@@ -70,11 +70,11 @@ exports[`Login should render Login 1`] = `
                 </div>
                 <div>
                   <button
-                    class="sc-12056556-0 EBnut"
+                    class="sc-5796d2d3-0 hrHxZV"
                     height="3rem"
                   >
                     <div
-                      class="sc-a9fd00b4-0 btobVK"
+                      class="sc-7117240f-0 jGflut"
                     >
                       <img
                         alt="google-logo"
@@ -229,7 +229,7 @@ exports[`Login should render Login 1`] = `
               </div>
               <div>
                 <button
-                  class="sc-928c6ca3-0 ldSfnB"
+                  class="sc-a75731b0-0 liVnZQ"
                 >
                   Login
                 </button>

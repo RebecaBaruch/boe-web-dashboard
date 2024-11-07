@@ -10,15 +10,17 @@ export default function ButtonSecondary({
   height,
   gray,
   blue,
+  selected,
 }: ButtonSecondaryProps) {
   return (
     <Button
       disabled={disabled}
       onClick={onClick}
       width={width}
-      height={height?.toString()}
+      height={height}
       gray={gray}
       blue={blue}
+      selected={selected}
     >
       {content}
     </Button>

@@ -52,6 +52,7 @@ export const Container = styled.div.withConfig({
   width: ${({ width }) => width || 100}%;
   height: ${({ height }) => height || 100}%;
 
+  border-radius: 10px;
   background-color: #ffffff;
   box-sizing: border-box;
 `;

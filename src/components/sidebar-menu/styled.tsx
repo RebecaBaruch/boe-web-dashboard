@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
 `;
 
@@ -14,7 +14,8 @@ export const Viewboard = styled.div`
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  overflow-y: auto;
 `;
 
 export const Content = styled.div`
@@ -38,7 +39,7 @@ export const Content = styled.div`
 
 export const Sidebar = styled.div<{ isExpanded: boolean }>`
   width: ${(props) => (props.isExpanded ? '210px' : '85px')};
-  height: 100%;
+  height: 100vh;
   transition: width 1s ease;
   background-color: #ffffff;
   display: flex;

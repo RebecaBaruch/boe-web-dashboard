@@ -34,8 +34,8 @@ export const Step = styled.div.withConfig({
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0.5rem;
-  width: 1rem;
-  height: 1rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 5px;
   background-color: ${({ active }) => (active ? '#282ed93a' : '#ffffff')};
   border: ${({ active }) => (active ? 'none' : '1px solid #717171')};

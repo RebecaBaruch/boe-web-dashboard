@@ -18,10 +18,14 @@ export default function LinkedAccountsList({
   lastPage,
   prevPage,
   nextPage,
+  selectMode,
+  selectedRows,
+  toggleSelectRow,
+  onSelectMode,
 }: LinkedAccountsProps) {
   return (
     <>
-      <Container space={2} padding={1.5}>
+      <Container space={5} padding={1.5}>
         <Row align="space-between">
           <Title3>
             <b>Contas vinculadas</b>
@@ -30,8 +34,8 @@ export default function LinkedAccountsList({
             <SearchField label={''} name={''} />
             <ButtonSecondary
               gray
-              height={2.7}
               width="fit-content"
+              height={3.7}
               content={
                 <>
                   Ordenar <ChevronDown width={23} height={23} />
@@ -42,29 +46,37 @@ export default function LinkedAccountsList({
             <ButtonSecondary
               gray
               width="fit-content"
-              height={2.7}
+              height={3.7}
               content={
                 <>
                   <CheckSquare width={23} height={23} /> Selecionar
                 </>
               }
-              onClick={() => {}}
+              onClick={onSelectMode}
+              selected={selectMode}
             />
             <ButtonPrimary
-              height={2.7}
+              width="fit-content"
+              height={3.7}
               content={
                 <>
                   <Plus width={23} height={23} /> Add
                 </>
               }
               onClick={() => {}}
-              width="fit-content"
             />
           </Row>
         </Row>
 
         <Column width="100%" height="100%" justify="space-between">
-          <DataTable data={accountsData} columns={columnsHeader} action />
+          <DataTable
+            data={accountsData}
+            columns={columnsHeader}
+            action
+            selectMode={selectMode}
+            selectedRows={selectedRows}
+            toggleSelectRow={toggleSelectRow}
+          />
 
           <Row align="flex-end">
             <PageStepper
