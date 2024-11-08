@@ -9,8 +9,8 @@ export const diagnosisMockData: TableDiagnosisData[] = Array.from(
     authorName: ['Nelson Oliveira', 'Fabrício Neves'][index % 2],
     authorPhoto: `https://randomuser.me/api/portraits/men/${index}.jpg`,
     date: new Date(2024, 8, 17 + (index % 7)).toLocaleDateString('pt-BR'),
-    result: ['Berne', 'Dermatite', 'Dermatofitose'][
-      Math.floor(Math.random() * 3)
+    result: ['Berne', 'Dermatite', 'Dermatofitose', 'Dermatofilose'][
+      Math.floor(Math.random() * 4)
     ],
     risk: Math.floor(Math.random() * 101),
   }),
