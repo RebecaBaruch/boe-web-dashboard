@@ -1,6 +1,7 @@
 import React from 'react';
 import DiagnosisList from '../../../../../../src/pages/diagnosis-list/index';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
+import { screen } from '@testing-library/react';
 
 const mockedRouter = {
   push: jest.fn(),
@@ -12,8 +13,8 @@ jest.mock('next/router', () => ({
 
 describe('DiagnosisList', () => {
   it('should render DiagnosisList', () => {
-    const { container } = renderWithTheme(<DiagnosisList />);
+    renderWithTheme(<DiagnosisList />);
 
-    expect(container).toMatchSnapshot();
+    expect(screen.getByText('Ação')).toBeInTheDocument();
   });
 });

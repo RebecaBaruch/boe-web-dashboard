@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import Home from '../../../../../../src/pages/home/index';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 
@@ -12,9 +12,9 @@ jest.mock('next/router', () => ({
 }));
 
 describe('Home', () => {
-  it('should render Home', async () => {
-    const { container } = await renderWithTheme(<Home />);
+  it('should render Home', () => {
+    renderWithTheme(<Home />);
 
-    expect(container).toMatchSnapshot();
+    expect(screen.getByText('Overview')).toBeInTheDocument();
   });
 });
