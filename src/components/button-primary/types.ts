@@ -5,4 +5,5 @@ export interface ButtonPrimaryProps {
   disabled?: boolean;
   width?: number | string | 'fit-content';
   height?: number | string | 'fit-content';
+  tomato?: boolean;
 }

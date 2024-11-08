@@ -229,7 +229,7 @@ exports[`Login should render Login with text Login 1`] = `
               </div>
               <div>
                 <button
-                  class="sc-a75731b0-0 liVnZQ"
+                  class="sc-daa8886c-0 ehJPuv"
                 >
                   Login
                 </button>

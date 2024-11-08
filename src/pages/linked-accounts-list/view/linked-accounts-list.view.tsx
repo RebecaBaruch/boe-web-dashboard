@@ -7,7 +7,7 @@ import PageStepper from 'components/page-stepper/page-stepper.component';
 import { Row } from 'components/row/styled';
 import { Column } from 'components/column/styled';
 import ButtonPrimary from 'components/button-primary/button-primary.component';
-import { ChevronDown, Plus } from 'react-feather';
+import { ChevronDown, Plus, Trash } from 'react-feather';
 import ButtonSecondary from 'components/button-secondary/button-secondary.component';
 import { CheckSquare } from 'react-feather';
 
@@ -20,7 +20,9 @@ export default function LinkedAccountsList({
   nextPage,
   selectMode,
   selectedRows,
+  isAllDataSelected,
   toggleSelectRow,
+  toggleSelectAll,
   onSelectMode,
 }: LinkedAccountsProps) {
   return (
@@ -32,17 +34,30 @@ export default function LinkedAccountsList({
           </Title3>
           <Row width="fit-content">
             <SearchField label={''} name={''} />
-            <ButtonSecondary
-              gray
-              width="fit-content"
-              height={3.7}
-              content={
-                <>
-                  Ordenar <ChevronDown width={23} height={23} />
-                </>
-              }
-              onClick={() => {}}
-            />
+
+            {selectMode ? (
+              <ButtonSecondary
+                gray
+                width="fit-content"
+                height={3.7}
+                content="Selecionar todos"
+                onClick={toggleSelectAll}
+                selected={isAllDataSelected}
+              />
+            ) : (
+              <ButtonSecondary
+                gray
+                width="fit-content"
+                height={3.7}
+                content={
+                  <>
+                    Ordenar <ChevronDown width={23} height={23} />
+                  </>
+                }
+                onClick={() => {}}
+              />
+            )}
+
             <ButtonSecondary
               gray
               width="fit-content"
@@ -55,16 +70,32 @@ export default function LinkedAccountsList({
               onClick={onSelectMode}
               selected={selectMode}
             />
-            <ButtonPrimary
-              width="fit-content"
-              height={3.7}
-              content={
-                <>
-                  <Plus width={23} height={23} /> Add
-                </>
-              }
-              onClick={() => {}}
-            />
+
+            {selectMode ? (
+              <ButtonPrimary
+                width="fit-content"
+                height={3.7}
+                tomato
+                content={
+                  <>
+                    <Trash width={23} height={23} /> Excluir
+                  </>
+                }
+                onClick={() => {}}
+                disabled={!!selectedRows && selectedRows.size === 0}
+              />
+            ) : (
+              <ButtonPrimary
+                width="fit-content"
+                height={3.7}
+                content={
+                  <>
+                    <Plus width={23} height={23} /> Add
+                  </>
+                }
+                onClick={() => {}}
+              />
+            )}
           </Row>
         </Row>
 

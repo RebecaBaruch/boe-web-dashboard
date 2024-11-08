@@ -89,8 +89,8 @@ const DataTable = ({
                 {selectMode ? (
                   <Checkbox
                     name="select"
-                    checked={selectedRows?.has(rowIndex) ?? false}
-                    onChange={() => toggleSelectRow?.(rowIndex)}
+                    checked={selectedRows?.has(item.id) ?? false}
+                    onChange={() => toggleSelectRow?.(item.id)}
                   />
                 ) : (
                   <ActionButton onClick={(event) => onAction(rowIndex, event)}>

@@ -223,7 +223,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-a75731b0-0 liVnZQ"
+              class="sc-daa8886c-0 ehJPuv"
             >
               Concluir registro
             </button>
