@@ -97,9 +97,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Dermatite
             </span>
           </td>
           <td
@@ -108,7 +108,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              75
+              81
               %
             </span>
           </td>
@@ -178,7 +178,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -201,18 +201,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Berne
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              26
+              62
               %
             </span>
           </td>
@@ -282,7 +282,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 84, 84); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -305,18 +305,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Dermatofitose
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 84, 84); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              9
+              94
               %
             </span>
           </td>
@@ -409,9 +409,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Dermatite
             </span>
           </td>
           <td
@@ -420,7 +420,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              18
+              31
               %
             </span>
           </td>
@@ -513,9 +513,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Berne
             </span>
           </td>
           <td
@@ -524,7 +524,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              47
+              22
               %
             </span>
           </td>
@@ -594,7 +594,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -617,18 +617,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Dermatofitose
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              28
+              88
               %
             </span>
           </td>
@@ -698,7 +698,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 84, 84); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -721,18 +721,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Berne
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 84, 84); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              2
+              92
               %
             </span>
           </td>
@@ -802,7 +802,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -825,18 +825,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Dermatofitose
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              47
+              56
               %
             </span>
           </td>
@@ -929,9 +929,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Dermatofitose
             </span>
           </td>
           <td
@@ -940,7 +940,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              5
+              26
               %
             </span>
           </td>
@@ -1033,9 +1033,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Berne
             </span>
           </td>
           <td
@@ -1044,7 +1044,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              21
+              39
               %
             </span>
           </td>
@@ -1137,9 +1137,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Berne
             </span>
           </td>
           <td
@@ -1148,7 +1148,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              0
+              1
               %
             </span>
           </td>
@@ -1218,7 +1218,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 84, 84); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -1241,18 +1241,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Dermatofitose
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 84, 84); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              28
+              95
               %
             </span>
           </td>
@@ -1322,7 +1322,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 84, 84); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -1345,18 +1345,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Berne
+              Dermatofitose
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 84, 84); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              90
+              77
               %
             </span>
           </td>
@@ -1426,7 +1426,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 84, 84); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -1449,18 +1449,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Dermatofitose
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 84, 84); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              34
+              95
               %
             </span>
           </td>
@@ -1564,7 +1564,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              56
+              71
               %
             </span>
           </td>
@@ -1634,7 +1634,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -1666,9 +1666,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              48
+              51
               %
             </span>
           </td>
@@ -1738,7 +1738,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -1761,18 +1761,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Berne
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              35
+              71
               %
             </span>
           </td>
@@ -1865,9 +1865,9 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Dermatite
             </span>
           </td>
           <td
@@ -1876,7 +1876,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             <span
               style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              30
+              31
               %
             </span>
           </td>
@@ -1946,7 +1946,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -1969,18 +1969,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(74, 101, 207); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatite
+              Berne
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              79
+              15
               %
             </span>
           </td>
@@ -2050,7 +2050,7 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
+              style="background-color: rgb(255, 235, 54); width: 10px; height: 10px; border-radius: 50%; display: inline-block;"
             />
           </td>
           <td
@@ -2073,18 +2073,18 @@ exports[`DiagnosisList should render DiagnosisList with text DiagnosisList 1`] =
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(255, 18, 203); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(0, 218, 182); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              Dermatofitose
+              Dermatite
             </span>
           </td>
           <td
             class="sc-8fa2946b-3 TYouo"
           >
             <span
-              style="background-color: rgb(59, 214, 64); color: white; padding: 4px 8px; border-radius: 8px;"
+              style="background-color: rgb(255, 235, 54); color: white; padding: 4px 8px; border-radius: 8px;"
             >
-              35
+              58
               %
             </span>
           </td>
