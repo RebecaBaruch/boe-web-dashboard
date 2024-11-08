@@ -15,6 +15,11 @@ describe('DiagnosisList', () => {
   it('should render DiagnosisList', () => {
     renderWithTheme(<DiagnosisList />);
 
+    expect(screen.getByText('Id do animal')).toBeInTheDocument();
+    expect(screen.getByText('Resultado')).toBeInTheDocument();
+    expect(screen.getByText('Risco (em %)')).toBeInTheDocument();
+    expect(screen.getByText('Autor da análise')).toBeInTheDocument();
+    expect(screen.getByText('Data')).toBeInTheDocument();
     expect(screen.getByText('Ação')).toBeInTheDocument();
   });
 });

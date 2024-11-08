@@ -1,8 +1,11 @@
+import { TableDiagnosisData } from 'components/data-table/types';
 import { AccountData } from 'pages/linked-accounts-list/types';
 import React from 'react';
 
 type UsePagedSelectionProps = {
-  data: AccountData[];
+  data:
+    | (AccountData & { id: string | number })[]
+    | (TableDiagnosisData & { animalId: string | number })[];
   itemsPerPage: number;
 };
 
@@ -19,9 +22,10 @@ const usePagedSelection = ({ data, itemsPerPage }: UsePagedSelectionProps) => {
   // Paginate items based on current page
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+
   const currentItems = data
     .slice(indexOfFirstItem, indexOfLastItem)
-    .map((item) => ({ ...item, id: item.id.toString() }));
+    .map((item) => ({ ...item, id: item.id ? item.id.toString() : '' }));
 
   // Handlers for pagination
   const handlePrev = React.useCallback(() => {
