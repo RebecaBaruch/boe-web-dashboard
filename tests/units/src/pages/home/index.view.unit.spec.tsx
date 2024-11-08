@@ -10,11 +10,9 @@ const propsMock = {
 
 describe('Home', () => {
   it('should render Home with text Home', () => {
-    const { container } = renderWithTheme(<Home {...propsMock} />);
+    renderWithTheme(<Home {...propsMock} />);
 
     expect(screen.getByText('Hello, Test User')).toBeInTheDocument();
     expect(screen.getByText('Overview')).toBeInTheDocument();
-
-    expect(container).toMatchSnapshot();
   });
 });

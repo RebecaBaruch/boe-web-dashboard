@@ -81,8 +81,7 @@ export const NavButton = styled.button<{
   align-items: center;
   justify-content: ${(props) => (props.isExpanded ? 'flex-start' : 'center')};
   gap: ${(props) => (props.isExpanded ? '.8rem' : '0')};
-  width: 100%;
-  padding: 0.7rem;
+  padding: 0.5rem;
   background-color: transparent;
   border: none;
   border-radius: 10px;
@@ -112,7 +111,7 @@ export const CollapseButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.7rem;
+  padding: 0.5rem;
   color: #636075;
   background-color: #ffffff;
   border: 1px solid #6360754a;
