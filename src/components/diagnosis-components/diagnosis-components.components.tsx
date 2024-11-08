@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {
   getResultColor,
+  getResultTextColor,
   getRiskColor,
   getRiskTextColor,
 } from 'utils/color-utils';
@@ -28,7 +29,7 @@ export const AnimalPhoto = styled.img`
 
 export const ResultBadge = styled.span<{ result: string }>`
   background-color: ${({ result }) => getResultColor(result)};
-  color: white;
+  color: ${({ result }) => getResultTextColor(result)};
   padding: 4px 8px;
   border-radius: 8px;
 `;

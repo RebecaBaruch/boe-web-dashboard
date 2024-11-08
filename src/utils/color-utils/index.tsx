@@ -26,6 +26,19 @@ export const getResultColor = (result: string): string => {
       return '#00DAB6';
     case 'Dermatofitose':
       return '#FF12CB';
+    case 'Dermatofilose':
+      return '#8515E8';
+    default:
+      return '#ffffff';
+  }
+};
+
+export const getResultTextColor = (result: string): string => {
+  switch (result) {
+    case 'Dermatite':
+      return '#001F3C';
+    case null:
+      return '#717171';
     default:
       return '#ffffff';
   }
