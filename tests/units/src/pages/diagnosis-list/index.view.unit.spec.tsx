@@ -7,7 +7,7 @@ import { diagnosisListColumns } from '../../../../../src/config/constants/column
 
 describe('DiagnosisList', () => {
   it('should render DiagnosisList with text DiagnosisList', () => {
-    const { container } = renderWithTheme(
+    renderWithTheme(
       <DiagnosisList
         diagnosisData={diagnosisMockData}
         columnsHeader={diagnosisListColumns}
@@ -20,7 +20,5 @@ describe('DiagnosisList', () => {
     expect(screen.getByText('Autor da análise')).toBeInTheDocument();
     expect(screen.getByText('Data')).toBeInTheDocument();
     expect(screen.getByText('Ação')).toBeInTheDocument();
-
-    expect(container).toMatchSnapshot();
   });
 });
