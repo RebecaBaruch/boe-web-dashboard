@@ -9,10 +9,12 @@ type ButtonStyledProps = {
   disabled?: boolean;
   height?: SizeProp;
   width?: SizeProp;
+  tomato?: boolean;
 };
 
 export const Button = styled.button.withConfig({
-  shouldForwardProp: (prop) => !['disabled', 'width', 'height'].includes(prop),
+  shouldForwardProp: (prop) =>
+    !['disabled', 'width', 'height', 'tomato'].includes(prop),
 })<ButtonStyledProps>`
   display: flex;
   flex-direction: row;
@@ -42,7 +44,7 @@ export const Button = styled.button.withConfig({
   border-radius: 10px;
   border: none;
   outline: none;
-  background-color: #282fd9;
+  background-color: ${({ tomato }) => (tomato ? '#FF5454' : '#282fd9')};
 
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -51,17 +53,17 @@ export const Button = styled.button.withConfig({
   transition: 0.3s;
 
   &:hover {
-    background-color: #1a1e96;
+    background-color: ${({ tomato }) => (tomato ? '#9c2f2f' : '#1a1e96')};
     cursor: pointer;
   }
 
-  ${({ disabled }) =>
+  ${({ disabled, tomato }) =>
     disabled &&
     `
-    background-color: rgba(40, 47, 217, 0.35);
+    background-color: ${tomato ? '#ff545490' : 'rgba(40, 47, 217, 0.35)'};
 
     &:hover {
-      background-color: rgba(40, 47, 217, 0.35);
+      background-color: ${tomato ? '#ff545490' : 'rgba(40, 47, 217, 0.35)'};
       cursor: not-allowed;
     }
   `}

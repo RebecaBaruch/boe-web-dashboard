@@ -31,15 +31,13 @@ export default function LinkedAccountsListController() {
     }
   }, [currentPage, totalPages]);
 
-  const toggleSelectRow = (rowIndex: number) => {
+  const toggleSelectRow = (rowId: number) => {
     setSelectedRows((prevSelectedRows) => {
       const newSelectedRows = new Set(prevSelectedRows);
-      if (newSelectedRows.has(rowIndex)) {
-        newSelectedRows.delete(rowIndex);
-        console.log(newSelectedRows);
+      if (newSelectedRows.has(rowId)) {
+        newSelectedRows.delete(rowId);
       } else {
-        newSelectedRows.add(rowIndex);
-        console.log(newSelectedRows);
+        newSelectedRows.add(rowId);
       }
       return newSelectedRows;
     });

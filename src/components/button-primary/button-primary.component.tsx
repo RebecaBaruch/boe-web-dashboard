@@ -8,9 +8,16 @@ export default function ButtonPrimary({
   disabled,
   width,
   height,
+  tomato,
 }: ButtonPrimaryProps) {
   return (
-    <Button disabled={disabled} onClick={onClick} width={width} height={height}>
+    <Button
+      disabled={disabled}
+      onClick={onClick}
+      width={width}
+      height={height}
+      tomato={tomato}
+    >
       {content}
     </Button>
   );
