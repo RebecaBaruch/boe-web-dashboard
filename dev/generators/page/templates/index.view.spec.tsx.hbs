@@ -7,7 +7,7 @@ describe('{{pascalCase name}}', () => {
     it('should render {{pascalCase name}} with text {{pascalCase name}}', () => {
         const { container } = renderWithTheme(<{{pascalCase name}} />);
 
-        expect(screen.getByText('{{pascalCase name}}')).toBeInTheDocument();
+        expect(screen.getByText('{{pascalCase name}} - Generated page')).toBeInTheDocument();
 
         expect(container).toMatchSnapshot();
     });

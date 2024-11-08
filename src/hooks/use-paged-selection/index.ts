@@ -1,5 +1,5 @@
-import { AccountData } from "pages/linked-accounts-list/types";
-import React from "react";
+import { AccountData } from 'pages/linked-accounts-list/types';
+import React from 'react';
 
 type UsePagedSelectionProps = {
   data: AccountData[];
@@ -9,7 +9,9 @@ type UsePagedSelectionProps = {
 const usePagedSelection = ({ data, itemsPerPage }: UsePagedSelectionProps) => {
   const [currentPage, setCurrentPage] = React.useState(1);
   const [isSelectMode, setIsSelectMode] = React.useState(false);
-  const [selectedRows, setSelectedRows] = React.useState<Set<string>>(new Set());
+  const [selectedRows, setSelectedRows] = React.useState<Set<string>>(
+    new Set(),
+  );
 
   const totalPages = Math.ceil(data.length / itemsPerPage);
   const isAllDataSelected = selectedRows.size === data.length;
