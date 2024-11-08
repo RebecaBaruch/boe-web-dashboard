@@ -20,7 +20,9 @@ export default function LinkedAccountsList({
   nextPage,
   selectMode,
   selectedRows,
+  isAllDataSelected,
   toggleSelectRow,
+  toggleSelectAll,
   onSelectMode,
 }: LinkedAccountsProps) {
   return (
@@ -38,8 +40,9 @@ export default function LinkedAccountsList({
                 gray
                 width="fit-content"
                 height={3.7}
-                content={<>Selecionar todos</>}
-                onClick={onSelectMode}
+                content="Selecionar todos"
+                onClick={toggleSelectAll}
+                selected={isAllDataSelected}
               />
             ) : (
               <ButtonSecondary
@@ -103,7 +106,7 @@ export default function LinkedAccountsList({
             action
             selectMode={selectMode}
             selectedRows={selectedRows}
-            toggleSelectRow={(row) => toggleSelectRow && toggleSelectRow(row.id)}
+            toggleSelectRow={toggleSelectRow}
           />
 
           <Row align="flex-end">

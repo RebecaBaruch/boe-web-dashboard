@@ -18,6 +18,6 @@ export interface TableProps {
   columns: Column[];
   action?: boolean;
   selectMode?: boolean;
-  selectedRows?: Set<number>;
-  toggleSelectRow?: (rowIndex: number) => void;
+  selectedRows?: Set<string>;
+  toggleSelectRow?: (rowIndex: string) => void;
 }

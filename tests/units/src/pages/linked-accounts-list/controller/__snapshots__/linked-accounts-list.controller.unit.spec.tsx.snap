@@ -118,7 +118,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
            Selecionar
         </button>
         <button
-          class="sc-a75731b0-0 KoVqO"
+          class="sc-daa8886c-0 fIfxJp"
         >
           <svg
             fill="none"
@@ -202,7 +202,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              01
+              1
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"
@@ -271,7 +271,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              02
+              2
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"
@@ -340,7 +340,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              03
+              3
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"
@@ -409,7 +409,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              04
+              4
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"
@@ -478,7 +478,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              05
+              5
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"
@@ -547,7 +547,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              06
+              6
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"
@@ -616,7 +616,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             <td
               class="sc-8fa2946b-3 TYouo"
             >
-              07
+              7
             </td>
             <td
               class="sc-8fa2946b-3 TYouo"

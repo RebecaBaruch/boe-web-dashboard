@@ -218,7 +218,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-a75731b0-0 liVnZQ"
+              class="sc-daa8886c-0 ehJPuv"
             >
               Continuar
             </button>
