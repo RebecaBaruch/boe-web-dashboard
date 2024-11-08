@@ -8,7 +8,7 @@ export interface TableAccountsData {
 }
 
 export interface TableDiagnosisData {
-  animalId: string;
+  animalId: string | number;
   animalPhoto: string;
   authorName: string;
   authorPhoto: string;
