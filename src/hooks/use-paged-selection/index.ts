@@ -52,7 +52,7 @@ const usePagedSelection = ({ data, itemsPerPage }: UsePagedSelectionProps) => {
       if (prevSelectedRows.size === data.length) return new Set();
       return new Set(data.map((item) => item.id.toString()));
     });
-  }, [data]);
+  }, [data, isAllDataSelected]);
 
   // Toggle select mode
   const handleSelectMode = React.useCallback(() => {

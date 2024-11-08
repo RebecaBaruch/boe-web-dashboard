@@ -9,7 +9,7 @@ import { TableDiagnosisData } from 'components/data-table/types';
 
 export default function DiagnosisListController() {
   const [tableData, setTableData] = React.useState<TableDiagnosisData[]>([]);
-  const itemsPerPage = 7;
+  const itemsPerPage = 6;
 
   React.useEffect(() => {
     const mockedData = diagnosisMockData;

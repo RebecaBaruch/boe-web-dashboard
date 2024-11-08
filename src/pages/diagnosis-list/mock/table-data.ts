@@ -3,8 +3,9 @@ import { TableDiagnosisData } from 'components/data-table/types';
 export const diagnosisMockData: TableDiagnosisData[] = Array.from(
   { length: 20 },
   (_, index) => ({
+    id: `AU${String(1000 + index).padStart(4, '0')}`, // Altere para 'id' ao invés de 'animalId'
     riskLabel: ['Alto', 'Médio', 'Baixo'][Math.floor(Math.random() * 3)],
-    animalId: `AU${String(1000 + index).padStart(4, '0')}`,
+    animalId: `AU${String(1000 + index).padStart(4, '0')}`, // Deixe o 'animalId' também para manter consistência
     animalPhoto: `https://placekitten.com/50/50?image=${index}`,
     authorName: ['Nelson Oliveira', 'Fabrício Neves'][index % 2],
     authorPhoto: `https://randomuser.me/api/portraits/men/${index}.jpg`,
