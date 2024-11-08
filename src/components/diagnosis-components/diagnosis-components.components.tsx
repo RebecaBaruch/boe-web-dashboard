@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-import { getResultColor, getRiskColor, getRiskTextColor } from 'utils/color-utils';
+import {
+  getResultColor,
+  getRiskColor,
+  getRiskTextColor,
+} from 'utils/color-utils';
 
 export const RiskIndicator = styled.span<{ risk: number }>`
   background-color: ${({ risk }) => getRiskColor(risk)};
@@ -47,7 +51,7 @@ export const AuthorContainer = styled.div`
   width: 12rem;
   padding: 4px 15px;
   border-radius: 10px;
-  background-color: #F2F2F5;
+  background-color: #f2f2f5;
 `;
 
 export const AuthorPhoto = styled.img`

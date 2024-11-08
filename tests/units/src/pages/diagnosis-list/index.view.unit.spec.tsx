@@ -6,11 +6,18 @@ import { diagnosisMockData } from '../../../../../src/pages/diagnosis-list/mock/
 import { diagnosisListColumns } from '../../../../../src/config/constants/column-headers';
 
 describe('DiagnosisList', () => {
-  it('should render DiagnosisList with text DiagnosisList', () => {
+  it('should render DiagnosisList with expected headers', () => {
     renderWithTheme(
       <DiagnosisList
         diagnosisData={diagnosisMockData}
         columnsHeader={diagnosisListColumns}
+        currentPage="1"
+        lastPage="3"
+        prevPage={jest.fn()}
+        nextPage={jest.fn()}
+        toggleSelectRow={jest.fn()}
+        toggleSelectAll={jest.fn()}
+        onSelectMode={jest.fn()}
       />,
     );
 

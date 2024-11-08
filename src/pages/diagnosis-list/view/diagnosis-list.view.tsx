@@ -7,12 +7,7 @@ import { SearchField, Title3 } from '@telefonica/mistica';
 import { Column } from 'components/column/styled';
 import PageStepper from 'components/page-stepper/page-stepper.component';
 import ButtonSecondary from 'components/button-secondary/button-secondary.component';
-import {
-  CheckSquare,
-  ChevronDown,
-  Download,
-  Filter,
-} from 'react-feather';
+import { CheckSquare, ChevronDown, Download, Filter } from 'react-feather';
 import ButtonPrimary from 'components/button-primary/button-primary.component';
 
 export default function DiagnosisList({
