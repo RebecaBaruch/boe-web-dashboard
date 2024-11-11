@@ -1,4 +1,4 @@
-import React, { act } from 'react';
+import React from 'react';
 import DiagnosisList from '../view/diagnosis-list.view';
 import { ThemeContextProvider } from '@telefonica/mistica';
 import { theme } from '../../../config/theme';

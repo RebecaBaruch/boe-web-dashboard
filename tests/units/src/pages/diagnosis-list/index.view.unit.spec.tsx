@@ -18,6 +18,8 @@ describe('DiagnosisList', () => {
         toggleSelectRow={jest.fn()}
         toggleSelectAll={jest.fn()}
         onSelectMode={jest.fn()}
+        activeTab={'anality'}
+        setActiveTab={jest.fn()}
       />,
     );
 
