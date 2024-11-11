@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { act } from 'react';
 import DiagnosisList from '../view/diagnosis-list.view';
 import { ThemeContextProvider } from '@telefonica/mistica';
 import { theme } from '../../../config/theme';
@@ -8,6 +8,9 @@ import usePagedSelection from 'hooks/use-paged-selection';
 import { TableDiagnosisData } from 'components/data-table/types';
 
 export default function DiagnosisListController() {
+  const [activeTab, setActiveTab] = React.useState<'anality' | 'animals'>(
+    'anality',
+  );
   const [tableData, setTableData] = React.useState<TableDiagnosisData[]>([]);
   const itemsPerPage = 6;
 
@@ -45,6 +48,10 @@ export default function DiagnosisListController() {
         isAllDataSelected={isAllDataSelected}
         selectMode={isSelectMode}
         onSelectMode={handleSelectMode}
+        activeTab={activeTab}
+        setActiveTab={() =>
+          setActiveTab(activeTab === 'anality' ? 'animals' : 'anality')
+        }
       />
     </ThemeContextProvider>
   );

@@ -15,4 +15,6 @@ export interface DiagnosisListProps {
   onSelectMode: () => void;
   onDeleteSelected?: (rowIndex: number) => void;
   isAllDataSelected?: boolean;
+  activeTab: 'anality' | 'animals';
+  setActiveTab: (tab: 'anality' | 'animals') => void;
 }
