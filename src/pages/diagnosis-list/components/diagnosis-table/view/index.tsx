@@ -99,7 +99,7 @@ export default function DiagnosisView({
         <DataTable
           data={diagnosisData}
           columns={diagnosisColumnsHeader}
-          action
+          action="download"
           selectMode={selectDiagnosisMode}
           selectedRows={selectedDiagnosisRows}
           toggleSelectRow={toggleDiagnosisSelectRow}

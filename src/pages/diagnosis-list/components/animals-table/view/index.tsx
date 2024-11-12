@@ -40,7 +40,7 @@ export default function AnimalsView({
         </Row>
       </Row>
       <Column width="100%" height="100%" justify="space-between">
-        <DataTable data={animalsData} columns={animalsColumnsHeader} action />
+        <DataTable data={animalsData} columns={animalsColumnsHeader} />
 
         <Row align="flex-end">
           <PageStepper

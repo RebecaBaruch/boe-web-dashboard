@@ -9,7 +9,7 @@ import {
   ActionModalButton,
 } from './styled';
 import { TableProps } from './types';
-import { MoreVertical, Trash } from 'react-feather';
+import { Download, MoreVertical, Trash } from 'react-feather';
 import { Checkbox, Text1 } from '@telefonica/mistica';
 
 const DataTable = ({
@@ -45,6 +45,10 @@ const DataTable = ({
   const onDelete = React.useCallback((rowIndex: number) => {
     console.log(rowIndex);
     setActiveRowIndex(null);
+  }, []);
+
+  const onDownload = React.useCallback((rowIndex: number) => {
+    console.log(rowIndex);
   }, []);
 
   React.useEffect(() => {
@@ -110,9 +114,17 @@ const DataTable = ({
               left: modalPosition.left,
             }}
           >
-            <ActionModalButton onClick={() => onDelete(activeRowIndex)}>
-              <Trash width={18} height={18} /> <Text1 regular>Excluir</Text1>
-            </ActionModalButton>
+            {action === 'delete' && (
+              <ActionModalButton onClick={() => onDelete(activeRowIndex)}>
+                <Trash width={18} height={18} /> <Text1 regular>Excluir</Text1>
+              </ActionModalButton>
+            )}
+            {action === 'download' && (
+              <ActionModalButton onClick={() => onDownload(activeRowIndex)}>
+                <Download width={18} height={18} />
+                <Text1 regular>Baixar</Text1>
+              </ActionModalButton>
+            )}
           </ActionModal>
         )}
       </tbody>

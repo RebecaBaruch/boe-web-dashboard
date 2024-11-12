@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@react-pdf/renderer": "^4.0.0",
     "@svgr/webpack": "^8.1.0",
     "@telefonica/mistica": "16.2.0",
     "@types/node": "^16.18.112",
