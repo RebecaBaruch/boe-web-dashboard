@@ -7,20 +7,26 @@ export interface TableAccountsData {
   date: string;
 }
 
-export interface TableDiagnosisData {
-  animalId: string | number;
-  animalPhoto: string;
+export interface TableDiagnosisData extends TableAnimalsData {
   authorName: string;
   authorPhoto: string;
+}
+
+export interface TableAnimalsData {
+  animalId: string | number;
+  animalPhoto: string;
   date: string;
   result: string;
   risk: number;
+  status?: string;
 }
 
 export interface Column {
   header: string;
   accessor: string;
-  render?: (item: TableAccountsData | TableDiagnosisData) => React.ReactNode;
+  render?: (
+    item: TableAccountsData | TableDiagnosisData | TableAnimalsData,
+  ) => React.ReactNode;
 }
 
 export interface TableProps {

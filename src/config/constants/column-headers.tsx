@@ -1,5 +1,9 @@
 import React from 'react';
-import { Column, TableDiagnosisData } from 'components/data-table/types';
+import {
+  Column,
+  TableAnimalsData,
+  TableDiagnosisData,
+} from 'components/data-table/types';
 import {
   AnimalIdContainer,
   AnimalPhoto,
@@ -8,6 +12,7 @@ import {
   ResultBadge,
   RiskBadge,
   RiskIndicator,
+  StatusBadge,
 } from 'components/diagnosis-components/diagnosis-components.components';
 
 export const accountsColumns: Column[] = [
@@ -65,5 +70,53 @@ export const diagnosisListColumns: Column[] = [
     header: 'Data',
     accessor: 'date',
     render: (item: TableDiagnosisData) => <span>{item.date}</span>,
+  },
+];
+
+export const animalsListColumns: Column[] = [
+  {
+    header: '',
+    accessor: 'riskLabel',
+    render: (item: TableAnimalsData): React.ReactNode => (
+      <RiskIndicator risk={item.risk} />
+    ),
+  },
+  {
+    header: 'Id do animal',
+    accessor: 'animalId',
+    render: (item: TableAnimalsData) => (
+      <AnimalIdContainer>
+        <AnimalPhoto src={item.animalPhoto} alt="Animal" />
+        <span>{item.animalId}</span>
+      </AnimalIdContainer>
+    ),
+  },
+  {
+    header: 'Tipo de infecção',
+    accessor: 'result',
+    render: (item: TableAnimalsData) => (
+      <ResultBadge result={item.result}>{item.result}</ResultBadge>
+    ),
+  },
+  {
+    header: 'Risco (em %)',
+    accessor: 'risk',
+    render: (item: TableAnimalsData) => (
+      <RiskBadge risk={item.risk}>{item.risk}%</RiskBadge>
+    ),
+  },
+  {
+    header: 'Data',
+    accessor: 'date',
+    render: (item: TableAnimalsData) => <span>{item.date}</span>,
+  },
+  {
+    header: 'Status de tratamento',
+    accessor: 'status',
+    render: (item: TableAnimalsData) => (
+      <StatusBadge status={item.status ?? 'Indefinido'}>
+        {item.status ?? 'Indefinido'}
+      </StatusBadge>
+    ),
   },
 ];

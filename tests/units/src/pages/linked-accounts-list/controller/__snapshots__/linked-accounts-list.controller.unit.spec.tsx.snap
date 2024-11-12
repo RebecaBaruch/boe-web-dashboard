@@ -5,10 +5,10 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-1680a659-0 fhsxWp"
+    class="sc-7705315-0 gLgynv"
   >
     <div
-      class="sc-7117240f-0 jbhgHh"
+      class="sc-7c003f63-0 fpVZxZ"
     >
       <div
         data-component-name="Title3"
@@ -24,7 +24,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
         </h3>
       </div>
       <div
-        class="sc-7117240f-0 hDwBlN"
+        class="sc-7c003f63-0 LNUAF"
       >
         <div
           class="_15k6ur96 _1y2v1nfhk _1y2v1nfhq _15k6ur99 _1y2v1nfi7"
@@ -73,7 +73,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
           />
         </div>
         <button
-          class="sc-5796d2d3-0 jhbeVj"
+          class="sc-4e320d4-0 fLfgLf"
           height="3.7"
         >
           Ordenar 
@@ -94,7 +94,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
           </svg>
         </button>
         <button
-          class="sc-5796d2d3-0 jhbeVj"
+          class="sc-4e320d4-0 fLfgLf"
           height="3.7"
         >
           <svg
@@ -118,7 +118,7 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
            Selecionar
         </button>
         <button
-          class="sc-daa8886c-0 fIfxJp"
+          class="sc-d8d8cd3c-0 gdaHbH"
         >
           <svg
             fill="none"
@@ -149,47 +149,47 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
       </div>
     </div>
     <div
-      class="sc-d20d7534-0 iRLHxM"
+      class="sc-a4713fc4-0 kObRGe"
     >
       <table
-        class="sc-8fa2946b-0 dVhmZb"
+        class="sc-fd0310ac-0 cJbNzh"
       >
         <thead>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               Id
             </th>
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               Foto
             </th>
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               Nome
             </th>
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               E-mail
             </th>
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               N° de registros
             </th>
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               Data de ingresso
             </th>
             <th
-              class="sc-8fa2946b-2 gBdwvv"
+              class="sc-fd0310ac-2 jAPWRZ"
             >
               Ação
             </th>
@@ -197,43 +197,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
         </thead>
         <tbody>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               1
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_1
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               Claudio Buarque
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               claudio.buarque@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               02
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               10/01/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -266,43 +266,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             </td>
           </tr>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               2
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_2
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               Fabrício Neves
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               fabricio.neves@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               12
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               10/01/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -335,43 +335,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             </td>
           </tr>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               3
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_3
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               José Henrique
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               jose.henrique@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               03
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               02/02/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -404,43 +404,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             </td>
           </tr>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               4
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_4
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               Luana Buarque
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               luana.buarque@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               02
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               05/03/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -473,43 +473,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             </td>
           </tr>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               5
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_5
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               Augusto Buarque
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               augusto.buarque@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               04
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               02/02/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -542,43 +542,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             </td>
           </tr>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               6
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_6
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               Nelson Oliveira
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               nelson.oliveira@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               07
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               10/01/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -611,43 +611,43 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             </td>
           </tr>
           <tr
-            class="sc-8fa2946b-1 ipsNVD"
+            class="sc-fd0310ac-1 hVPqLl"
           >
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               7
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               link_da_foto_7
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               Mariana Silva
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               mariana.silva@gmail.com
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               01
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               11/01/2024
             </td>
             <td
-              class="sc-8fa2946b-3 TYouo"
+              class="sc-fd0310ac-3 bMKPHK"
             >
               <button
-                class="sc-8fa2946b-5 ccChiB"
+                class="sc-fd0310ac-5 lhkwfz"
               >
                 <svg
                   fill="none"
@@ -682,13 +682,13 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
         </tbody>
       </table>
       <div
-        class="sc-7117240f-0 kUZrUL"
+        class="sc-7c003f63-0 iCDFEr"
       >
         <div
-          class="sc-7117240f-0 ezaQhE"
+          class="sc-7c003f63-0 fGICeU"
         >
           <button
-            class="sc-7633ecca-0 fgGdMj"
+            class="sc-2e303720-0 dSvJVQ"
           >
             <svg
               fill="none"
@@ -708,22 +708,22 @@ exports[`LinkedAccountsList should render LinkedAccountsList 1`] = `
             Prev
           </button>
           <div
-            class="sc-7117240f-0 eyrdUy"
+            class="sc-7c003f63-0 dKTXfG"
           >
             <div
-              class="sc-7633ecca-1 fJlMcc"
+              class="sc-2e303720-1 hOEEcv"
             >
               1
             </div>
              - 
             <div
-              class="sc-7633ecca-1 cwTtGg"
+              class="sc-2e303720-1 cZOSHn"
             >
               3
             </div>
           </div>
           <button
-            class="sc-7633ecca-0 fgGdMj"
+            class="sc-2e303720-0 dSvJVQ"
           >
             Prox
             <svg

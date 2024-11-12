@@ -5,10 +5,10 @@ exports[`Login should render Login 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-b39d5805-0 dAeAeA"
+    class="sc-bf5f41fe-0 eiVkLB"
   >
     <div
-      class="sc-b39d5805-1 kxBsYc"
+      class="sc-bf5f41fe-1 cPPHCF"
     >
       <div
         class="_1xgjmkvc"
@@ -70,11 +70,11 @@ exports[`Login should render Login 1`] = `
                 </div>
                 <div>
                   <button
-                    class="sc-5796d2d3-0 hrHxZV"
+                    class="sc-4e320d4-0 fXdFeh"
                     height="3rem"
                   >
                     <div
-                      class="sc-7117240f-0 jGflut"
+                      class="sc-7c003f63-0 flvvPJ"
                     >
                       <img
                         alt="google-logo"
@@ -117,7 +117,7 @@ exports[`Login should render Login 1`] = `
             >
               <div>
                 <div
-                  class="sc-2f619ebf-0 jtjPJR"
+                  class="sc-61794eec-0 giNfU"
                 >
                   <span
                     class="splu5g7 splu5g5"
@@ -127,7 +127,7 @@ exports[`Login should render Login 1`] = `
                     E-mail
                   </span>
                   <input
-                    class="sc-b5ab6d6c-0 iVevTl"
+                    class="sc-b3a216ef-0 jceXFo"
                     name="myInput"
                     placeholder="Insira seu e-mail"
                     type="text"
@@ -136,7 +136,7 @@ exports[`Login should render Login 1`] = `
               </div>
               <div>
                 <div
-                  class="sc-2f619ebf-0 jtjPJR"
+                  class="sc-61794eec-0 giNfU"
                 >
                   <span
                     class="splu5g7 splu5g5"
@@ -151,7 +151,7 @@ exports[`Login should render Login 1`] = `
                   >
                     <div>
                       <input
-                        class="sc-b5ab6d6c-0 iVevTl"
+                        class="sc-b3a216ef-0 jceXFo"
                         name="myInput"
                         placeholder="Digite a sua senha"
                         type="text"
@@ -229,7 +229,7 @@ exports[`Login should render Login 1`] = `
               </div>
               <div>
                 <button
-                  class="sc-daa8886c-0 ehJPuv"
+                  class="sc-d8d8cd3c-0 hSgaR"
                 >
                   Login
                 </button>
@@ -270,7 +270,7 @@ exports[`Login should render Login 1`] = `
       </span>
     </div>
     <div
-      class="sc-b39d5805-1 jmdDhu"
+      class="sc-bf5f41fe-1 fgLpUD"
     >
       <div
         class="_1xgjmkvc"
