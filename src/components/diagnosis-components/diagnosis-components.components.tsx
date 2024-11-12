@@ -4,6 +4,8 @@ import {
   getResultTextColor,
   getRiskColor,
   getRiskTextColor,
+  getStatusColor,
+  getStatusTextColor,
 } from 'utils/color-utils';
 
 export const RiskIndicator = styled.span<{ risk: number }>`
@@ -60,4 +62,13 @@ export const AuthorPhoto = styled.img`
   height: 30px;
   border-radius: 50%;
   margin-right: 8px;
+`;
+
+export const StatusBadge = styled.div<{ status: string }>`
+  width: fit-content;
+  background-color: ${({ status }) => getStatusColor(status)};
+  color: ${({ status }) => getStatusTextColor(status)};
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: 500;
 `;

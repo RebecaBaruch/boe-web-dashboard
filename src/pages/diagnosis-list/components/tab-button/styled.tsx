@@ -12,15 +12,19 @@ export const TabContainer = styled.div`
 `;
 
 export const TabButton = styled.button<{ isActive: boolean }>`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin: 0;
   border: none;
   cursor: pointer;
   background-color: ${({ isActive }) => (isActive ? '#4a2eff' : '#dcdbe3')};
   color: ${({ isActive }) => (isActive ? '#fff' : '#333')};
   border-radius: 20px 20px 0 0;
-  font-weight: bold;
+  font-size: 0.9rem;
+  font-weight: ${({ isActive }) => (isActive ? 'bold' : 'regular')};
   transition:
     background-color 0.3s,
     color 0.3s;

@@ -1,11 +1,15 @@
-import { TableDiagnosisData } from 'components/data-table/types';
+import {
+  TableAnimalsData,
+  TableDiagnosisData,
+} from 'components/data-table/types';
 import { AccountData } from 'pages/linked-accounts-list/types';
 import React from 'react';
 
 type UsePagedSelectionProps = {
   data:
     | (AccountData & { id: string | number })[]
-    | (TableDiagnosisData & { animalId: string | number })[];
+    | (TableDiagnosisData & { animalId: string | number })[]
+    | (TableAnimalsData & { animalId: string | number })[];
   itemsPerPage: number;
 };
 

@@ -43,3 +43,26 @@ export const getResultTextColor = (result: string): string => {
       return '#ffffff';
   }
 };
+
+export const getStatusColor = (status: string): string => {
+  switch (status) {
+    case 'Em andamento':
+      return '#FFAD0F';
+    case 'Concluído':
+      return '#45A6FF';
+    default:
+      return '#F2F2F5';
+  }
+};
+
+export const getStatusTextColor = (status: string): string => {
+  switch (status) {
+    case 'Em andamento':
+      return '#4C3200';
+    case 'Concluído':
+      return '#FFFFFF';
+    default:
+      return '#717171';
+  }
+};
+
