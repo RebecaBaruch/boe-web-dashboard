@@ -32,7 +32,7 @@ export interface Column {
 export interface TableProps {
   data: TableAccountsData[] | TableDiagnosisData[];
   columns: Column[];
-  action?: boolean;
+  action?: 'download' | 'delete';
   selectMode?: boolean;
   selectedRows?: Set<string>;
   toggleSelectRow?: (rowIndex: string) => void;

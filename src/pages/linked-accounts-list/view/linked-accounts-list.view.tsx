@@ -103,7 +103,7 @@ export default function LinkedAccountsList({
           <DataTable
             data={accountsData}
             columns={columnsHeader}
-            action
+            action="delete"
             selectMode={selectMode}
             selectedRows={selectedRows}
             toggleSelectRow={toggleSelectRow}
