@@ -65,4 +65,3 @@ export const getStatusTextColor = (status: string): string => {
       return '#717171';
   }
 };
-

@@ -1,4 +1,7 @@
-import { TableAnimalsData, TableDiagnosisData } from 'components/data-table/types';
+import {
+  TableAnimalsData,
+  TableDiagnosisData,
+} from 'components/data-table/types';
 
 export const diagnosisMockData: TableDiagnosisData[] = Array.from(
   { length: 20 },
@@ -16,7 +19,6 @@ export const diagnosisMockData: TableDiagnosisData[] = Array.from(
     risk: Math.floor(Math.random() * 101),
   }),
 );
-
 
 export const animalsMockData: TableAnimalsData[] = Array.from(
   { length: 10 },

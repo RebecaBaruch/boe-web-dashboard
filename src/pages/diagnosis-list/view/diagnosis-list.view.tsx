@@ -14,7 +14,7 @@ export default function DiagnosisList({
       case 'anality':
         return <DiagnosisView />;
       case 'animals':
-        return <AnimalsView />
+        return <AnimalsView />;
     }
   };
 

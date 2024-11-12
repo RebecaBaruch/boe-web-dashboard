@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Column } from 'components/column/styled';
 import DataTable from 'components/data-table/data-table.component';
@@ -41,11 +40,7 @@ export default function AnimalsView({
         </Row>
       </Row>
       <Column width="100%" height="100%" justify="space-between">
-        <DataTable
-          data={animalsData}
-          columns={animalsColumnsHeader}
-          action
-        />
+        <DataTable data={animalsData} columns={animalsColumnsHeader} action />
 
         <Row align="flex-end">
           <PageStepper
