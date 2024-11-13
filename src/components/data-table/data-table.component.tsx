@@ -1,16 +1,11 @@
 import React from 'react';
-import {
-  Table,
-  TableRow,
-  TableHeader,
-  TableCell,
-  ActionButton,
-  ActionModal,
-  ActionModalButton,
-} from './styled';
+import { Table, TableRow, TableHeader, TableCell } from './styled';
 import { TableProps } from './types';
-import { Download, MoreVertical, Trash } from 'react-feather';
-import { Checkbox, Text1 } from '@telefonica/mistica';
+import {
+  renderActionCell,
+  renderActionModal,
+  renderCell,
+} from './utils/table-helpers';
 
 const DataTable = ({
   data,
@@ -23,32 +18,14 @@ const DataTable = ({
   const [activeRowIndex, setActiveRowIndex] = React.useState<number | null>(
     null,
   );
-  const [modalPosition, setModalPosition] = React.useState<{
-    top: number;
-    left: number;
-  } | null>(null);
 
   const modalRef = React.useRef<HTMLDivElement | null>(null);
+  const tableRef = React.useRef<HTMLTableElement | null>(null);
 
-  const onAction = React.useCallback(
-    (rowIndex: number, event: React.MouseEvent) => {
-      const { clientY, clientX } = event;
-
-      setModalPosition({ top: clientY, left: clientX - 100 });
-      setActiveRowIndex((prevIndex) =>
-        prevIndex === rowIndex ? null : rowIndex,
-      );
-    },
-    [],
-  );
-
-  const onDelete = React.useCallback((rowIndex: number) => {
-    console.log(rowIndex);
-    setActiveRowIndex(null);
-  }, []);
-
-  const onDownload = React.useCallback((rowIndex: number) => {
-    console.log(rowIndex);
+  const onAction = React.useCallback((rowIndex: number) => {
+    setActiveRowIndex((prevIndex) =>
+      prevIndex === rowIndex ? null : rowIndex,
+    );
   }, []);
 
   React.useEffect(() => {
@@ -71,7 +48,7 @@ const DataTable = ({
   }, [activeRowIndex]);
 
   return (
-    <Table>
+    <Table ref={tableRef}>
       <thead>
         <TableRow>
           {columns.map((col, index) => (
@@ -84,52 +61,32 @@ const DataTable = ({
         {data.map((item, rowIndex) => (
           <TableRow key={rowIndex}>
             {columns.map((col, colIndex) => (
-              <TableCell key={colIndex}>
-                {col.render ? col.render(item) : item[col.accessor!]}
-              </TableCell>
+              <TableCell key={colIndex}>{renderCell(col, item)}</TableCell>
             ))}
             {action && (
-              <TableCell>
-                {selectMode ? (
-                  <Checkbox
-                    name="select"
-                    checked={selectedRows?.has(item.id) ?? false}
-                    onChange={() => toggleSelectRow?.(item.id)}
-                  />
-                ) : (
-                  <ActionButton onClick={(event) => onAction(rowIndex, event)}>
-                    <MoreVertical width={17} height={17} />
-                  </ActionButton>
-                )}
-              </TableCell>
+              <>
+                {renderActionCell({
+                  action,
+                  selectMode,
+                  isSelected: selectedRows?.has(item.id) ?? false,
+                  toggleSelectRow,
+                  item,
+                  rowIndex,
+                  onAction,
+                })}
+              </>
             )}
+            {renderActionModal({
+              activeRowIndex,
+              rowIndex,
+              action,
+              modalRef,
+              data,
+            })}
           </TableRow>
         ))}
-        {activeRowIndex !== null && modalPosition && (
-          <ActionModal
-            ref={modalRef}
-            style={{
-              position: 'absolute',
-              top: modalPosition.top + 10,
-              left: modalPosition.left,
-            }}
-          >
-            {action === 'delete' && (
-              <ActionModalButton onClick={() => onDelete(activeRowIndex)}>
-                <Trash width={18} height={18} /> <Text1 regular>Excluir</Text1>
-              </ActionModalButton>
-            )}
-            {action === 'download' && (
-              <ActionModalButton onClick={() => onDownload(activeRowIndex)}>
-                <Download width={18} height={18} />
-                <Text1 regular>Baixar</Text1>
-              </ActionModalButton>
-            )}
-          </ActionModal>
-        )}
       </tbody>
     </Table>
   );
 };
-
 export default DataTable;

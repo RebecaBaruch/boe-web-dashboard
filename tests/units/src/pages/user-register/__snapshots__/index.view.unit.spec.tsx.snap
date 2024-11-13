@@ -5,7 +5,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-5e901c72-0 fHCjhf"
+    class="sc-3475e50e-0 GShXl"
   >
     <div
       class="_1xgjmkvc"
@@ -23,7 +23,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
       />
     </div>
     <div
-      class="sc-e093ddac-0 elhzsW"
+      class="sc-c11c7bb3-0 geqYUz"
     >
       <div
         class="_1xgjmkvc"
@@ -86,11 +86,11 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
           </div>
           <div>
             <button
-              class="sc-4e320d4-0 fXdFeh"
+              class="sc-5796d2d3-0 hrHxZV"
               height="3rem"
             >
               <div
-                class="sc-7c003f63-0 flvvPJ"
+                class="sc-7117240f-0 jGflut"
               >
                 <img
                   alt="google-logo"
@@ -126,10 +126,10 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
         </div>
       </div>
       <div
-        class="sc-de97fe94-0 etOQDF"
+        class="sc-a33e0322-0 iSznKf"
       >
         <div
-          class="sc-61794eec-0 giNfU"
+          class="sc-2f619ebf-0 jtjPJR"
         >
           <span
             class="splu5g7 splu5g5"
@@ -139,7 +139,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
             Nome
           </span>
           <input
-            class="sc-b3a216ef-0 jceXFo"
+            class="sc-b5ab6d6c-0 iVevTl"
             name="name"
             placeholder="Insira seu nome"
             type=""
@@ -151,10 +151,10 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
           style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
         >
           <div
-            class="sc-7c003f63-0 iPYeKC"
+            class="sc-7117240f-0 cCCHfK"
           >
             <div
-              class="sc-61794eec-0 giNfU"
+              class="sc-2f619ebf-0 jtjPJR"
             >
               <span
                 class="splu5g7 splu5g5"
@@ -164,7 +164,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
                 E-mail
               </span>
               <input
-                class="sc-b3a216ef-0 jceXFo"
+                class="sc-b5ab6d6c-0 iVevTl"
                 name="email"
                 placeholder="seu.email@email.com"
                 type=""
@@ -172,7 +172,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
               />
             </div>
             <div
-              class="sc-61794eec-0 giNfU"
+              class="sc-2f619ebf-0 jtjPJR"
             >
               <span
                 class="splu5g7 splu5g5"
@@ -182,7 +182,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
                 Telefone
               </span>
               <input
-                class="sc-b3a216ef-0 jceXFo"
+                class="sc-b5ab6d6c-0 iVevTl"
                 name="phone"
                 placeholder="(00) 00000-0000"
                 type=""
@@ -192,7 +192,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-61794eec-0 giNfU"
+          class="sc-2f619ebf-0 jtjPJR"
         >
           <span
             class="splu5g7 splu5g5"
@@ -202,7 +202,7 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
             Senha
           </span>
           <input
-            class="sc-b3a216ef-0 jceXFo"
+            class="sc-b5ab6d6c-0 iVevTl"
             name="password"
             placeholder="Crie a sua senha"
             type=""
@@ -218,12 +218,12 @@ exports[`UserRegister should render UserRegister with text UserRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-d8d8cd3c-0 hSgaR"
+              class="sc-daa8886c-0 ehJPuv"
             >
               Continuar
             </button>
             <button
-              class="sc-4e320d4-0 iPubEr"
+              class="sc-5796d2d3-0 bySUev"
             >
               Cancelar
             </button>

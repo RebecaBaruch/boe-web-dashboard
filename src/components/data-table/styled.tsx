@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Table = styled.table`
+  display: table;
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
@@ -11,10 +12,12 @@ export const Table = styled.table`
 `;
 
 export const TableRow = styled.tr`
-  height: 3.5rem;
+  position: relative;
+  height: 70px;
   &:hover {
     background-color: #d3e7eb31;
   }
+  border-bottom: 1px solid #ddd;
 `;
 
 export const TableHeader = styled.th`
@@ -28,10 +31,10 @@ export const TableHeader = styled.th`
 `;
 
 export const TableCell = styled.td`
+  height: 100%;
   padding: 12px;
   font-size: 0.9rem;
   color: #717171;
-  border-bottom: 1px solid #ddd;
 `;
 
 export const Picture = styled.img`
@@ -42,7 +45,6 @@ export const Picture = styled.img`
 `;
 
 export const ActionButton = styled.button`
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,12 +63,15 @@ export const ActionButton = styled.button`
 
 export const ActionModal = styled.div`
   position: absolute;
+  top: 40px;
+  right: 85px;
   background-color: #a0a0b8;
   border-radius: 5px;
   padding: 1rem;
   width: fit-content;
   box-shadow: 0 0 10px rgba(76, 83, 101, 0.1);
   z-index: 1;
+  transform: translateY(0);
 `;
 
 export const ActionModalButton = styled.button`

@@ -5,7 +5,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-5e901c72-0 fHCjhf"
+    class="sc-3475e50e-0 GShXl"
   >
     <div
       class="_1xgjmkvc"
@@ -23,7 +23,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
       />
     </div>
     <div
-      class="sc-e093ddac-0 elhzsW"
+      class="sc-c11c7bb3-0 geqYUz"
     >
       <div
         class="_1xgjmkvc"
@@ -40,7 +40,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="sc-f76df22b-1 gNEXdI"
+                class="sc-27a4d30c-1 iYhVWn"
               >
                 Dados da fazenda
               </div>
@@ -53,7 +53,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="--splu5g0: 0.750rem; --splu5g2: 1.000rem; --splu5g1: 0.875rem; --splu5g3: 1.250rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
             >
               <div
-                class="sc-7c003f63-0 dKTXfG"
+                class="sc-7117240f-0 eyrdUy"
               >
                 <span
                   class="splu5g7 splu5g5"
@@ -74,10 +74,10 @@ exports[`FarmRegister should render FarmRegister 1`] = `
         </div>
       </div>
       <div
-        class="sc-f76df22b-0 PZnyO"
+        class="sc-27a4d30c-0 bImiIJ"
       >
         <div
-          class="sc-61794eec-0 giNfU"
+          class="sc-2f619ebf-0 jtjPJR"
         >
           <span
             class="splu5g7 splu5g5"
@@ -87,7 +87,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             Nome da propriedade
           </span>
           <input
-            class="sc-b3a216ef-0 jceXFo"
+            class="sc-b5ab6d6c-0 iVevTl"
             name="property-name"
             placeholder="Insira o nome da fazenda"
             type=""
@@ -95,10 +95,10 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           />
         </div>
         <div
-          class="sc-7c003f63-0 iPYeKC"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
-            class="sc-61794eec-0 hltbBW"
+            class="sc-2f619ebf-0 ddNlQX"
           >
             <span
               class="splu5g7 splu5g5"
@@ -108,7 +108,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Telefone (fazenda)
             </span>
             <input
-              class="sc-b3a216ef-0 jceXFo"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="property-phone"
               placeholder="(00) 00000-0000"
               type=""
@@ -116,7 +116,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-61794eec-0 cOJqNt"
+            class="sc-2f619ebf-0 khnHM"
           >
             <span
               class="splu5g7 splu5g5"
@@ -126,7 +126,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               CNPJ
             </span>
             <input
-              class="sc-b3a216ef-0 jceXFo"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="cnpj"
               placeholder="0.000.000/0000-00"
               type=""
@@ -135,10 +135,10 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-7c003f63-0 iPYeKC"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
-            class="sc-61794eec-0 dDlkdc"
+            class="sc-2f619ebf-0 kLbdQZ"
           >
             <span
               class="splu5g7 splu5g5"
@@ -148,7 +148,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               CEP
             </span>
             <input
-              class="sc-b3a216ef-0 jceXFo"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="postal-code"
               placeholder="00000-000"
               type=""
@@ -156,7 +156,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-61794eec-0 hltbBW"
+            class="sc-2f619ebf-0 ddNlQX"
           >
             <span
               class="splu5g7 splu5g5"
@@ -166,7 +166,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Estado
             </span>
             <input
-              class="sc-b3a216ef-0 jceXFo"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="uf-state"
               placeholder="UF"
               type=""
@@ -175,10 +175,10 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-7c003f63-0 iPYeKC"
+          class="sc-7117240f-0 cCCHfK"
         >
           <div
-            class="sc-61794eec-0 hltbBW"
+            class="sc-2f619ebf-0 ddNlQX"
           >
             <span
               class="splu5g7 splu5g5"
@@ -188,7 +188,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Cidade
             </span>
             <input
-              class="sc-b3a216ef-0 jceXFo"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="city"
               placeholder="Localidade"
               type=""
@@ -196,7 +196,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             />
           </div>
           <div
-            class="sc-61794eec-0 dDlkdc"
+            class="sc-2f619ebf-0 kLbdQZ"
           >
             <span
               class="splu5g7 splu5g5"
@@ -206,7 +206,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               Endereço
             </span>
             <input
-              class="sc-b3a216ef-0 jceXFo"
+              class="sc-b5ab6d6c-0 iVevTl"
               name="street-address"
               placeholder="Bairro, Rua, nº"
               type=""
@@ -223,12 +223,12 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             data-component-name="ButtonLayout"
           >
             <button
-              class="sc-d8d8cd3c-0 hSgaR"
+              class="sc-daa8886c-0 ehJPuv"
             >
               Concluir registro
             </button>
             <button
-              class="sc-4e320d4-0 iPubEr"
+              class="sc-5796d2d3-0 bySUev"
             >
               Voltar
             </button>

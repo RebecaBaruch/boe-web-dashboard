@@ -8,17 +8,21 @@ export interface TableAccountsData {
 }
 
 export interface TableDiagnosisData extends TableAnimalsData {
+  id: string;
   authorName: string;
   authorPhoto: string;
 }
 
 export interface TableAnimalsData {
+  id: string;
   animalId: string | number;
+  animalName?: string;
   animalPhoto: string;
   date: string;
   result: string;
   risk: number;
   status?: string;
+  analysisImg?: string;
 }
 
 export interface Column {
@@ -30,7 +34,7 @@ export interface Column {
 }
 
 export interface TableProps {
-  data: TableAccountsData[] | TableDiagnosisData[];
+  data: TableAccountsData[] | TableDiagnosisData[] | TableAnimalsData[];
   columns: Column[];
   action?: 'download' | 'delete';
   selectMode?: boolean;
