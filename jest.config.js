@@ -14,6 +14,7 @@ const config = {
   preset: 'ts-jest',
   verbose: true,
   moduleNameMapper: {
+    '^@react-pdf/renderer$': '<rootDir>/tests/__mocks__/reactPdfMock.ts',
     '^utils/(.*)$': '<rootDir>/src/utils/$1',
     '^components/(.*)$': '<rootDir>/src/components/$1',
     'react-pdf/dist/esm/entry.webpack': 'react-pdf/dist/esm/entry.jest',
