@@ -7,6 +7,7 @@ import DiagnosisView from '../view';
 import { diagnosisMockData } from 'pages/diagnosis-list/mock/table-data';
 import { theme } from 'config/theme';
 import { diagnosisListColumns } from 'config/constants/column-headers';
+import { generateTablePDF } from 'utils/pdf-table-generator';
 
 export default function DiagnosisViewController() {
   const [tableData, setTableData] = React.useState<TableDiagnosisData[]>([]);
@@ -21,15 +22,16 @@ export default function DiagnosisViewController() {
     currentPage,
     totalPages,
     currentItems,
-    isAllDataSelected,
     isSelectMode,
     selectedRows,
     handlePrev,
     handleNext,
     toggleSelectRow,
-    toggleSelectAll,
-    handleSelectMode,
   } = usePagedSelection({ data: tableData, itemsPerPage });
+
+  const handleDownload = React.useCallback(() => {
+    generateTablePDF(diagnosisListColumns, tableData);
+  }, [tableData]);
 
   return (
     <ThemeContextProvider theme={theme}>
@@ -42,10 +44,8 @@ export default function DiagnosisViewController() {
         nextDiagnosisPage={handleNext}
         toggleDiagnosisSelectRow={toggleSelectRow}
         selectedDiagnosisRows={selectedRows}
-        toggleDiagnosisSelectAll={toggleSelectAll}
-        isAllDiagnosisSelected={isAllDataSelected}
         selectDiagnosisMode={isSelectMode}
-        onDiagnosisSelectMode={handleSelectMode}
+        onDownload={handleDownload}
       />
     </ThemeContextProvider>
   );

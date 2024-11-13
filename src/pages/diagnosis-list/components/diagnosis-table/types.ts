@@ -11,8 +11,7 @@ export interface DiagnosisListProps {
   selectDiagnosisMode?: boolean;
   selectedDiagnosisRows?: Set<string>;
   toggleDiagnosisSelectRow: (rowIndex: string) => void;
-  toggleDiagnosisSelectAll: () => void;
-  onDiagnosisSelectMode: () => void;
   onDeleteDiagnosisSelected?: (rowIndex: number) => void;
   isAllDiagnosisSelected?: boolean;
+  onDownload: () => void;
 }

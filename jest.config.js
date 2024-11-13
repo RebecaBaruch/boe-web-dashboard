@@ -23,12 +23,6 @@ const config = {
   },
   transform: {
     '^.+\\.(t)s$': 'ts-jest',
-    '^.+\\.(js|jsx)$': 'babel-jest',
-    '^.+\\.[t|j]sx?$': 'babel-jest',
-    '^.+\\.js$': 'babel-jest',
-    '^.+\\.jsx?$': 'babel-jest',
-    '\\.mjs?$': 'babel-jest',
-    '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
   },
   transformIgnorePatterns: ['/node_modules/(?!@react-pdf)/'],
   extensionsToTreatAsEsm: ['.ts', '.tsx', '.jsx'],

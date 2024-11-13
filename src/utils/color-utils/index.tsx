@@ -1,8 +1,8 @@
 // function to get the color of the risk based on the value
 export const getRiskColor = (risk: number): string => {
-  if (risk >= 80) {
+  if (risk >= 70) {
     return '#FF5454';
-  } else if (risk >= 40) {
+  } else if (risk >= 30) {
     return '#FFEB36';
   } else {
     return '#3BD640';
@@ -10,7 +10,7 @@ export const getRiskColor = (risk: number): string => {
 };
 
 export const getRiskTextColor = (risk: number): string => {
-  if (risk >= 40 && risk < 80) {
+  if (risk >= 30 && risk < 70) {
     return '#474000';
   } else {
     return '#FFFFFF';

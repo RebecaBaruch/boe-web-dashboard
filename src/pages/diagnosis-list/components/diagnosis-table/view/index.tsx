@@ -7,7 +7,7 @@ import { DiagnosisListProps } from '../types';
 import { Container } from 'components/container/container.component';
 import { SearchField, Title3 } from '@telefonica/mistica';
 import ButtonSecondary from 'components/button-secondary/button-secondary.component';
-import { CheckSquare, ChevronDown, Download, Filter } from 'react-feather';
+import { ChevronDown, Download, Filter } from 'react-feather';
 import ButtonPrimary from 'components/button-primary/button-primary.component';
 
 export default function DiagnosisView({
@@ -19,10 +19,8 @@ export default function DiagnosisView({
   nextDiagnosisPage,
   selectDiagnosisMode,
   toggleDiagnosisSelectRow,
-  toggleDiagnosisSelectAll,
-  isAllDiagnosisSelected,
-  onDiagnosisSelectMode,
   selectedDiagnosisRows,
+  onDownload,
 }: DiagnosisListProps) {
   return (
     <Container space={5} padding={1.5}>
@@ -33,42 +31,17 @@ export default function DiagnosisView({
         <Row width="fit-content">
           <SearchField label={''} name={''} />
 
-          {selectDiagnosisMode ? (
-            <ButtonSecondary
-              gray
-              width="fit-content"
-              height={3.7}
-              content="Selecionar todos"
-              onClick={toggleDiagnosisSelectAll}
-              selected={isAllDiagnosisSelected}
-            />
-          ) : (
-            <>
-              <ButtonSecondary
-                gray
-                width="fit-content"
-                height={3.7}
-                content={
-                  <>
-                    Ordenar <ChevronDown width={23} height={23} />
-                  </>
-                }
-                onClick={() => {}}
-              />
-
-              <ButtonSecondary
-                gray
-                width="fit-content"
-                height={3.7}
-                content={
-                  <>
-                    <Filter width={23} height={23} /> Filtros
-                  </>
-                }
-                onClick={() => {}}
-              />
-            </>
-          )}
+          <ButtonSecondary
+            gray
+            width="fit-content"
+            height={3.7}
+            content={
+              <>
+                Ordenar <ChevronDown width={23} height={23} />
+              </>
+            }
+            onClick={() => {}}
+          />
 
           <ButtonSecondary
             gray
@@ -76,11 +49,10 @@ export default function DiagnosisView({
             height={3.7}
             content={
               <>
-                <CheckSquare width={23} height={23} /> Selecionar
+                <Filter width={23} height={23} /> Filtros
               </>
             }
-            onClick={onDiagnosisSelectMode}
-            selected={selectDiagnosisMode}
+            onClick={() => {}}
           />
 
           <ButtonPrimary
@@ -91,7 +63,7 @@ export default function DiagnosisView({
                 <Download width={23} height={23} /> Download
               </>
             }
-            onClick={() => {}}
+            onClick={onDownload}
           />
         </Row>
       </Row>
