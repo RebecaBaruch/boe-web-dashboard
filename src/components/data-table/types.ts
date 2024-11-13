@@ -8,6 +8,7 @@ export interface TableAccountsData {
 }
 
 export interface TableDiagnosisData extends TableAnimalsData {
+  riskLabel: string;
   id: string;
   authorName: string;
   authorPhoto: string;

@@ -1,20 +1,28 @@
 import React from 'react';
-import { BlobProvider } from '@react-pdf/renderer';
 import { Trash, Download } from 'react-feather'; // Ou o pacote de ícones que você está utilizando
 import { ActionModalButton } from '../styled'; // Importar componentes de estilo conforme seu projeto
-import { PDFDocumentGenerator } from '../../../utils/pdf-document-generator';
 import { Text1 } from '@telefonica/mistica';
 import {
   TableAccountsData,
   TableAnimalsData,
   TableDiagnosisData,
 } from '../types';
+import downloadPDF from '../utils/handle-selected-download';
 
 type ActionProps = {
   action?: 'delete' | 'download';
   onDelete: (index: number) => void;
   activeRowIndex: number | null;
   data: TableAccountsData[] | TableDiagnosisData[] | TableAnimalsData[];
+  onSelectedDownload?: () => void;
+};
+
+const isDiagnosisRecord = (
+  record: TableAccountsData | TableDiagnosisData | TableAnimalsData,
+): record is TableDiagnosisData => {
+  return (
+    'animalId' in record && 'authorName' in record && 'authorPhoto' in record
+  );
 };
 
 const ActionButtons: React.FC<ActionProps> = ({
@@ -24,6 +32,12 @@ const ActionButtons: React.FC<ActionProps> = ({
   data,
 }) => {
   const record = activeRowIndex !== null ? data[activeRowIndex] : null;
+
+  const handleDownload = React.useCallback(() => {
+    if (record && isDiagnosisRecord(record)) {
+      downloadPDF({ record }, 'diagnosis_report.pdf');
+    }
+  }, [record]);
 
   if (action === 'delete') {
     return (
@@ -36,32 +50,12 @@ const ActionButtons: React.FC<ActionProps> = ({
     );
   }
 
-  if (
-    action === 'download' &&
-    record &&
-    'animalId' in record &&
-    'authorName' in record &&
-    'authorPhoto' in record
-  ) {
+  if (action === 'download' && record && isDiagnosisRecord(record)) {
     return (
-      <BlobProvider
-        document={
-          <PDFDocumentGenerator record={record as TableDiagnosisData} />
-        }
-      >
-        {({ url, loading }) =>
-          loading ? (
-            <Text1 regular>Gerando PDF...</Text1>
-          ) : (
-            <ActionModalButton
-              onClick={() => url && window.open(url, '_blank')}
-            >
-              <Download width={18} height={18} />
-              <Text1 regular>Baixar</Text1>
-            </ActionModalButton>
-          )
-        }
-      </BlobProvider>
+      <ActionModalButton onClick={handleDownload}>
+        <Download width={18} height={18} />
+        <Text1 regular>Baixar</Text1>
+      </ActionModalButton>
     );
   }
 

@@ -58,7 +58,7 @@ export const diagnosisListColumns: Column[] = [
   },
   {
     header: 'Autor da análise',
-    accessor: 'author',
+    accessor: 'authorName',
     render: (item: TableDiagnosisData) => (
       <AuthorContainer>
         <AuthorPhoto src={item.authorPhoto} alt="Author" />
