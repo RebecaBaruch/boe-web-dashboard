@@ -59,7 +59,7 @@ export default function Login({
                       name="myInput"
                       type="text"
                       value={email}
-                      onChange={() => {})}
+                      onChange={() => {}}
                     />
 
                     <Inline space="between" alignItems="center">
