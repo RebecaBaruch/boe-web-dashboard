@@ -23,7 +23,7 @@ export default function DiagnosisView({
   onDownload,
 }: DiagnosisListProps) {
   return (
-    <Container space={5} padding={1.5}>
+    <Container space={4} padding={1.5}>
       <Row align="space-between">
         <Title3>
           <b>Histórico de análises</b>
