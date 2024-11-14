@@ -8,7 +8,6 @@
     "@svgr/webpack": "^8.1.0",
     "@telefonica/mistica": "16.2.0",
     "@testing-library/dom": "^10.4.0",
-    "@testing-library/react-hooks": "^8.0.1",
     "@types/jspdf": "^2.0.0",
     "@types/node": "^16.18.112",
     "@types/react": "^18.3.11",
