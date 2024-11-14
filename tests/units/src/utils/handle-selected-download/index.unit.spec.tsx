@@ -68,8 +68,6 @@ describe('downloadPDF', () => {
 
     await downloadPDF(mockRecord, 'test-report.pdf');
 
-    console.log('Download link filename:', mockLink.download);
-
     expect(PDFDocumentGenerator).toHaveBeenCalledWith(mockRecord);
 
     expect(pdf).toHaveBeenCalled();

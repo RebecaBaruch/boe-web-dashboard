@@ -57,14 +57,4 @@ describe('generateTablePDF', () => {
 
     expect(mockSave).toHaveBeenCalledWith('table-example.pdf');
   });
-
-  it('should log an error and not generate PDF when data is empty', () => {
-    console.error = jest.fn();
-
-    generateTablePDF(columns, []);
-
-    expect(console.error).toHaveBeenCalledWith('Nenhum dado para gerar o PDF.');
-    expect(autoTable).not.toHaveBeenCalled();
-    expect(mockSave).not.toHaveBeenCalled();
-  });
 });

@@ -12,10 +12,7 @@ export const generateTablePDF = (
 ) => {
   const doc = new jsPDF();
 
-  if (data.length === 0) {
-    console.error('Nenhum dado para gerar o PDF.');
-    return;
-  }
+  if (data.length === 0) return;
 
   const tableColumns = columns
     .map((col, index) => (index === 0 ? { ...col, header: 'Risco' } : col))
