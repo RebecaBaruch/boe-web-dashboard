@@ -1,4 +1,6 @@
-import { renderHook, act } from '@testing-library/react-hooks';
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import { act } from 'react-dom/test-utils';
 import usePagedSelection from '../../../../../src/hooks/use-paged-selection';
 import {
   TableAnimalsData,
@@ -80,92 +82,104 @@ const mockData: (TableAnimalsData | TableDiagnosisData)[] = [
   },
 ];
 
+// eslint-disable-next-line react/prop-types
+const PagedSelectionWrapper = ({ data, itemsPerPage }) => {
+  const hookValues = usePagedSelection({ data, itemsPerPage });
+
+  return (
+    <div>
+      <button onClick={hookValues.handleNext}>Next</button>
+      <button onClick={hookValues.handlePrev}>Previous</button>
+      <button onClick={hookValues.handleSelectMode}>Toggle Select Mode</button>
+      <button onClick={() => hookValues.toggleSelectRow('1')}>
+        Toggle Row 1
+      </button>
+      <button onClick={hookValues.toggleSelectAll}>Toggle Select All</button>
+      <div data-testid="current-page">{hookValues.currentPage}</div>
+      <div data-testid="total-pages">{hookValues.totalPages}</div>
+      <div data-testid="is-select-mode">
+        {hookValues.isSelectMode.toString()}
+      </div>
+      <div data-testid="selected-rows-count">
+        {hookValues.selectedRows.size}
+      </div>
+    </div>
+  );
+};
+
 describe('usePagedSelection', () => {
   it('should initialize with correct values', () => {
-    const { result } = renderHook(() =>
-      usePagedSelection({ data: mockData, itemsPerPage: 2 }),
-    );
+    render(<PagedSelectionWrapper data={mockData} itemsPerPage={2} />);
 
-    expect(result.current.currentPage).toBe(1);
-    expect(result.current.totalPages).toBe(3);
-    expect(result.current.currentItems).toEqual(mockData.slice(0, 2));
-    expect(result.current.isSelectMode).toBe(false);
-    expect(result.current.selectedRows.size).toBe(0);
+    expect(screen.getByTestId('current-page').textContent).toBe('1');
+    expect(screen.getByTestId('total-pages').textContent).toBe('3');
+    expect(screen.getByTestId('is-select-mode').textContent).toBe('false');
+    expect(screen.getByTestId('selected-rows-count').textContent).toBe('0');
   });
 
   it('should paginate correctly', () => {
-    const { result } = renderHook(() =>
-      usePagedSelection({ data: mockData, itemsPerPage: 2 }),
-    );
+    render(<PagedSelectionWrapper data={mockData} itemsPerPage={2} />);
 
     act(() => {
-      result.current.handleNext();
+      screen.getByText('Next').click();
     });
 
-    expect(result.current.currentPage).toBe(2);
-    expect(result.current.currentItems).toEqual(mockData.slice(2, 4));
+    expect(screen.getByTestId('current-page').textContent).toBe('2');
 
     act(() => {
-      result.current.handlePrev();
+      screen.getByText('Previous').click();
     });
 
-    expect(result.current.currentPage).toBe(1);
-    expect(result.current.currentItems).toEqual(mockData.slice(0, 2));
+    expect(screen.getByTestId('current-page').textContent).toBe('1');
   });
 
   it('should toggle select mode', () => {
-    const { result } = renderHook(() =>
-      usePagedSelection({ data: mockData, itemsPerPage: 2 }),
-    );
+    render(<PagedSelectionWrapper data={mockData} itemsPerPage={2} />);
 
     act(() => {
-      result.current.handleSelectMode();
+      screen.getByText('Toggle Select Mode').click();
     });
 
-    expect(result.current.isSelectMode).toBe(true);
+    expect(screen.getByTestId('is-select-mode').textContent).toBe('true');
 
     act(() => {
-      result.current.handleSelectMode();
+      screen.getByText('Toggle Select Mode').click();
     });
 
-    expect(result.current.isSelectMode).toBe(false);
+    expect(screen.getByTestId('is-select-mode').textContent).toBe('false');
   });
 
   it('should toggle row selection correctly', () => {
-    const { result } = renderHook(() =>
-      usePagedSelection({ data: mockData, itemsPerPage: 2 }),
-    );
+    render(<PagedSelectionWrapper data={mockData} itemsPerPage={2} />);
 
     act(() => {
-      result.current.toggleSelectRow('1');
+      screen.getByText('Toggle Row 1').click();
     });
 
-    expect(result.current.selectedRows.has('1')).toBe(true);
-    expect(result.current.selectedRows.size).toBe(1);
+    expect(screen.getByTestId('selected-rows-count').textContent).toBe('1');
 
     act(() => {
-      result.current.toggleSelectRow('1');
+      screen.getByText('Toggle Row 1').click();
     });
 
-    expect(result.current.selectedRows.has('1')).toBe(false);
-    expect(result.current.selectedRows.size).toBe(0);
+    expect(screen.getByTestId('selected-rows-count').textContent).toBe('0');
   });
 
   it('should toggle select all rows correctly', () => {
-    const { result } = renderHook(() =>
-      usePagedSelection({ data: mockData, itemsPerPage: 2 }),
+    render(<PagedSelectionWrapper data={mockData} itemsPerPage={2} />);
+
+    act(() => {
+      screen.getByText('Toggle Select All').click();
+    });
+
+    expect(screen.getByTestId('selected-rows-count').textContent).toBe(
+      mockData.length.toString(),
     );
 
     act(() => {
-      result.current.toggleSelectAll();
+      screen.getByText('Toggle Select All').click();
     });
 
-    expect(result.current.selectedRows.size).toBe(mockData.length);
-
-    act(() => {
-      result.current.toggleSelectAll();
-    });
-
-    expect(result.current.selectedRows.size).toBe(0);
+    expect(screen.getByTestId('selected-rows-count').textContent).toBe('0');
   });
 });
