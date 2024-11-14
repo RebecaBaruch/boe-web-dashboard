@@ -12,6 +12,7 @@ export interface TableDiagnosisData extends TableAnimalsData {
   id: string;
   authorName: string;
   authorPhoto: string;
+  diagnosisDate: string;
 }
 
 export interface TableAnimalsData {

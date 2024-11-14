@@ -2,6 +2,7 @@ import React from 'react';
 import { Table, TableRow, TableHeader, TableCell } from './styled';
 import { TableProps } from './types';
 import {
+  getIsSelected,
   renderActionCell,
   renderActionModal,
   renderCell,
@@ -68,7 +69,7 @@ const DataTable = ({
                 {renderActionCell({
                   action,
                   selectMode,
-                  isSelected: selectedRows?.has(item.id) ?? false,
+                  isSelected: getIsSelected(selectedRows || new Set(), item.id),
                   toggleSelectRow,
                   item,
                   rowIndex,

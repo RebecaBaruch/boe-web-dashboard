@@ -2,7 +2,7 @@ import { pdf } from '@react-pdf/renderer';
 import {
   PDFDocumentGenerator,
   PDFDocumentProps,
-} from 'utils/pdf-document-generator';
+} from '../../../../../src/utils/pdf-document-generator';
 
 const downloadPDF = async (
   record: PDFDocumentProps,

@@ -66,6 +66,16 @@ export const ActionCell: React.FC<ActionCellProps> = ({ onActionClick }) => (
   </TableCell>
 );
 
+export const getIsSelected = (
+  selectedRowsSet: Set<string> | string[],
+  itemId: string,
+): boolean => {
+  if (selectedRowsSet instanceof Set) {
+    return selectedRowsSet.has(itemId); // Usando has para Set
+  }
+  return (selectedRowsSet as string[]).includes(itemId); // Usando includes para Array
+};
+
 export const renderActionCell = ({
   action,
   selectMode,
