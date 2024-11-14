@@ -27,6 +27,14 @@ const config = {
   transformIgnorePatterns: ['/node_modules/(?!@react-pdf)/'],
   extensionsToTreatAsEsm: ['.ts', '.tsx', '.jsx'],
   collectCoverageFrom: ['!**/node_modules/**', '!**/pdf-document-generator/**'],
+  collectCoverage: true,
+  coverageThreshold: {
+    global: {
+      branches: 20,
+      functions: 20,
+      lines: 20,
+    },
+  },
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async

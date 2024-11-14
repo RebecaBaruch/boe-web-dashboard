@@ -45,7 +45,7 @@ export default function Login({
                     name="myInput"
                     type="text"
                     value={email}
-                    onChange={() => console.log('oi')}
+                    onChange={() => {}}
                   />
                 }
               />
@@ -59,7 +59,7 @@ export default function Login({
                       name="myInput"
                       type="text"
                       value={email}
-                      onChange={() => console.log('oi')}
+                      onChange={() => {})}
                     />
 
                     <Inline space="between" alignItems="center">
