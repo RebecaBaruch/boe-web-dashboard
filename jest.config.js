@@ -26,7 +26,7 @@ const config = {
   },
   transformIgnorePatterns: ['/node_modules/(?!@react-pdf)/'],
   extensionsToTreatAsEsm: ['.ts', '.tsx', '.jsx'],
-  collectCoverageFrom: ['!**/node_modules/**', '!**/pdf-document-generator/**'],
+  collectCoverageFrom: ['src/**/*.{js,ts,tsx}', '!src/**/*.d.ts'],
   collectCoverage: true,
   coverageThreshold: {
     global: {
