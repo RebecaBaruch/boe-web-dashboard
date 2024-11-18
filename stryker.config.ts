@@ -1,8 +1,13 @@
 module.exports = {
-  mutate: ['src/**/*.ts?(x)'],
+  mutate: [
+    'src/**/*.js',
+    'src/**/*.ts',
+    'src/**/*.tsx',
+  ],
+  mutator: 'typescript',
   testRunner: 'jest',
   reporters: ['html', 'clear-text', 'progress'],
-  coverageAnalysis: 'off',
+  coverageAnalysis: 'all',
   jest: {
     configFile: 'jest.config.js',
   },

@@ -61,23 +61,6 @@ export default function Input({
   };
 
   return (
-<<<<<<< Updated upstream
-    <StyledInput
-      value={value}
-      onChange={onChange}
-      onFocus={() => setIsFocused(true)}
-      onBlur={() => setIsFocused(false)}
-      readOnly={readOnly}
-      disabled={disabled}
-      isFocused={isFocused}
-      isFilled={!!value}
-      isDisabled={disabled}
-      isError={error}
-      placeholder={placeholder}
-      name={name}
-      type={type}
-    />
-=======
     <div style={{ position: 'relative' }}>
       <StyledInput
         value={value}
@@ -96,6 +79,5 @@ export default function Input({
 
       {renderPasswordToggle()}
     </div>
->>>>>>> Stashed changes
   );
 }

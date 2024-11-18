@@ -3,13 +3,13 @@ import styled from 'styled-components';
 type StyledInputProps = {
   isFocused: boolean;
   isFilled: boolean;
-  isDisabled: boolean;
-  isError: boolean;
+  disabled: boolean;
+  error: boolean;
 };
 
 export const StyledInput = styled.input.withConfig({
   shouldForwardProp: (prop) =>
-    !['isFocused', 'isFilled', 'isDisabled', 'isError'].includes(prop),
+    !['isFocused', 'isFilled', 'disabled', 'error'].includes(prop),
 })<StyledInputProps>`
   width: 100%;
   height: 3rem;
@@ -44,21 +44,22 @@ export const StyledInput = styled.input.withConfig({
     }
   `}
 
-  ${({ isDisabled }) =>
-    isDisabled &&
+  ${({ disabled }) =>
+    disabled &&
     `
-    border: none; /* Sem borda */
-    outline: none;
-    background-color: rgba(166, 165, 176, 0.15); /* Cor de fundo quando desativado */
-    color: #171A21; /* Cor do texto */
+      pointer-events: none; /* Garante que o input não pode ser clicado */
+      border: none; /* Sem borda */
+      outline: none;
+      background-color: rgba(166, 165, 176, 0.15); /* Cor de fundo quando desativado */
+      color: #171A21; /* Cor do texto */
 
-    &::placeholder {
-      color: #171A21; /* Muda a cor do placeholder */
-    }
-  `}
+      &::placeholder {
+        color: #171A21;
+      }
+    `}
 
-  ${({ isError }) =>
-    isError &&
+  ${({ error }) =>
+    error &&
     `
     outline: 1.5x solid #FF5454;
   `}

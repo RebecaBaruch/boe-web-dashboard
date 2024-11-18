@@ -9,13 +9,13 @@ export default function TabButtons({
   return (
     <TabContainer>
       <TabButton
-        isActive={activeTab === 'anality'}
+        active={activeTab === 'anality'}
         onClick={() => onTabChange('anality')}
       >
         Registro de análises
       </TabButton>
       <TabButton
-        isActive={activeTab === 'animals'}
+        active={activeTab === 'animals'}
         onClick={() => onTabChange('animals')}
       >
         Animais registrados
