@@ -28,6 +28,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest",
     "test:unit": "jest --maxWorkers=50%",
     "test:mutation": "stryker run",
     "test:coverage": "jest --coverage",

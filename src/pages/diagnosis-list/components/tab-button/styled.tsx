@@ -11,7 +11,7 @@ export const TabContainer = styled.div`
   background-color: #dcdbe3;
 `;
 
-export const TabButton = styled.button<{ isActive: boolean }>`
+export const TabButton = styled.button<{ active: boolean }>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,11 +20,11 @@ export const TabButton = styled.button<{ isActive: boolean }>`
   margin: 0;
   border: none;
   cursor: pointer;
-  background-color: ${({ isActive }) => (isActive ? '#4a2eff' : '#dcdbe3')};
-  color: ${({ isActive }) => (isActive ? '#fff' : '#333')};
+  background-color: ${({ active }) => (active ? '#4a2eff' : '#dcdbe3')};
+  color: ${({ active }) => (active ? '#fff' : '#333')};
   border-radius: 20px 20px 0 0;
   font-size: 0.9rem;
-  font-weight: ${({ isActive }) => (isActive ? 'bold' : 'regular')};
+  font-weight: ${({ active }) => (active ? 'bold' : 'regular')};
   transition:
     background-color 0.3s,
     color 0.3s;
