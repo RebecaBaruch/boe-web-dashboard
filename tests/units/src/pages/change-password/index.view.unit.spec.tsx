@@ -4,11 +4,21 @@ import ChangePassword from '../../../../../src/pages/user-profile/components/cha
 import { renderWithTheme } from '../../../../../src/utils/render-with-theme';
 
 describe('ChangePassword', () => {
-    it('should render ChangePassword with text ChangePassword', () => {
-        const { container } = renderWithTheme(<ChangePassword />);
+  it('should render ChangePassword with text ChangePassword', () => {
+    const { container } = renderWithTheme(<ChangePassword />);
 
-        expect(screen.getByText('ChangePassword - Generated page')).toBeInTheDocument();
+    const changePasswordTitle = screen.getAllByText('Alterar senha');
+    expect(changePasswordTitle[0]).toBeInTheDocument();
+    expect(changePasswordTitle[1]).toBeInTheDocument();
 
-        expect(container).toMatchSnapshot();
-    });
+    expect(screen.getByText('Verifique a senha atual')).toBeInTheDocument();
+
+    expect(screen.getByText('Senha atual')).toBeInTheDocument();
+    expect(screen.getByText('Confirme a senha atual')).toBeInTheDocument();
+
+    expect(screen.getByText('Nova senha')).toBeInTheDocument();
+    expect(screen.getByText('Confirme a nova senha')).toBeInTheDocument();
+
+    expect(container).toMatchSnapshot();
+  });
 });
