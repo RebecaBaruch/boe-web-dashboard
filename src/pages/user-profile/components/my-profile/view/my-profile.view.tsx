@@ -88,7 +88,7 @@ export default function MyProfile({
                       placeholder={firstName}
                       name="firstName"
                       disabled={readOnly}
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           firstName: e.target.value,
@@ -104,7 +104,7 @@ export default function MyProfile({
                       value={updateInfo.lastName}
                       name={lastName}
                       disabled={readOnly}
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           lastName: e.target.value,
@@ -124,7 +124,7 @@ export default function MyProfile({
                       name={email}
                       disabled={readOnly}
                       type="email"
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           email: e.target.value,
@@ -141,7 +141,7 @@ export default function MyProfile({
                       name={phone}
                       disabled={readOnly}
                       type="phone"
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           phone: e.target.value,

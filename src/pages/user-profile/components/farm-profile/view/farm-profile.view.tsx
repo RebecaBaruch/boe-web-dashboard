@@ -86,7 +86,7 @@ export default function FarmProfile({
                       name="propertyName"
                       disabled={readOnly}
                       type="text"
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           propertyName: e.target.value,
@@ -103,7 +103,7 @@ export default function FarmProfile({
                       name={farmPhone}
                       disabled={readOnly}
                       type="phone"
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           farmPhone: e.target.value,
@@ -123,7 +123,7 @@ export default function FarmProfile({
                       name={cep}
                       disabled={readOnly}
                       type="cep"
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           cep: e.target.value,
@@ -140,7 +140,7 @@ export default function FarmProfile({
                       name={cnpj}
                       disabled={readOnly}
                       type="cnpj"
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           cnpj: e.target.value,
@@ -160,7 +160,7 @@ export default function FarmProfile({
                       value={updateInfo.location}
                       name={location}
                       disabled={readOnly}
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           location: e.target.value,
@@ -177,7 +177,7 @@ export default function FarmProfile({
                       value={updateInfo.address}
                       name={address}
                       disabled={readOnly}
-                      onChange={(e) =>
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setUpdateInfo((prev) => ({
                           ...prev,
                           address: e.target.value,
