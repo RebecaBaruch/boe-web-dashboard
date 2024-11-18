@@ -63,3 +63,19 @@ export const StyledInput = styled.input.withConfig({
     outline: 1.5x solid #FF5454;
   `}
 `;
+
+export const StyledPasswordToggle = styled.button`
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #666;
+
+  &:focus {
+    outline: none;
+  }
+`;
