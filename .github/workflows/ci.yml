@@ -7,23 +7,24 @@ on:
 
 jobs:
   lint:
-      name: Lint Codebase
-      runs-on: ubuntu-latest
+    name: Lint Codebase
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Check out repository
-          uses: actions/checkout@v3
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
 
-        - name: Set up Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: '22.9.0'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.9.0'
 
-        - name: Install dependencies
-          run: npm install
+      - name: Install dependencies
+        run: npm install
 
-        - name: Run ESLint
-          run: npm run lint
+      - name: Run ESLint
+        run: npm run lint
+
   test:
     runs-on: ubuntu-latest
 
@@ -40,7 +41,32 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm run test:unit -- -u
+        run: npm run test:unit -- -u --coverage
 
       - name: Run Prettier (Optional)
         run: npm run prettier --check
+
+  coverage-check:
+    runs-on: ubuntu-latest
+    needs: test # Este job só vai rodar após o job de "test"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.9.0'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check code coverage
+        run: |
+          COVERAGE=$(grep -oP 'All files\s+\|\s+\K(\d+)' coverage/lcov-report/index.html) # Ajuste de acordo com o formato do seu relatório de cobertura
+          if [ "$COVERAGE" -lt 20 ]; then
+            echo "Code coverage is below 20%! Current coverage: $COVERAGE"
+            exit 1
+          fi
+          echo "Code coverage is sufficient: $COVERAGE%"
