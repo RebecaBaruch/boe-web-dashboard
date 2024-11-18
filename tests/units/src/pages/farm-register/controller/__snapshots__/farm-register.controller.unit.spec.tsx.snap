@@ -86,13 +86,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           >
             Nome da propriedade
           </span>
-          <input
-            class="sc-f587ae9e-0 bRkYvK"
-            name="property-name"
-            placeholder="Insira o nome da fazenda"
-            type=""
-            value=""
-          />
+          <div
+            style="position: relative;"
+          >
+            <input
+              class="sc-1b17f3f9-0 gbZSMB"
+              name="property-name"
+              placeholder="Insira o nome da fazenda"
+              type=""
+              value=""
+            />
+          </div>
         </div>
         <div
           class="sc-7117240f-0 cCCHfK"
@@ -107,13 +111,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             >
               Telefone (fazenda)
             </span>
-            <input
-              class="sc-f587ae9e-0 bRkYvK"
-              name="property-phone"
-              placeholder="(00) 00000-0000"
-              type=""
-              value=""
-            />
+            <div
+              style="position: relative;"
+            >
+              <input
+                class="sc-1b17f3f9-0 gbZSMB"
+                name="property-phone"
+                placeholder="(00) 00000-0000"
+                type=""
+                value=""
+              />
+            </div>
           </div>
           <div
             class="sc-2f619ebf-0 khnHM"
@@ -125,13 +133,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             >
               CNPJ
             </span>
-            <input
-              class="sc-f587ae9e-0 bRkYvK"
-              name="cnpj"
-              placeholder="0.000.000/0000-00"
-              type=""
-              value=""
-            />
+            <div
+              style="position: relative;"
+            >
+              <input
+                class="sc-1b17f3f9-0 gbZSMB"
+                name="cnpj"
+                placeholder="0.000.000/0000-00"
+                type=""
+                value=""
+              />
+            </div>
           </div>
         </div>
         <div
@@ -147,13 +159,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             >
               CEP
             </span>
-            <input
-              class="sc-f587ae9e-0 bRkYvK"
-              name="postal-code"
-              placeholder="00000-000"
-              type=""
-              value=""
-            />
+            <div
+              style="position: relative;"
+            >
+              <input
+                class="sc-1b17f3f9-0 gbZSMB"
+                name="postal-code"
+                placeholder="00000-000"
+                type=""
+                value=""
+              />
+            </div>
           </div>
           <div
             class="sc-2f619ebf-0 ddNlQX"
@@ -165,13 +181,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             >
               Estado
             </span>
-            <input
-              class="sc-f587ae9e-0 bRkYvK"
-              name="uf-state"
-              placeholder="UF"
-              type=""
-              value=""
-            />
+            <div
+              style="position: relative;"
+            >
+              <input
+                class="sc-1b17f3f9-0 gbZSMB"
+                name="uf-state"
+                placeholder="UF"
+                type=""
+                value=""
+              />
+            </div>
           </div>
         </div>
         <div
@@ -187,13 +207,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             >
               Cidade
             </span>
-            <input
-              class="sc-f587ae9e-0 bRkYvK"
-              name="city"
-              placeholder="Localidade"
-              type=""
-              value=""
-            />
+            <div
+              style="position: relative;"
+            >
+              <input
+                class="sc-1b17f3f9-0 gbZSMB"
+                name="city"
+                placeholder="Localidade"
+                type=""
+                value=""
+              />
+            </div>
           </div>
           <div
             class="sc-2f619ebf-0 kLbdQZ"
@@ -205,13 +229,17 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             >
               Endereço
             </span>
-            <input
-              class="sc-f587ae9e-0 bRkYvK"
-              name="street-address"
-              placeholder="Bairro, Rua, nº"
-              type=""
-              value=""
-            />
+            <div
+              style="position: relative;"
+            >
+              <input
+                class="sc-1b17f3f9-0 gbZSMB"
+                name="street-address"
+                placeholder="Bairro, Rua, nº"
+                type=""
+                value=""
+              />
+            </div>
           </div>
         </div>
         <div

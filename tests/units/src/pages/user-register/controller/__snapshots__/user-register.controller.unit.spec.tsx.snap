@@ -138,13 +138,17 @@ exports[`UserRegister should render UserRegister 1`] = `
           >
             Nome
           </span>
-          <input
-            class="sc-f587ae9e-0 bRkYvK"
-            name="name"
-            placeholder="Insira seu nome"
-            type=""
-            value=""
-          />
+          <div
+            style="position: relative;"
+          >
+            <input
+              class="sc-1b17f3f9-0 gbZSMB"
+              name="name"
+              placeholder="Insira seu nome"
+              type=""
+              value=""
+            />
+          </div>
         </div>
         <div
           class="_1xgjmkvc"
@@ -163,13 +167,17 @@ exports[`UserRegister should render UserRegister 1`] = `
               >
                 E-mail
               </span>
-              <input
-                class="sc-f587ae9e-0 bRkYvK"
-                name="email"
-                placeholder="seu.email@email.com"
-                type=""
-                value=""
-              />
+              <div
+                style="position: relative;"
+              >
+                <input
+                  class="sc-1b17f3f9-0 gbZSMB"
+                  name="email"
+                  placeholder="seu.email@email.com"
+                  type=""
+                  value=""
+                />
+              </div>
             </div>
             <div
               class="sc-2f619ebf-0 jtjPJR"
@@ -181,13 +189,17 @@ exports[`UserRegister should render UserRegister 1`] = `
               >
                 Telefone
               </span>
-              <input
-                class="sc-f587ae9e-0 bRkYvK"
-                name="phone"
-                placeholder="(00) 00000-0000"
-                type=""
-                value=""
-              />
+              <div
+                style="position: relative;"
+              >
+                <input
+                  class="sc-1b17f3f9-0 gbZSMB"
+                  name="phone"
+                  placeholder="(00) 00000-0000"
+                  type=""
+                  value=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -201,13 +213,17 @@ exports[`UserRegister should render UserRegister 1`] = `
           >
             Senha
           </span>
-          <input
-            class="sc-f587ae9e-0 bRkYvK"
-            name="password"
-            placeholder="Crie a sua senha"
-            type=""
-            value=""
-          />
+          <div
+            style="position: relative;"
+          >
+            <input
+              class="sc-1b17f3f9-0 gbZSMB"
+              name="password"
+              placeholder="Crie a sua senha"
+              type=""
+              value=""
+            />
+          </div>
         </div>
         <div
           class="_1xgjmkvc"

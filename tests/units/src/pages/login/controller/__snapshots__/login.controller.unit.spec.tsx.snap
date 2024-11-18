@@ -126,12 +126,16 @@ exports[`Login should render Login 1`] = `
                   >
                     E-mail
                   </span>
-                  <input
-                    class="sc-f587ae9e-0 bRkYvK"
-                    name="myInput"
-                    placeholder="Insira seu e-mail"
-                    type="text"
-                  />
+                  <div
+                    style="position: relative;"
+                  >
+                    <input
+                      class="sc-1b17f3f9-0 gbZSMB"
+                      name="myInput"
+                      placeholder="Insira seu e-mail"
+                      type="text"
+                    />
+                  </div>
                 </div>
               </div>
               <div>
@@ -150,12 +154,16 @@ exports[`Login should render Login 1`] = `
                     style="--xjgm6d0: 4px;"
                   >
                     <div>
-                      <input
-                        class="sc-f587ae9e-0 bRkYvK"
-                        name="myInput"
-                        placeholder="Digite a sua senha"
-                        type="text"
-                      />
+                      <div
+                        style="position: relative;"
+                      >
+                        <input
+                          class="sc-1b17f3f9-0 gbZSMB"
+                          name="myInput"
+                          placeholder="Digite a sua senha"
+                          type="text"
+                        />
+                      </div>
                     </div>
                     <div>
                       <div
