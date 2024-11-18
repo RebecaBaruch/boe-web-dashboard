@@ -1,14 +1,12 @@
+<h1 align="center">🐄 Boe Web Dashboard</h1>
 ![banner](./public/assets/banner.png)
 
-# 🐄 Boe Web Dashboard
-
 ## 🚀 O que é?
-
 O Boe Web Dashboard é um sistema desenvolvido no contexto do projeto integrador do curso de Desenvolvimento de Software Multiplataforma da Fatec Registro. Ele foi criado para apoiar o aplicativo Boe, que realiza um pré-diagnóstico de doenças dermatológicas em bovinos. 🐂
 
 Com o Boe, o usuário consegue registrar seu animal, tirar uma foto da pele dele e, usando inteligência artificial, receber um diagnóstico de possíveis doenças, além de informações sobre o nível de infecção e complicações. E o Boe Web Dashboard entra como uma ferramenta para os administradores de propriedades rurais acompanharem o histórico de saúde dos animais e tomarem decisões baseadas em dados.
 
- A arquitetura do BOE é composta por 4 desenvolvimentos: [BoeMobileApp](https://github.com/isefshondo/BoeMobileAppV2),[BoeWebDashboard](https://github.com/RebecaBaruch/boe-web-dashboard), [BoeBff](https://github.com/isefshondo/BoeApiV2) e [BoeAI](https://github.com/mayarakaren/IA-ClassificationBoe).
+A arquitetura do BOE é composta por 4 desenvolvimentos: [BoeMobileApp](https://github.com/isefshondo/BoeMobileAppV2),[BoeWebDashboard](https://github.com/RebecaBaruch/boe-web-dashboard), [BoeBff](https://github.com/isefshondo/BoeApiV2) e [BoeAI](https://github.com/mayarakaren/IA-ClassificationBoe).
 
 ### Algumas funcionalidades chave:
 
@@ -41,16 +39,24 @@ A arquitetura do projeto é modular, organizada em camadas que separam responsab
 Essa estrutura modular facilita a organização e reutilização de código, promovendo uma boa separação de responsabilidades.
 
 ## 🔧 Tecnologias
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)&nbsp;
+![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)&nbsp;
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
+![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff)&nbsp;
+![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)&nbsp;
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)&nbsp;
+![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)&nbsp;
+![PowerBi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)&nbsp;
 
-- **Next.js**, **React.js** e **TypeScript** para o desenvolvimento da aplicação.
-- **Jest** e **React Testing Library** para testes unitários.
-- **Jest** para cobertura de testes e **Stryker Mutator** para testes de mutação.
+Outras tecnologias e bibliotecas:
+ **Stryker Mutator** para testes de mutação.
 - **Mistica Telefônica** como biblioteca de componentes (com a maioria dos componentes sendo autorais).
 - **@react-pdf/renderer**, **jsPDF** e **jsPDF-autotable** para gerar PDFs.
-- **ESLint** e **Prettier** para garantir a qualidade e consistência do código.
 - **Power BI** para a criação de dashboards interativos e visualização de dados (em construção 🛠)
 
 ## 🚀 CI/CD Pipeline e Workflow
+
 A pipeline de **integração contínua (CI)** é acionada em **pull requests** para a branch **master**. O workflow inclui as seguintes etapas:
 
 1. **Lint**: Verificação do código com **ESLint**.
@@ -64,15 +70,18 @@ As histórias e épicos para o desenvolvimento organizado do **Boe Web Dashboard
 ## 📑 Regras de Pull Request
 
 ### 🧑‍💻 Nomenclatura das Branches
+
 - As branches devem seguir a história a que estão associadas. Exemplo:
   - **História:** PI6BOE-1001
   - **Nome da branch:** PI6BOE-1001
 
 ### 🔄 Nomenclatura do Pull Request
+
 - O título deve começar com "TASK:", seguido da história. Exemplo:
   - **Título:** [TASK:PI6BOE-1001] Ajusta texto na tela de login
 
 ### ✅ Boas Práticas
+
 - 📝 Comite frequentemente, com mensagens claras e concisas, na língua inglesa (en-us).
 - 🚀 Use o padrão do repositório [Padrões de Commits](https://github.com/iuricode/padroes-de-commits).
 
@@ -90,10 +99,6 @@ As histórias e épicos para o desenvolvimento organizado do **Boe Web Dashboard
   - [ ] Realizei testes locais e todos passaram.
   - [ ] Adicionei testes unitários para garantir que a feature funcione conforme esperado.
   - [ ] A documentação foi atualizada (se necessário).
-
-## 🎨 Figma do Projeto
-
-O layout e design do **Boe Web Dashboard** podem ser visualizados no Figma através [deste link](https://www.figma.com/design/cvLw92mqgMty9e3KDp1R6Q/BOE?node-id=603-2&t=RQD6WhoRtFEg49vV-1).
 
 ## 🔗 Integração com API e Aplicativo Mobile
 
@@ -146,10 +151,15 @@ Para rodar o **Boe Web Dashboard** localmente, siga os passos abaixo:
 
 Se você também precisa configurar a API Boe, consulte as instruções no repositório da [BoeApiV2](https://github.com/isefshondo/BoeApiV2).
 
+![banner-app](./public/assets/boe-banner.png)
 ## Quer contribuir com a melhora desta aplicação? 😊💙
+
 É simples! Se você deseja contribuir para o desenvolvimento do Boe Web Dashboard ou tem dúvidas, você também pode entrar em contato com a gente. Em uma branch separada, implemente suas sugestões e abra uma Pull Request! Você pode colocar como revisores os seguintes perfis:
 
 - [Isabelle (@isefshondo)](https://github.com/isefshondo)
 - [Mayara (@mayarakaren)](https://github.com/mayarakaren)
 - [Nayara (@NahAzevedo)](https://github.com/NahAzevedo)
 - [Rebeca (@RebecaBaruch)](https://github.com/RebecaBaruch)
+
+#### 🎨 Figma do Projeto
+O layout e design do **Boe Web Dashboard** podem ser visualizados no Figma através [deste link](https://www.figma.com/design/cvLw92mqgMty9e3KDp1R6Q/BOE?node-id=603-2&t=RQD6WhoRtFEg49vV-1).
