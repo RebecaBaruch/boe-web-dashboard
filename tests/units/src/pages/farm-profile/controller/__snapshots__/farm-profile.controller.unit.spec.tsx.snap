@@ -4,8 +4,257 @@ exports[`FarmProfile should render FarmProfile 1`] = `
 <div
   style="isolation: isolate;"
 >
-  <h1>
-    FarmProfile - Generated page
-  </h1>
+  <div
+    class="sc-1680a659-0 gYJwHm"
+  >
+    <div
+      class="xjgm6d4"
+      style="--xjgm6d0: 64px;"
+    >
+      <div>
+        <div
+          class="sc-7117240f-0 cCCHfK"
+        >
+          <b>
+            Dados da fazenda
+          </b>
+        </div>
+      </div>
+      <div>
+        <div
+          class="sc-7117240f-0 cCCHfK"
+        >
+          <div
+            class="_1xgjmkvc"
+            style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
+          >
+            <div
+              class="xjgm6d4"
+              style="--xjgm6d0: 32px;"
+            >
+              <div>
+                <div
+                  class="sc-7117240f-0 jbhgHh"
+                >
+                  <div
+                    class="xjgm6d4"
+                    style="--xjgm6d0: 8px;"
+                  >
+                    <div>
+                      <div
+                        data-component-name="Title3"
+                      >
+                        <h3
+                          class="splu5g7 splu5g5"
+                          data-component-name="Text"
+                          style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                        >
+                          <b>
+                            Fazenda São João
+                          </b>
+                        </h3>
+                      </div>
+                    </div>
+                    <div>
+                      <span
+                        class="splu5g7 splu5g5"
+                        data-component-name="Text3"
+                        style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                      >
+                        Itaquá, SP
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    class="sc-5796d2d3-0 hzAlnC"
+                  >
+                    Editar
+                    <svg
+                      fill="none"
+                      height="20"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                      />
+                      <path
+                        d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="o0dvt10"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="_1xgjmkvc"
+          style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+        >
+          <div
+            class="xjgm6d4"
+            style="--xjgm6d0: 16px;"
+          >
+            <div>
+              <div
+                class="sc-d20d7534-0 dXhXIy"
+              >
+                <div
+                  class="sc-7117240f-0 ikqPGS"
+                >
+                  <div
+                    class="sc-2f619ebf-0 jtjPJR"
+                  >
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text2"
+                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Nome da propriedade
+                    </span>
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="propertyName"
+                        placeholder="Fazenda São João"
+                        type="text"
+                        value="Fazenda São João"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-2f619ebf-0 jtjPJR"
+                  >
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text2"
+                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Telefone
+                    </span>
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="(13) 12345-6789"
+                        type="phone"
+                        value="(13) 12345-6789"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sc-7117240f-0 ikqPGS"
+                >
+                  <div
+                    class="sc-2f619ebf-0 jtjPJR"
+                  >
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text2"
+                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      CEP
+                    </span>
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="11900-000"
+                        type="cep"
+                        value="11900-000"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-2f619ebf-0 jtjPJR"
+                  >
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text2"
+                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Telefone
+                    </span>
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="11900-000"
+                        type="cnpj"
+                        value="12.345.678/0001-99"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sc-7117240f-0 ikqPGS"
+                >
+                  <div
+                    class="sc-2f619ebf-0 ddNlQX"
+                  >
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text2"
+                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Cidade / Estado
+                    </span>
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="Itaquá, SP"
+                        value="Itaquá, SP"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-2f619ebf-0 khnHM"
+                  >
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text2"
+                      style="--splu5g0: 0.875rem; --splu5g2: 1.250rem; --splu5g1: 1.000rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 500; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Endereço
+                    </span>
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="Rua das Palmeiras, 123, Bairro Verde"
+                        value="Rua das Palmeiras, 123, Bairro Verde"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

@@ -141,13 +141,16 @@ exports[`MyProfile should render MyProfile 1`] = `
                     >
                       Primeiro nome
                     </span>
-                    <input
-                      class="sc-f587ae9e-0 fZXgdF"
-                      name="firstName"
-                      placeholder="Claudio"
-                      type="text"
-                      value="Claudio"
-                    />
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="firstName"
+                        placeholder="Claudio"
+                        value="Claudio"
+                      />
+                    </div>
                   </div>
                   <div
                     class="sc-2f619ebf-0 jtjPJR"
@@ -159,12 +162,15 @@ exports[`MyProfile should render MyProfile 1`] = `
                     >
                       Último nome
                     </span>
-                    <input
-                      class="sc-f587ae9e-0 fZXgdF"
-                      name="Buarque"
-                      type=""
-                      value="Buarque"
-                    />
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="Buarque"
+                        value="Buarque"
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -180,12 +186,16 @@ exports[`MyProfile should render MyProfile 1`] = `
                     >
                       E-mail
                     </span>
-                    <input
-                      class="sc-f587ae9e-0 fZXgdF"
-                      name="claudio.buarque@gmail.com"
-                      type=""
-                      value="claudio.buarque@gmail.com"
-                    />
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="claudio.buarque@gmail.com"
+                        type="email"
+                        value="claudio.buarque@gmail.com"
+                      />
+                    </div>
                   </div>
                   <div
                     class="sc-2f619ebf-0 jtjPJR"
@@ -197,12 +207,16 @@ exports[`MyProfile should render MyProfile 1`] = `
                     >
                       Telefone
                     </span>
-                    <input
-                      class="sc-f587ae9e-0 fZXgdF"
-                      name="(11) 12345-6789"
-                      type=""
-                      value="(11) 12345-6789"
-                    />
+                    <div
+                      style="position: relative;"
+                    >
+                      <input
+                        class="sc-1b17f3f9-0 iamlMy"
+                        name="(11) 12345-6789"
+                        type="phone"
+                        value="(11) 12345-6789"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
