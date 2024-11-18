@@ -1,3 +1,5 @@
+![banner](./public/assets/banner.png)
+
 # 🐄 Boe Web Dashboard
 
 ## 🚀 O que é?
@@ -5,6 +7,8 @@
 O Boe Web Dashboard é um sistema desenvolvido no contexto do projeto integrador do curso de Desenvolvimento de Software Multiplataforma da Fatec Registro. Ele foi criado para apoiar o aplicativo Boe, que realiza um pré-diagnóstico de doenças dermatológicas em bovinos. 🐂
 
 Com o Boe, o usuário consegue registrar seu animal, tirar uma foto da pele dele e, usando inteligência artificial, receber um diagnóstico de possíveis doenças, além de informações sobre o nível de infecção e complicações. E o Boe Web Dashboard entra como uma ferramenta para os administradores de propriedades rurais acompanharem o histórico de saúde dos animais e tomarem decisões baseadas em dados.
+
+ A arquitetura do BOE é composta por 4 desenvolvimentos: [BoeMobileApp](https://github.com/isefshondo/BoeMobileAppV2),[BoeWebDashboard](https://github.com/RebecaBaruch/boe-web-dashboard), [BoeBff](https://github.com/isefshondo/BoeApiV2) e [BoeAI](https://github.com/mayarakaren/IA-ClassificationBoe).
 
 ### Algumas funcionalidades chave:
 
@@ -15,6 +19,8 @@ Com o Boe, o usuário consegue registrar seu animal, tirar uma foto da pele dele
 - **Relatórios em PDF**: Baixe registros individuais ou coletivos em formato PDF, para uma análise mais aprofundada.
 
 E, claro, o sistema está focado em ajudar a monitorar doenças como **Berne**, **Dermatofitose**, **Dermatite** e **Dermatofilose**. 🐄💉
+
+![image](./public/assets/main-funcs.png)
 
 ## 🏗️ Arquitetura
 
@@ -42,6 +48,7 @@ Essa estrutura modular facilita a organização e reutilização de código, pro
 - **Mistica Telefônica** como biblioteca de componentes (com a maioria dos componentes sendo autorais).
 - **@react-pdf/renderer**, **jsPDF** e **jsPDF-autotable** para gerar PDFs.
 - **ESLint** e **Prettier** para garantir a qualidade e consistência do código.
+- **Power BI** para a criação de dashboards interativos e visualização de dados (em construção 🛠)
 
 ## 🚀 CI/CD Pipeline e Workflow
 A pipeline de **integração contínua (CI)** é acionada em **pull requests** para a branch **master**. O workflow inclui as seguintes etapas:
@@ -115,19 +122,19 @@ Para rodar o **Boe Web Dashboard** localmente, siga os passos abaixo:
    git clone https://github.com/RebecaBaruch/boe-web-dashboard.git
    ```
 
-2. **Entre no diretório do projeto:**:
+2. **Entre no diretório do projeto:**
 
    ```
    cd boe-web-dashboard
    ```
 
-3. **Instale as dependências:**:
+3. **Instale as dependências:**
 
    ```
    npm install
    ```
 
-4. **Execute a aplicação:**:
+4. **Execute a aplicação:**
 
    ```
    npm run dev
@@ -139,13 +146,10 @@ Para rodar o **Boe Web Dashboard** localmente, siga os passos abaixo:
 
 Se você também precisa configurar a API Boe, consulte as instruções no repositório da [BoeApiV2](https://github.com/isefshondo/BoeApiV2).
 
-## 🤝 Contribuindo
+## Quer contribuir com a melhora desta aplicação? 😊💙
+É simples! Se você deseja contribuir para o desenvolvimento do Boe Web Dashboard ou tem dúvidas, você também pode entrar em contato com a gente. Em uma branch separada, implemente suas sugestões e abra uma Pull Request! Você pode colocar como revisores os seguintes perfis:
 
-Se você deseja contribuir para o desenvolvimento do Boe Web Dashboard ou tem dúvidas, entre em contato com as seguintes pessoas:
-
-- Isabelle (@isefshondo)
-- Mayara (@mayarakaren)
-- Nayara (@NahAzevedo)
-- Rebeca (@RebecaBaruch)
-
-Esses perfis também atuam como revisores de Pull Requests.
+- [Isabelle (@isefshondo)](https://github.com/isefshondo)
+- [Mayara (@mayarakaren)](https://github.com/mayarakaren)
+- [Nayara (@NahAzevedo)](https://github.com/NahAzevedo)
+- [Rebeca (@RebecaBaruch)](https://github.com/RebecaBaruch)
