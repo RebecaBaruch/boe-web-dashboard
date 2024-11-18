@@ -28,6 +28,8 @@ const config = {
   extensionsToTreatAsEsm: ['.ts', '.tsx', '.jsx'],
   collectCoverageFrom: ['src/**/*.{js,ts,tsx}', '!src/**/*.d.ts'],
   collectCoverage: true,
+  coverageDirectory: 'coverage',
+  coverageReporters: ['html', 'text', 'lcov'],
   coverageThreshold: {
     global: {
       branches: 20,
