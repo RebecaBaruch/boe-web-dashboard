@@ -15,7 +15,9 @@ exports[`MyProfile should render MyProfile 1`] = `
         <div
           class="sc-7117240f-0 cCCHfK"
         >
-          Meu Perfil
+          <b>
+            Meu Perfil
+          </b>
         </div>
       </div>
       <div>
@@ -24,44 +26,58 @@ exports[`MyProfile should render MyProfile 1`] = `
         >
           <div
             class="_1xgjmkvc"
-            style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px;"
+            style="--_1xgjmkv2: 0px; --_1xgjmkv1: 0px; --_1xgjmkv0: 0px; --_1xgjmkv5: 0px; --_1xgjmkv4: 0px; --_1xgjmkv3: 0px; --_1xgjmkv8: 0px; --_1xgjmkv7: 0px; --_1xgjmkv6: 0px; --_1xgjmkvb: 0px; --_1xgjmkva: 0px; --_1xgjmkv9: 0px; width: 100%; box-sizing: border-box;"
           >
             <div
               class="xjgm6d4"
-              style="--xjgm6d0: 8px;"
+              style="--xjgm6d0: 32px;"
             >
               <div>
                 <div
-                  data-component-name="Title3"
+                  class="xjgm6d4"
+                  style="--xjgm6d0: 8px;"
                 >
-                  <h3
-                    class="splu5g7 splu5g5"
-                    data-component-name="Text"
-                    style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                  >
-                    Claudio
-                     
-                    Buarque
-                  </h3>
+                  <div>
+                    <div
+                      data-component-name="Title3"
+                    >
+                      <h3
+                        class="splu5g7 splu5g5"
+                        data-component-name="Text"
+                        style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                      >
+                        <b>
+                          Claudio
+                           
+                          Buarque
+                        </b>
+                      </h3>
+                    </div>
+                  </div>
+                  <div>
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text3"
+                      style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Administrador do Sistema
+                    </span>
+                  </div>
+                  <div>
+                    <span
+                      class="splu5g7 splu5g5"
+                      data-component-name="Text3"
+                      style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+                    >
+                      Registro, SP, Brasil
+                    </span>
+                  </div>
                 </div>
               </div>
               <div>
-                <span
-                  class="splu5g7 splu5g5"
-                  data-component-name="Text3"
-                  style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                >
-                  Administrador do Sistema
-                </span>
-              </div>
-              <div>
-                <span
-                  class="splu5g7 splu5g5"
-                  data-component-name="Text3"
-                  style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                >
-                  Registro, SP, Brasil
-                </span>
+                <div
+                  class="o0dvt10"
+                />
               </div>
             </div>
           </div>
@@ -80,17 +96,9 @@ exports[`MyProfile should render MyProfile 1`] = `
               <div
                 class="sc-7117240f-0 jbhgHh"
               >
-                <div
-                  data-component-name="Title3"
-                >
-                  <h3
-                    class="splu5g7 splu5g5"
-                    data-component-name="Text"
-                    style="--splu5g0: 1.250rem; --splu5g2: 1.500rem; --splu5g1: 1.750rem; --splu5g3: 2.000rem; hyphens: auto; font-weight: 300; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
-                  >
-                    Informações Pessoais
-                  </h3>
-                </div>
+                <b>
+                  Informações Pessoais
+                </b>
                 <button
                   class="sc-5796d2d3-0 hzAlnC"
                 >

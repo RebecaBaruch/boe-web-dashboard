@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Stack, Text3, Title3 } from '@telefonica/mistica';
+import { Box, Divider, Stack, Text3, Title3 } from '@telefonica/mistica';
 import { Container } from 'components/container/container.component';
 import { Row } from 'components/row/styled';
 import ButtonSecondary from 'components/button-secondary/button-secondary.component';
@@ -38,16 +38,24 @@ export default function MyProfile({
   return (
     <Container>
       <Stack space={64}>
-        <Row>Meu Perfil</Row>
+        <Row>
+          <b>Meu Perfil</b>
+        </Row>
 
         <Row>
-          <Box>
-            <Stack space={8}>
-              <Title3>
-                {firstName} {lastName}
-              </Title3>
-              <Text3 regular>Administrador do Sistema</Text3>
-              <Text3 regular>{location}</Text3>
+          <Box width="100%">
+            <Stack space={32}>
+              <Stack space={8}>
+                <Title3>
+                  <b>
+                    {firstName} {lastName}
+                  </b>
+                </Title3>
+                <Text3 regular>Administrador do Sistema</Text3>
+                <Text3 regular>{location}</Text3>
+              </Stack>
+
+              <Divider />
             </Stack>
           </Box>
         </Row>
@@ -55,7 +63,7 @@ export default function MyProfile({
         <Box>
           <Stack space={16}>
             <Row align="space-between">
-              <Title3>Informações Pessoais</Title3>
+              <b>Informações Pessoais</b>
               <ButtonSecondary
                 width="fit-content"
                 gray
@@ -122,7 +130,8 @@ export default function MyProfile({
                         setUpdateInfo((prev) => ({
                           ...prev,
                           email: e.target.value,
-                        }))}
+                        }))
+                      }
                     />
                   }
                 />
@@ -138,7 +147,8 @@ export default function MyProfile({
                         setUpdateInfo((prev) => ({
                           ...prev,
                           phone: e.target.value,
-                        }))}
+                        }))
+                      }
                     />
                   }
                 />
