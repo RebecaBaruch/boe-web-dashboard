@@ -6,9 +6,7 @@ export enum RoutesUrls {
   DASHBOARD = '/home',
   LINKED_ACCOUNTS = '/linked-accounts-list',
   DIAGNOSIS_HISTORIC = '/diagnosis-list',
-  USER_PROFILE = '/user-profile/my-profile',
-  FARM_PROFILE = '/user-profile/farm-profile',
-  CHANGE_PASSWORD = '/user-profile/change-password',
+  USER_PROFILE = '/user-profile',
 }
 
 export type RouteUrl =
@@ -19,6 +17,4 @@ export type RouteUrl =
   | RoutesUrls.DASHBOARD
   | RoutesUrls.LINKED_ACCOUNTS
   | RoutesUrls.DIAGNOSIS_HISTORIC
-  | RoutesUrls.USER_PROFILE
-  | RoutesUrls.FARM_PROFILE
-  | RoutesUrls.CHANGE_PASSWORD;
+  | RoutesUrls.USER_PROFILE;
