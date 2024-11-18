@@ -1,5 +1,6 @@
-<h1 align="center">🐄 Boe Web Dashboard</h1>
 ![banner](./public/assets/banner.png)
+
+<h1 align="center">🐄 Boe Web Dashboard</h1>
 
 ## 🚀 O que é?
 O Boe Web Dashboard é um sistema desenvolvido no contexto do projeto integrador do curso de Desenvolvimento de Software Multiplataforma da Fatec Registro. Ele foi criado para apoiar o aplicativo Boe, que realiza um pré-diagnóstico de doenças dermatológicas em bovinos. 🐂
@@ -50,7 +51,7 @@ Essa estrutura modular facilita a organização e reutilização de código, pro
 ![PowerBi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)&nbsp;
 
 Outras tecnologias e bibliotecas:
- **Stryker Mutator** para testes de mutação.
+- **Stryker Mutator** para testes de mutação.
 - **Mistica Telefônica** como biblioteca de componentes (com a maioria dos componentes sendo autorais).
 - **@react-pdf/renderer**, **jsPDF** e **jsPDF-autotable** para gerar PDFs.
 - **Power BI** para a criação de dashboards interativos e visualização de dados (em construção 🛠)
@@ -78,7 +79,7 @@ As histórias e épicos para o desenvolvimento organizado do **Boe Web Dashboard
 ### 🔄 Nomenclatura do Pull Request
 
 - O título deve começar com "TASK:", seguido da história. Exemplo:
-  - **Título:** [TASK:PI6BOE-1001] Ajusta texto na tela de login
+  - **Título:** [TASK:PI6BOE-1001]
 
 ### ✅ Boas Práticas
 
