@@ -31,7 +31,7 @@
     "test": "jest",
     "test:unit": "jest --maxWorkers=50%",
     "test:mutation": "stryker run",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage && open coverage/lcov-report/index.html",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/**/*.{ts,tsx}",
     "lint-fix": "eslint ./src/**/*.{ts,tsx} --fix",
