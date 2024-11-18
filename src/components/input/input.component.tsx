@@ -24,8 +24,7 @@ export default function Input({
       disabled={disabled}
       isFocused={isFocused}
       isFilled={!!value}
-      isDisabled={disabled}
-      isError={error}
+      error={error}
       placeholder={placeholder}
       name={name}
       type={type}

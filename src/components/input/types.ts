@@ -9,7 +9,5 @@ export interface InputProps {
   error?: boolean;
   isFocused?: boolean;
   isFilled?: boolean;
-  isDisabled?: boolean;
-  isError?: boolean;
   width?: string;
 }

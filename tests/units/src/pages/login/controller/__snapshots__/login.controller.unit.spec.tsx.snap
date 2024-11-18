@@ -127,7 +127,7 @@ exports[`Login should render Login 1`] = `
                     E-mail
                   </span>
                   <input
-                    class="sc-b5ab6d6c-0 iVevTl"
+                    class="sc-f587ae9e-0 bRkYvK"
                     name="myInput"
                     placeholder="Insira seu e-mail"
                     type="text"
@@ -151,7 +151,7 @@ exports[`Login should render Login 1`] = `
                   >
                     <div>
                       <input
-                        class="sc-b5ab6d6c-0 iVevTl"
+                        class="sc-f587ae9e-0 bRkYvK"
                         name="myInput"
                         placeholder="Digite a sua senha"
                         type="text"

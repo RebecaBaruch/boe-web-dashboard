@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangePassword should render ChangePassword with text ChangePassword 1`] = `
+<div
+  style="isolation: isolate;"
+>
+  <h1>
+    ChangePassword - Generated page
+  </h1>
+</div>
+`;
