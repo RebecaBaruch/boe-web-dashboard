@@ -26,9 +26,8 @@ E, claro, o sistema está focado em ajudar a monitorar doenças como **Berne**, 
 A arquitetura do projeto é modular, organizada em camadas que separam responsabilidades, facilitando a manutenção e escalabilidade:
 
 - **Raiz**: Contém as configurações e arquivos essenciais.
-  - **public**, **github**, **node_modules**, **next**, **src**.
+  - **public**, **github**, **node_modules**, **next**, **src** e arquivos de configuração.
   - Dentro de **src**, temos:
-    - **@types**: Tipagens TypeScript.
     - **components**: Componentes reutilizáveis.
     - **config**: Configurações globais.
     - **hooks**: Custom hooks.
@@ -42,6 +41,7 @@ Essa estrutura modular facilita a organização e reutilização de código, pro
 ## 🔧 Tecnologias
 ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)&nbsp;
 ![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)&nbsp;
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
 ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff)&nbsp;
@@ -52,12 +52,10 @@ Essa estrutura modular facilita a organização e reutilização de código, pro
 
 Outras tecnologias e bibliotecas:
 - **Stryker Mutator** para testes de mutação.
-- **Mistica Telefônica** como biblioteca de componentes (com a maioria dos componentes sendo autorais).
+- **Mistica Telefônica** como biblioteca de componentes (porém a maioria dos componentes no projeto são autorais).
 - **@react-pdf/renderer**, **jsPDF** e **jsPDF-autotable** para gerar PDFs.
-- **Power BI** para a criação de dashboards interativos e visualização de dados (em construção 🛠)
 
 ## 🚀 CI/CD Pipeline e Workflow
-
 A pipeline de **integração contínua (CI)** é acionada em **pull requests** para a branch **master**. O workflow inclui as seguintes etapas:
 
 1. **Lint**: Verificação do código com **ESLint**.
@@ -84,6 +82,7 @@ As histórias e épicos para o desenvolvimento organizado do **Boe Web Dashboard
 ### ✅ Boas Práticas
 
 - 📝 Comite frequentemente, com mensagens claras e concisas, na língua inglesa (en-us).
+- 📏 Tente manter um limite de **30 alterações de arquivo por PR**. Se ultrapassar um pouco, não tem problema. Esse número facilita a revisão e entrega mais rápida das features.
 - 🚀 Use o padrão do repositório [Padrões de Commits](https://github.com/iuricode/padroes-de-commits).
 
 ### ⚙️ Layout de Pull Request
