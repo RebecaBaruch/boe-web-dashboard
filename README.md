@@ -31,20 +31,20 @@ A arquitetura do projeto é modular, organizada em camadas que separam responsab
    ├── 📂 A raíz do projeto contém diretórios das configurações e arquivos essenciais
           (public, github, node_modules, next, src, etc).
    ├── 📂 src
-        ├── 🗂️ components de reutilização
-├── 🗂️ config: global
-├── 🗂️ hooks
-├── 🗂️ pages
-├── 🗂️ services
-├── 🗂️ utils
-├── 🧪📂 **tests** Estrutura de testes unitários na mesma organização da pasta src.
+        ├── 🗂️ components -> de reutilização
+        ├── 🗂️ config-> global
+        ├── 🗂️ hooks
+        ├── 🗂️ pages
+        ├── 🗂️ services
+        ├── 🗂️ utils
+   ├── 🧪📂 tests -> Estrutura de testes unitários na mesma organização da pasta src.
 ```
 
 Essa estrutura modular facilita a organização e reutilização de código, promovendo uma boa separação de responsabilidades.
 
 ### 🛠 Geradores de Arquivos
 
-O projeto inclui comandos para facilitar a criação de estruturas iniciais de páginas e componentes. Veja como funciona:
+O projeto inclui comandos para facilitar a criação de estruturas iniciais de páginas e componentes, com layouts pré-estruturados, utilizando o [**Handlebars**](https://handlebarsjs.com/). Veja como funciona:
 
 #### 📝 Gerar Página
 Ao rodar o comando:
