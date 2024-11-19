@@ -76,9 +76,8 @@ npm run generate component "nome-do-componente"
 ```
 ```
 📂 nome-do-componente
-   ├── 📂 controller
-   ├── 📂 view
    └── 📄 index.tsx
+   └── 📄 styles.module.css
 ```
 
 O nome das pages, components e utils devem seguir o padrão [Kebab Case](https://medium.com/@michelelozada/primeiropostdoano-75dba41d8abf).
