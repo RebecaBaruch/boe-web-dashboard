@@ -25,35 +25,81 @@ E, claro, o sistema está focado em ajudar a monitorar doenças como **Berne**, 
 
 A arquitetura do projeto é modular, organizada em camadas que separam responsabilidades, facilitando a manutenção e escalabilidade:
 
-- **Raiz**: Contém as configurações e arquivos essenciais.
-  - **public**, **github**, **node_modules**, **next**, **src** e arquivos de configuração.
-  - Dentro de **src**, temos:
-    - **components**: Componentes reutilizáveis.
-    - **config**: Configurações globais.
-    - **hooks**: Custom hooks.
-    - **pages**: Páginas da aplicação, estruturadas com controllers e views.
-    - **services**: Serviços para integrar com a API.
-    - **utils**: Funções utilitárias.
-  - **tests**: Estrutura de testes unitários na mesma organização da pasta **src**.
+```
+📂Projeto
+
+   ├── 📂 A raíz do projeto contém diretórios das configurações e arquivos essenciais
+          (public, github, node_modules, next, src, etc).
+   ├── 📂 src
+        ├── 🗂️ components de reutilização
+├── 🗂️ config: global
+├── 🗂️ hooks
+├── 🗂️ pages
+├── 🗂️ services
+├── 🗂️ utils
+├── 🧪📂 **tests** Estrutura de testes unitários na mesma organização da pasta src.
+```
 
 Essa estrutura modular facilita a organização e reutilização de código, promovendo uma boa separação de responsabilidades.
 
+### 🛠 Geradores de Arquivos
+
+O projeto inclui comandos para facilitar a criação de estruturas iniciais de páginas e componentes. Veja como funciona:
+
+#### 📝 Gerar Página
+Ao rodar o comando:
+
+```bash
+npm run generate page "nome-da-página"
+```
+
+Será criada a seguinte estrutura (dentro do diretório **pages**):
+```
+📂 nome-da-pagina
+   ├── 📂 controller
+   ├── 📂 view
+   └── 📄 index.tsx
+```
+
+Além disso, são gerados os testes unitários iniciais:
+```
+📂 nome-da-pagina
+   ├── 📂 controller
+   │   └── 🧪 index.controller.unit.spec.tsx
+   └── 🧪 index.view.unit.spec.tsx
+```
+
+#### 🧩 Gerar Componente
+O comando gera a estrutura inicial (dentro do diretório **components**) sem arquivos de teste:
+```bash
+npm run generate component "nome-do-componente"
+```
+```
+📂 nome-do-componente
+   ├── 📂 controller
+   ├── 📂 view
+   └── 📄 index.tsx
+```
+
+O nome das pages, components e utils devem seguir o padrão [Kebab Case](https://medium.com/@michelelozada/primeiropostdoano-75dba41d8abf).
+
 ## 🔧 Tecnologias
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)&nbsp;
-![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)&nbsp;
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)&nbsp;
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
-![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff)&nbsp;
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)&nbsp;
 ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)&nbsp;
+![Handlebars](https://img.shields.io/badge/Handlebars-%23000000?style=for-the-badge&logo=Handlebars.js&logoColor=white)&nbsp;
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)&nbsp;
 ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)&nbsp;
 ![PowerBi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)&nbsp;
 
 Outras tecnologias e bibliotecas:
-- **Stryker Mutator** para testes de mutação.
-- **Mistica Telefônica** como biblioteca de componentes (porém a maioria dos componentes no projeto são autorais).
-- **@react-pdf/renderer**, **jsPDF** e **jsPDF-autotable** para gerar PDFs.
+- [**Stryker Mutator**](https://stryker-mutator.io/docs/stryker-js/introduction/) para testes de mutação.
+- [**Mistica Telefônica**](https://github.com/Telefonica/mistica) como biblioteca de componentes (porém a maioria dos componentes no projeto são autorais).
+- [**React-pdf**](https://react-pdf.org/), [**jsPDF**](https://artskydj.github.io/jsPDF/docs/jsPDF.html) e [**jsPDF-AutoTable**](https://github.com/simonbengtsson/jsPDF-AutoTable) para gerar PDFs.
 
 ## 🚀 CI/CD Pipeline e Workflow
 A pipeline de **integração contínua (CI)** é acionada em **pull requests** para a branch **master**. O workflow inclui as seguintes etapas:
