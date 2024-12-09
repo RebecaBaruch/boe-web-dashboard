@@ -8,7 +8,7 @@ import usePagedSelection from 'hooks/use-paged-selection';
 
 export default function LinkedAccountsListController() {
   const mockedData = dataMock;
-  const itemsPerPage = 7;
+  const itemsPerPage = 6;
 
   const {
     currentPage,
