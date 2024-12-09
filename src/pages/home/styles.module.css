@@ -1,0 +1,11 @@
+.dashboard {
+  display: 'flex';
+  justify-content: 'start';
+  align-items: 'start';
+  transform: 'scale(1)';
+  transform-origin: 'top left';
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: 'hidden';
+}

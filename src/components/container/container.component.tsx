@@ -19,6 +19,7 @@ type ContainerProps = {
   height?: number;
   width?: number;
   space?: number;
+  backgroundColor?: string;
 };
 
 export const Container = styled.div.withConfig({
@@ -38,6 +39,7 @@ export const Container = styled.div.withConfig({
       'space',
       'width',
       'space',
+      'backgroundColor',
     ].includes(prop),
 })<ContainerProps>`
   display: flex;
@@ -53,6 +55,6 @@ export const Container = styled.div.withConfig({
   height: ${({ height }) => height || 100}%;
 
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: ${({ backgroundColor }) => backgroundColor || '#ffffff'};
   box-sizing: border-box;
 `;

@@ -49,7 +49,7 @@ export const TratorIcon: React.FC<IconProps> = ({
   >
     <mask
       id="mask0_3240_310"
-      style={{ maskType: "alpha" }}
+      style={{ maskType: 'alpha' }}
       maskUnits="userSpaceOnUse"
       x="0"
       y="0"

@@ -15,7 +15,7 @@ export default function ChangePasswordController() {
   React.useEffect(() => {
     setIsEditMode(confirmCurrentPassword === currentPassword);
     console.log('confirmCurrentPassword:', confirmCurrentPassword);
-    console.log(isEditMode)
+    console.log(isEditMode);
   }, [confirmCurrentPassword, currentPassword, isEditMode]);
 
   React.useEffect(() => {

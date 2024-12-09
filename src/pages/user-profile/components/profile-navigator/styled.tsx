@@ -31,7 +31,7 @@ export const ProfileContent = styled.div`
   width: 100%;
 `;
 
-export const ProfileNavButton = styled.button<{active}>`
+export const ProfileNavButton = styled.button<{ active }>`
   display: flex;
   flex-direction: row;
   gap: 20px;

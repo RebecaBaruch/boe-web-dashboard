@@ -55,14 +55,15 @@ describe('UserProfile', () => {
 
   it('should call onTabChange when a tab is clicked', () => {
     renderComponent('my-profile');
-    
+
     const myProfileButton = screen.getByRole('button', { name: 'Meu perfil' });
-    const farmProfileButton = screen.getByRole('button', { name: 'Dados da fazenda' });
+    const farmProfileButton = screen.getByRole('button', {
+      name: 'Dados da fazenda',
+    });
 
     expect(myProfileButton).toBeInTheDocument();
     fireEvent.click(farmProfileButton);
-    
+
     expect(onTabChangeMock).toHaveBeenCalled();
   });
-  
 });

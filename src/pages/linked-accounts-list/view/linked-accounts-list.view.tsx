@@ -27,7 +27,7 @@ export default function LinkedAccountsList({
 }: LinkedAccountsProps) {
   return (
     <>
-      <Container space={5} padding={1.5}>
+      <Container space={2} padding={1.5}>
         <Row align="space-between">
           <Title3>
             <b>Contas vinculadas</b>
