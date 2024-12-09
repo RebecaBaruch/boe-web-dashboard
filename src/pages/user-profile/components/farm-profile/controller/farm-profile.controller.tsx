@@ -15,7 +15,7 @@ export default function FarmProfileController() {
     cep: mockFarmData.cep,
     cnpj: mockFarmData.cnpj,
     location: mockFarmData.location,
-    address: mockFarmData.address
+    address: mockFarmData.address,
   });
 
   const handleEditInfo = React.useCallback(() => {
