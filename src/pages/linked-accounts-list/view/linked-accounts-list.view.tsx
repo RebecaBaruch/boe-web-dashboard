@@ -1,14 +1,14 @@
-import DataTable from 'components/data-table/data-table.component';
 import React from 'react';
+import DataTable from '../../../components/data-table/data-table.component';
 import { LinkedAccountsProps } from '../types';
-import { Container } from 'components/container/container.component';
+import { Container } from '../../../components/container/container.component';
 import { SearchField, Title3 } from '@telefonica/mistica';
-import PageStepper from 'components/page-stepper/page-stepper.component';
-import { Row } from 'components/row/styled';
-import { Column } from 'components/column/styled';
-import ButtonPrimary from 'components/button-primary/button-primary.component';
+import PageStepper from '../../../components/page-stepper/page-stepper.component';
+import { Row } from '../../../components/row/styled';
+import { Column } from '../../../components/column/styled';
+import ButtonPrimary from '../../../components/button-primary/button-primary.component';
 import { ChevronDown, Plus, Trash } from 'react-feather';
-import ButtonSecondary from 'components/button-secondary/button-secondary.component';
+import ButtonSecondary from '../../../components/button-secondary/button-secondary.component';
 import { CheckSquare } from 'react-feather';
 
 export default function LinkedAccountsList({

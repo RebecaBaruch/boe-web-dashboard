@@ -2,7 +2,7 @@ import React from 'react';
 import { Checkbox } from '@telefonica/mistica';
 import { ActionButton, ActionModal, TableCell } from '../../styled';
 import { MoreVertical } from 'react-feather';
-import ActionButtons from 'components/data-table/action-buttons/action-buttons.component';
+import ActionButtons from '../../action-buttons/action-buttons.component';
 
 import {
   TableAccountsData,

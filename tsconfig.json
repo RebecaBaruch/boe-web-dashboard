@@ -19,7 +19,7 @@
     "baseUrl": "./src",
     "strictNullChecks": true,
     "paths": {
-      "config/*": ["config/*"]
+      "config/*": ["config/*"],
     }
   },
   "include": ["src", "next-env.d.ts"],

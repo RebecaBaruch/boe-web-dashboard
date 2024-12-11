@@ -1,14 +1,14 @@
 import React from 'react';
 import { Box, Divider, Stack, Text3, Title3 } from '@telefonica/mistica';
-import { Container } from 'components/container/container.component';
-import { Row } from 'components/row/styled';
-import ButtonSecondary from 'components/button-secondary/button-secondary.component';
+import { Container } from '../../../../../components/container/container.component';
+import { Row } from '../../../../../components/row/styled';
+import ButtonSecondary from '../../../../../components/button-secondary/button-secondary.component';
 import { Edit } from 'react-feather';
-import InputBox from 'components/input-box/input-box.component';
-import Input from 'components/input/input.component';
+import InputBox from '../../../../../components/input-box/input-box.component';
+import Input from '../../../../../components/input/input.component';
 import { MyProfileProps } from '../types';
-import { Column } from 'components/column/styled';
-import ButtonPrimary from 'components/button-primary/button-primary.component';
+import { Column } from '../../../../../components/column/styled';
+import ButtonPrimary from '../../../../../components/button-primary/button-primary.component';
 
 export default function MyProfile({
   firstName,

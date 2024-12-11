@@ -24,9 +24,9 @@ import {
   Settings,
 } from 'react-feather';
 import { Divider } from '../divider/styled';
-import { Column } from 'components/column/styled';
-import { Row } from 'components/row/styled';
-import TopDashboardBar from 'components/top-dashboard-bar';
+import { Column } from '../column/styled';
+import { Row } from '../row/styled';
+import TopDashboardBar from '../top-dashboard-bar';
 
 const SidebarLayout = ({ children }: { children: ReactNode }) => {
   const BoeLogo: string = '/assets/boe-logo03.svg';

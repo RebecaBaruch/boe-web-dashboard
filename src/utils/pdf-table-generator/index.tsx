@@ -1,4 +1,4 @@
-import { Column, TableDiagnosisData } from 'components/data-table/types';
+import { Column, TableDiagnosisData } from '../../components/data-table/types';
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 

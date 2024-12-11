@@ -1,13 +1,13 @@
 import React from 'react';
 import { ThemeContextProvider } from '@telefonica/mistica';
 
-import usePagedSelection from 'hooks/use-paged-selection';
-import { TableDiagnosisData } from 'components/data-table/types';
+import usePagedSelection from '../../../../../hooks/use-paged-selection';
+import { TableDiagnosisData } from '../../../../../components/data-table/types';
 import DiagnosisView from '../view';
-import { diagnosisMockData } from 'pages/diagnosis-list/mock/table-data';
-import { theme } from 'config/theme';
-import { diagnosisListColumns } from 'config/constants/column-headers';
-import { generateTablePDF } from 'utils/pdf-table-generator';
+import { diagnosisMockData } from '../../../mock/table-data';
+import { theme } from '../../../../../config/theme';
+import { diagnosisListColumns } from '../../../../../config/constants/column-headers';
+import { generateTablePDF } from '../../../../../utils/pdf-table-generator';
 
 export default function DiagnosisViewController() {
   const [tableData, setTableData] = React.useState<TableDiagnosisData[]>([]);

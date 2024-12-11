@@ -1,8 +1,8 @@
 import {
   TableAnimalsData,
   TableDiagnosisData,
-} from 'components/data-table/types';
-import { AccountData } from 'pages/linked-accounts-list/types';
+} from '../../components/data-table/types';
+import { AccountData } from '../../pages/linked-accounts-list/types';
 import React from 'react';
 
 type UsePagedSelectionProps = {

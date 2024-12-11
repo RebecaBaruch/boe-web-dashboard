@@ -1,5 +1,5 @@
 import React from 'react';
-import UserProfile from '../../../../../../src/pages/user-profile/index';
+import UserProfile from '../../../../../../src/pages/user-profile/index.page';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 import { fireEvent, screen } from '@testing-library/react';
 

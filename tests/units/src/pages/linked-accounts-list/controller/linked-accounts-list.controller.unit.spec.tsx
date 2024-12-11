@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkedAccountsList from '../../../../../../src/pages/linked-accounts-list/index';
+import LinkedAccountsList from '../../../../../../src/pages/linked-accounts-list/index.page';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 import usePagedSelection from '../../../../../../src/hooks/use-paged-selection';
 import { dataMock } from '../../../../../../src/pages/linked-accounts-list/mock/table-data';

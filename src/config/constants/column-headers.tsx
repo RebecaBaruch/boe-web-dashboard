@@ -3,7 +3,7 @@ import {
   Column,
   TableAnimalsData,
   TableDiagnosisData,
-} from 'components/data-table/types';
+} from '../../components/data-table/types';
 import {
   AnimalIdContainer,
   AnimalPhoto,
@@ -13,7 +13,7 @@ import {
   RiskBadge,
   RiskIndicator,
   StatusBadge,
-} from 'components/diagnosis-components/diagnosis-components.components';
+} from '../../components/diagnosis-components/diagnosis-components.components';
 
 export const accountsColumns: Column[] = [
   { header: 'Id', accessor: 'id' },
