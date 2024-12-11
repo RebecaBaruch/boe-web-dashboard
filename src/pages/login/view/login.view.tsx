@@ -72,7 +72,7 @@ export default function Login({
               <ButtonPrimary
                 content={'Login'}
                 disabled={isButtonDisabled}
-                onClick={onLogin}
+                onClick={() => onLogin}
               />
 
               <Inline space={8} alignItems="center">
