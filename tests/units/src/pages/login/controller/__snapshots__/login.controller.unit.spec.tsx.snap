@@ -130,7 +130,7 @@ exports[`Login should render Login 1`] = `
                     style="position: relative;"
                   >
                     <input
-                      class="sc-1b17f3f9-0 gbZSMB"
+                      class="sc-dc61514b-0 cTRskw"
                       name="myInput"
                       placeholder="Insira seu e-mail"
                       type="text"
@@ -158,7 +158,7 @@ exports[`Login should render Login 1`] = `
                         style="position: relative;"
                       >
                         <input
-                          class="sc-1b17f3f9-0 gbZSMB"
+                          class="sc-dc61514b-0 cTRskw"
                           name="myInput"
                           placeholder="Digite a sua senha"
                           type="text"

@@ -90,7 +90,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-1b17f3f9-0 gbZSMB"
+              class="sc-dc61514b-0 cTRskw"
               name="property-name"
               placeholder="Insira o nome da fazenda"
               type=""
@@ -115,7 +115,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-1b17f3f9-0 gbZSMB"
+                class="sc-dc61514b-0 cTRskw"
                 name="property-phone"
                 placeholder="(00) 00000-0000"
                 type=""
@@ -137,7 +137,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-1b17f3f9-0 gbZSMB"
+                class="sc-dc61514b-0 cTRskw"
                 name="cnpj"
                 placeholder="0.000.000/0000-00"
                 type=""
@@ -163,7 +163,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-1b17f3f9-0 gbZSMB"
+                class="sc-dc61514b-0 cTRskw"
                 name="postal-code"
                 placeholder="00000-000"
                 type=""
@@ -185,7 +185,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-1b17f3f9-0 gbZSMB"
+                class="sc-dc61514b-0 cTRskw"
                 name="uf-state"
                 placeholder="UF"
                 type=""
@@ -211,7 +211,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-1b17f3f9-0 gbZSMB"
+                class="sc-dc61514b-0 cTRskw"
                 name="city"
                 placeholder="Localidade"
                 type=""
@@ -233,7 +233,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-1b17f3f9-0 gbZSMB"
+                class="sc-dc61514b-0 cTRskw"
                 name="street-address"
                 placeholder="Bairro, Rua, nº"
                 type=""

@@ -5,7 +5,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-1680a659-0 gYJwHm"
+    class="sc-133a616e-0 ldPcXc"
   >
     <div
       class="xjgm6d4"
@@ -129,7 +129,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="propertyName"
                         placeholder="Fazenda São João"
                         type="text"
@@ -151,7 +151,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="(13) 12345-6789"
                         type="phone"
                         value="(13) 12345-6789"
@@ -176,7 +176,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="11900-000"
                         type="cep"
                         value="11900-000"
@@ -197,7 +197,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="11900-000"
                         type="cnpj"
                         value="12.345.678/0001-99"
@@ -222,7 +222,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="Itaquá, SP"
                         value="Itaquá, SP"
                       />
@@ -242,7 +242,7 @@ exports[`FarmProfile should render FarmProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="Rua das Palmeiras, 123, Bairro Verde"
                         value="Rua das Palmeiras, 123, Bairro Verde"
                       />

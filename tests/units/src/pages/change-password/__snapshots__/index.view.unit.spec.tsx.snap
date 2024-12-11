@@ -5,7 +5,7 @@ exports[`ChangePassword should render ChangePassword with text ChangePassword 1`
   style="isolation: isolate;"
 >
   <div
-    class="sc-1680a659-0 gYJwHm"
+    class="sc-133a616e-0 ldPcXc"
   >
     <div
       class="xjgm6d4"
@@ -93,13 +93,13 @@ exports[`ChangePassword should render ChangePassword with text ChangePassword 1`
                         style="position: relative;"
                       >
                         <input
-                          class="sc-1b17f3f9-0 lajXgd"
+                          class="sc-dc61514b-0 uLA-DI"
                           name="currentPassword"
                           type="password"
                         />
                         <button
                           aria-label="Mostrar senha"
-                          class="sc-1b17f3f9-1 dmkazs"
+                          class="sc-dc61514b-1 cVUYal"
                           type="button"
                         >
                           👁️
@@ -120,7 +120,7 @@ exports[`ChangePassword should render ChangePassword with text ChangePassword 1`
                         style="position: relative;"
                       >
                         <input
-                          class="sc-1b17f3f9-0 gbZSMB"
+                          class="sc-dc61514b-0 cTRskw"
                           name="confirmCurrentPassword"
                           placeholder="Digite a senha atual"
                         />
@@ -173,7 +173,7 @@ exports[`ChangePassword should render ChangePassword with text ChangePassword 1`
                         style="position: relative;"
                       >
                         <input
-                          class="sc-1b17f3f9-0 gbZSMB"
+                          class="sc-dc61514b-0 cTRskw"
                           name="newPassword"
                           placeholder="Digite a nova senha"
                         />
@@ -193,7 +193,7 @@ exports[`ChangePassword should render ChangePassword with text ChangePassword 1`
                         style="position: relative;"
                       >
                         <input
-                          class="sc-1b17f3f9-0 gbZSMB"
+                          class="sc-dc61514b-0 cTRskw"
                           name="confirmNewPassword"
                           placeholder="Confirme a nova senha"
                         />

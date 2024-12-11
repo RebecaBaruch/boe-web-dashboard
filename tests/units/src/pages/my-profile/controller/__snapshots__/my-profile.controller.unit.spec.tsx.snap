@@ -5,7 +5,7 @@ exports[`MyProfile should render MyProfile 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-1680a659-0 gYJwHm"
+    class="sc-133a616e-0 ldPcXc"
   >
     <div
       class="xjgm6d4"
@@ -145,7 +145,7 @@ exports[`MyProfile should render MyProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="firstName"
                         placeholder="Claudio"
                         value="Claudio"
@@ -166,7 +166,7 @@ exports[`MyProfile should render MyProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="Buarque"
                         value="Buarque"
                       />
@@ -190,7 +190,7 @@ exports[`MyProfile should render MyProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="claudio.buarque@gmail.com"
                         type="email"
                         value="claudio.buarque@gmail.com"
@@ -211,7 +211,7 @@ exports[`MyProfile should render MyProfile 1`] = `
                       style="position: relative;"
                     >
                       <input
-                        class="sc-1b17f3f9-0 iamlMy"
+                        class="sc-dc61514b-0 cyvrxX"
                         name="(11) 12345-6789"
                         type="phone"
                         value="(11) 12345-6789"
