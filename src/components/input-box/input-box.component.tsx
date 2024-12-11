@@ -5,7 +5,7 @@ import { StyledBox } from './syled';
 
 export default function InputBox({ title, input, size }: InputProps) {
   return (
-    <StyledBox size={size}>
+    <StyledBox size={typeof size === 'number' ? `${size}` : size}>
       <Text2 medium>{title}</Text2>
       {input}
     </StyledBox>

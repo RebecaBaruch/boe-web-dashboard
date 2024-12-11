@@ -10,7 +10,7 @@ export const StyledBox = styled.div.withConfig({
   display: flex;
   flex-direction: column;
   width: 100%;
-  flex: ${({ size }) => size || 'auto'};
+  flex: ${({ size }) => (typeof size === 'number' ? `${size}` : size || 'auto')};
   gap: 0.3rem;
   display: flex;
   margin: 0;
