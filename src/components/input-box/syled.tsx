@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 type StyledBoxProps = {
-  size?: string;
+  size?: string | number;
 };
 
 export const StyledBox = styled.div.withConfig({
