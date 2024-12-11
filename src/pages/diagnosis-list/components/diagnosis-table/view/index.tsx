@@ -1,14 +1,14 @@
 import React from 'react';
-import { Column } from 'components/column/styled';
-import DataTable from 'components/data-table/data-table.component';
-import { Row } from 'components/row/styled';
-import PageStepper from 'components/page-stepper/page-stepper.component';
+import { Column } from '../../../../../components/column/styled';
+import DataTable from '../../../../../components/data-table/data-table.component';
+import { Row } from '../../../../../components/row/styled';
+import PageStepper from '../../../../../components/page-stepper/page-stepper.component';
 import { DiagnosisListProps } from '../types';
-import { Container } from 'components/container/container.component';
+import { Container } from '../../../../../components/container/container.component';
 import { SearchField, Title3 } from '@telefonica/mistica';
-import ButtonSecondary from 'components/button-secondary/button-secondary.component';
+import ButtonSecondary from '../../../../../components/button-secondary/button-secondary.component';
 import { ChevronDown, Download, Filter } from 'react-feather';
-import ButtonPrimary from 'components/button-primary/button-primary.component';
+import ButtonPrimary from '../../../../../components/button-primary/button-primary.component';
 
 export default function DiagnosisView({
   diagnosisData,
