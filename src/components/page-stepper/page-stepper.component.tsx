@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageStepperProps } from './types';
-import { Row } from 'components/row/styled';
+import { Row } from '../row/styled';
 import { Step, StepperButton } from './styled';
 import { ChevronLeft, ChevronRight } from 'react-feather';
 

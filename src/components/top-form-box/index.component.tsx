@@ -5,7 +5,7 @@ import { Box, Stack, Text1, Text5 } from '@telefonica/mistica';
 import ButtonSecondary from '../button-secondary/button-secondary.component';
 import { TopFormBoxProps } from './types';
 import TextDivider from '../text-divider/index.component';
-import { Row } from 'components/row/styled';
+import { Row } from '../row/styled';
 
 export default function TopFormBox({
   title,

@@ -4,8 +4,8 @@ import {
   getCurrentDate,
   getCurrentDayOfWeek,
   getCurrentTime,
-} from 'utils/date-utils';
-import { Row } from 'components/row/styled';
+} from '../../utils/date-utils';
+import { Row } from '../row/styled';
 import { Text2 } from '@telefonica/mistica';
 import { Calendar, Clock } from 'react-feather';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputProps } from './types';
 import { StyledInput, StyledPasswordToggle } from './styled';
-import { formatCep, formatCnpj, formatPhone } from 'utils/input-format';
+import { formatCep, formatCnpj, formatPhone } from '../../utils/input-format';
 
 export default function Input({
   placeholder,

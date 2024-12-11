@@ -6,7 +6,7 @@ import {
   getRiskTextColor,
   getStatusColor,
   getStatusTextColor,
-} from 'utils/color-utils';
+} from '../../utils/color-utils';
 
 export const RiskIndicator = styled.span<{ risk: number }>`
   background-color: ${({ risk }) => getRiskColor(risk)};
