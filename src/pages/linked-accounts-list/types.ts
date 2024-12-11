@@ -1,6 +1,5 @@
 import { Column } from '../../components/data-table/types';
 
-// types.ts ou um arquivo de tipos
 export type AccountData = {
   id: string;
   picture: string;

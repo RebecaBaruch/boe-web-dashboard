@@ -7,13 +7,13 @@ import {
   Title2,
   Title3,
 } from '@telefonica/mistica';
-import ButtonSecondary from 'components/button-secondary/button-secondary.component';
-import { Container } from 'components/container/container.component';
-import InputBox from 'components/input-box/input-box.component';
-import Input from 'components/input/input.component';
-import { Row } from 'components/row/styled';
+import ButtonSecondary from '../../../../../components/button-secondary/button-secondary.component';
+import { Container } from '../../../../../components/container/container.component';
+import InputBox from '../../../../../components/input-box/input-box.component';
+import Input from '../../../../../components/input/input.component';
+import { Row } from '../../../../../components/row/styled';
 import { ChangePasswordProps } from '../types';
-import ButtonPrimary from 'components/button-primary/button-primary.component';
+import ButtonPrimary from '../../../../../components/button-primary/button-primary.component';
 
 export default function ChangePassword({
   currentPassword,
