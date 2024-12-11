@@ -1,4 +1,4 @@
-import { Column, TableDiagnosisData } from 'components/data-table/types';
+import { Column, TableDiagnosisData } from '../../../../components/data-table/types';
 
 export interface DiagnosisListProps {
   diagnosisData: TableDiagnosisData[];
