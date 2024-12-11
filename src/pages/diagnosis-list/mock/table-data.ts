@@ -13,6 +13,7 @@ export const diagnosisMockData: TableDiagnosisData[] = Array.from(
     authorName: ['Nelson Oliveira', 'Fabrício Neves'][index % 2],
     authorPhoto: `https://randomuser.me/api/portraits/men/${index}.jpg`,
     date: new Date(2024, 8, 17 + (index % 7)).toLocaleDateString('pt-BR'),
+    diagnosisDate: new Date(2024, 8, 17 + (index % 7)).toLocaleDateString('pt-BR'),
     result: ['Berne', 'Dermatite', 'Dermatofitose', 'Dermatofilose'][
       Math.floor(Math.random() * 4)
     ],
