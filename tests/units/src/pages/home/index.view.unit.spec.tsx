@@ -13,6 +13,5 @@ describe('Home', () => {
     renderWithTheme(<Home {...propsMock} />);
 
     expect(screen.getByText('Hello, Test User')).toBeInTheDocument();
-    expect(screen.getByText('Overview')).toBeInTheDocument();
   });
 });

@@ -142,7 +142,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-1b17f3f9-0 gbZSMB"
+              class="sc-dc61514b-0 cTRskw"
               name="name"
               placeholder="Insira seu nome"
               type=""
@@ -171,7 +171,7 @@ exports[`UserRegister should render UserRegister 1`] = `
                 style="position: relative;"
               >
                 <input
-                  class="sc-1b17f3f9-0 gbZSMB"
+                  class="sc-dc61514b-0 cTRskw"
                   name="email"
                   placeholder="seu.email@email.com"
                   type=""
@@ -193,7 +193,7 @@ exports[`UserRegister should render UserRegister 1`] = `
                 style="position: relative;"
               >
                 <input
-                  class="sc-1b17f3f9-0 gbZSMB"
+                  class="sc-dc61514b-0 cTRskw"
                   name="phone"
                   placeholder="(00) 00000-0000"
                   type=""
@@ -217,7 +217,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-1b17f3f9-0 gbZSMB"
+              class="sc-dc61514b-0 cTRskw"
               name="password"
               placeholder="Crie a sua senha"
               type=""

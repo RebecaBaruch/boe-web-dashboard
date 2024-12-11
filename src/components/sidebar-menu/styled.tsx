@@ -86,6 +86,7 @@ export const NavButton = styled.button<{
   border: none;
   border-radius: 10px;
   box-sizing: border-box;
+  width: 100%;
 
   text-align: left;
   white-space: nowrap;
