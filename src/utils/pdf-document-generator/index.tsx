@@ -7,7 +7,7 @@ import {
   Image,
   StyleSheet,
 } from '@react-pdf/renderer';
-import { TableDiagnosisData } from 'components/data-table/types';
+import { TableDiagnosisData } from '../../components/data-table/types';
 import {
   getResultColor,
   getResultTextColor,
