@@ -1,12 +1,12 @@
 import React from 'react';
 import { ThemeContextProvider } from '@telefonica/mistica';
 
-import usePagedSelection from 'hooks/use-paged-selection';
-import { TableAnimalsData } from 'components/data-table/types';
+import usePagedSelection from '../../../../../hooks/use-paged-selection';
+import { TableAnimalsData } from '../../../../../components/data-table/types';
 import AnimalsView from '../view';
-import { animalsMockData } from 'pages/diagnosis-list/mock/table-data';
-import { theme } from 'config/theme';
-import { animalsListColumns } from 'config/constants/column-headers';
+import { animalsMockData } from '../../../mock/table-data';
+import { theme } from '../../../../../config/theme';
+import { animalsListColumns } from '../../../../../config/constants/column-headers';
 
 export default function AnimalsViewController() {
   const [tableData, setTableData] = React.useState<TableAnimalsData[]>([]);
