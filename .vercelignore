@@ -1,6 +1,3 @@
-**/*.ts
-**/*.d.ts
-
 pages/login/components/login-template/index.component
 pages/login/types
 pages/register/components/form-container/styled
