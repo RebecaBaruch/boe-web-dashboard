@@ -20,8 +20,6 @@
     "strictNullChecks": true,
     "paths": {
       "config/*": ["config/*"],
-      "components/*": ["src/components/*", "src/pages/*/components/*"],
-      "types/*": ["src/types/*", "src/pages/*/types.ts", "src/components/*/types.ts"],
     }
   },
   "include": ["src", "next-env.d.ts"],
