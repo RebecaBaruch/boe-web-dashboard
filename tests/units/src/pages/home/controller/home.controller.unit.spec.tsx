@@ -1,6 +1,6 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import Home from '../../../../../../src/pages/home/index';
+import Home from '../../../../../../src/pages/home/index.page';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 
 const mockedRouter = {

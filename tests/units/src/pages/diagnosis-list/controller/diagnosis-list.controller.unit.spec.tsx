@@ -1,5 +1,5 @@
 import React from 'react';
-import DiagnosisList from '../../../../../../src/pages/diagnosis-list/index';
+import DiagnosisList from '../../../../../../src/pages/diagnosis-list/index.page';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 import { screen } from '@testing-library/react';
 

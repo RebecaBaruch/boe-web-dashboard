@@ -1,14 +1,7 @@
 import React from 'react';
-import { screen, fireEvent } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import { renderWithTheme } from '../../../../../src/utils/render-with-theme';
-import Login from '../../../../../src/pages/login/index';
-import { LoginProps } from '../../../../../src/pages/login/types';
-
-const mockProps: LoginProps = {
-  email: '',
-  isButtonDisabled: false,
-  onLogin: jest.fn(),
-};
+import Login from '../../../../../src/pages/login/view/login.view';
 
 describe('Login', () => {
   it('should render the login form correctly', () => {

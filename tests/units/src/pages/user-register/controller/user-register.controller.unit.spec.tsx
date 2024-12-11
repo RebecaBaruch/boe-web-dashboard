@@ -1,5 +1,5 @@
 import React from 'react';
-import UserRegister from '../../../../../../src/pages/register/user-register/index';
+import UserRegister from '../../../../../../src/pages/register/user-register/index.page';
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 
 const mockedRouter = {
