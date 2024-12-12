@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React from 'react';
 import UserRegister from '../view/user-register.view';
 import { ThemeContextProvider } from '@telefonica/mistica';
 import { theme } from '../../../../config/theme';

@@ -13,11 +13,7 @@ export default function HomeController() {
 
   return (
     <ThemeContextProvider theme={theme}>
-      <Home
-        greetingText={greetingText}
-        userName={'Rebeca'}
-      />
-      ;
+      <Home greetingText={greetingText} userName={'Rebeca'} />;
     </ThemeContextProvider>
   );
 }

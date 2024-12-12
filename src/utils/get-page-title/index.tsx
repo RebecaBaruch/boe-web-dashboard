@@ -1,4 +1,4 @@
-import { RoutesUrls } from "../enums/routes-url";
+import { RoutesUrls } from '../enums/routes-url';
 
 export const getPageTitle = (pathname: string): string => {
   const titles: Record<string, string> = {

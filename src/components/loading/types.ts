@@ -1,3 +1,3 @@
 export interface LoadingProps {
-    absolute?: boolean;
+  absolute?: boolean;
 }
