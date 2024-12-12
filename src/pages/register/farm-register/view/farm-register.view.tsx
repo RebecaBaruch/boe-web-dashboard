@@ -10,8 +10,18 @@ import ButtonPrimary from '../../../../components/button-primary/button-primary.
 import ButtonSecondary from '../../../../components/button-secondary/button-secondary.component';
 import { Viewport } from '../../../../components/viewport/styled';
 import { Row } from '../../../../components/row/styled';
+import { FarmRegisterProps } from '../types';
 
-export default function UserRegister() {
+export default function UserRegister({
+  propertyName,
+  propertyPhone,
+  taxId,
+  zipCode,
+  state,
+  city,
+  address,
+  onRegister,
+}: FarmRegisterProps) {
   const BoeLogo02: string = '/assets/boe-logo02.svg';
   return (
     <Viewport>
@@ -28,7 +38,7 @@ export default function UserRegister() {
               <Text1 regular>
                 <Row space={0.7}>
                   <Text1 regular>Já possui uma conta?</Text1>
-                  <LinkComponent to={''} text={'Log in'} />
+                  <LinkComponent onChange={() => {}} text={'Log in'} />
                 </Row>
               </Text1>
             </Stack>
@@ -40,7 +50,7 @@ export default function UserRegister() {
               title="Nome da propriedade"
               input={
                 <Input
-                  value={''}
+                  value={propertyName}
                   name="property-name"
                   type={''}
                   placeholder="Insira o nome da fazenda"
@@ -54,7 +64,7 @@ export default function UserRegister() {
                 size={1}
                 input={
                   <Input
-                    value={''}
+                    value={propertyPhone}
                     name="property-phone"
                     type={''}
                     placeholder="(00) 00000-0000"
@@ -68,7 +78,7 @@ export default function UserRegister() {
                 size={2}
                 input={
                   <Input
-                    value={''}
+                    value={taxId}
                     name="cnpj"
                     type={''}
                     placeholder="0.000.000/0000-00"
@@ -84,7 +94,7 @@ export default function UserRegister() {
                 size={3}
                 input={
                   <Input
-                    value={''}
+                    value={zipCode}
                     name="postal-code"
                     type={''}
                     placeholder="00000-000"
@@ -98,7 +108,7 @@ export default function UserRegister() {
                 size={1}
                 input={
                   <Input
-                    value={''}
+                    value={state}
                     name="uf-state"
                     type={''}
                     placeholder="UF"
@@ -114,7 +124,7 @@ export default function UserRegister() {
                 size="1"
                 input={
                   <Input
-                    value={''}
+                    value={city}
                     name="city"
                     type={''}
                     placeholder="Localidade"
@@ -128,7 +138,7 @@ export default function UserRegister() {
                 size="3"
                 input={
                   <Input
-                    value={''}
+                    value={address}
                     name="street-address"
                     type={''}
                     placeholder="Bairro, Rua, nº"
@@ -143,7 +153,7 @@ export default function UserRegister() {
                 primaryButton={
                   <ButtonPrimary
                     content="Concluir registro"
-                    onClick={() => {}}
+                    onClick={onRegister}
                   />
                 }
                 secondaryButton={

@@ -1,4 +1,4 @@
 export interface LinkComponentProps {
-  to: string;
+  onChange: () => void;
   text: string;
 }

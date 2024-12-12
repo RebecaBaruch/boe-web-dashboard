@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ReactNode } from 'react';
@@ -27,18 +27,35 @@ import { Divider } from '../divider/styled';
 import { Column } from '../column/styled';
 import { Row } from '../row/styled';
 import TopDashboardBar from '../top-dashboard-bar';
+import { useLoginContext } from '../../context/login-context';
+import LoadingComponent from '../loading/loading.component';
+import { RoutesUrls } from '../../utils/enums/routes-url';
 
 const SidebarLayout = ({ children }: { children: ReactNode }) => {
   const BoeLogo: string = '/assets/boe-logo03.svg';
-  const [isExpanded, setIsExpanded] = React.useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+  const { setLoginData } = useLoginContext();
 
-  const handleCollapseToggle = React.useCallback(() => {
+  const handleCollapseToggle = useCallback(() => {
     setIsExpanded((prev) => !prev);
   }, []);
 
+  const onLogout = useCallback(() => {
+    setLoginData({ name: '', email: '', jwt: '' });
+    localStorage.removeItem('jwt');
+
+    setIsLoading(true);
+
+    router.push(RoutesUrls.LOGIN).then(() => {
+      setIsLoading(false);
+    });
+  }, [setLoginData, router]);
+
   return (
     <Container>
+      {isLoading && <LoadingComponent />}
       <Sidebar isExpanded={isExpanded}>
         <Column space="1.9rem">
           <Row align={isExpanded ? undefined : 'center'}>
@@ -86,9 +103,9 @@ const SidebarLayout = ({ children }: { children: ReactNode }) => {
 
           <NavItem>
             <NavButton
-              active={router.pathname === '/logout'}
               isExpanded={isExpanded}
-              onClick={() => {}}
+              onClick={onLogout}
+              disabled={isLoading}
             >
               <LogOut width={20} />
               {isExpanded && 'Log out'}

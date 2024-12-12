@@ -11,8 +11,15 @@ import ButtonPrimary from '../../../../components/button-primary/button-primary.
 import ButtonSecondary from '../../../../components/button-secondary/button-secondary.component';
 import { Viewport } from '../../../../components/viewport/styled';
 import { Row } from '../../../../components/row/styled';
+import { UserFormProps } from '../types';
 
-export default function UserRegister() {
+export default function UserRegister({
+  userName,
+  email,
+  phone,
+  password,
+  onContinueButton,
+}: UserFormProps) {
   const BoeLogo02: string = '/assets/boe-logo02.svg';
   return (
     <Viewport>
@@ -26,7 +33,7 @@ export default function UserRegister() {
             description={
               <Inline space={8} alignItems="center">
                 <Text1 regular>Já possui uma conta?</Text1>
-                <LinkComponent to={''} text="Log in" />
+                <LinkComponent onChange={() => {}} text="Log in" />
               </Inline>
             }
             buttonText="Criar com Google"
@@ -40,7 +47,7 @@ export default function UserRegister() {
               title="Nome"
               input={
                 <Input
-                  value={''}
+                  value={userName}
                   name="name"
                   type={''}
                   placeholder="Insira seu nome"
@@ -54,7 +61,7 @@ export default function UserRegister() {
                   title="E-mail"
                   input={
                     <Input
-                      value={''}
+                      value={email}
                       name="email"
                       type={''}
                       placeholder="seu.email@email.com"
@@ -67,7 +74,7 @@ export default function UserRegister() {
                   title="Telefone"
                   input={
                     <Input
-                      value={''}
+                      value={phone}
                       name="phone"
                       type={''}
                       placeholder="(00) 00000-0000"
@@ -82,9 +89,8 @@ export default function UserRegister() {
               title="Senha"
               input={
                 <Input
-                  value={''}
+                  value={password}
                   name="password"
-                  type={''}
                   placeholder="Crie a sua senha"
                   onChange={() => {}}
                 />
@@ -94,7 +100,10 @@ export default function UserRegister() {
             <Box width="100%">
               <ButtonLayout
                 primaryButton={
-                  <ButtonPrimary content="Continuar" onClick={() => {}} />
+                  <ButtonPrimary
+                    content="Continuar"
+                    onClick={onContinueButton}
+                  />
                 }
                 secondaryButton={
                   <ButtonSecondary content="Cancelar" onClick={() => {}} />

@@ -5,7 +5,7 @@ exports[`UserRegister should render UserRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-4e3acad9-0 dmnGWt"
+    class="sc-3475e50e-0 GShXl"
   >
     <div
       class="_1xgjmkvc"
@@ -72,12 +72,11 @@ exports[`UserRegister should render UserRegister 1`] = `
                       </span>
                     </div>
                     <div>
-                      <a
+                      <button
                         class="link"
-                        href=""
                       >
                         Log in
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </span>
@@ -129,7 +128,7 @@ exports[`UserRegister should render UserRegister 1`] = `
         class="sc-a33e0322-0 iSznKf"
       >
         <div
-          class="sc-7d1c6-0 gJJZQZ"
+          class="sc-365eeaa8-0 jmluUC"
         >
           <span
             class="splu5g7 splu5g5"
@@ -142,11 +141,11 @@ exports[`UserRegister should render UserRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-dc61514b-0 cTRskw"
+              class="sc-dc61514b-0 dMMbyf"
               name="name"
               placeholder="Insira seu nome"
               type=""
-              value=""
+              value="Agostinho Carrara"
             />
           </div>
         </div>
@@ -158,7 +157,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             class="sc-7117240f-0 cCCHfK"
           >
             <div
-              class="sc-7d1c6-0 gJJZQZ"
+              class="sc-365eeaa8-0 jmluUC"
             >
               <span
                 class="splu5g7 splu5g5"
@@ -171,16 +170,16 @@ exports[`UserRegister should render UserRegister 1`] = `
                 style="position: relative;"
               >
                 <input
-                  class="sc-dc61514b-0 cTRskw"
+                  class="sc-dc61514b-0 dMMbyf"
                   name="email"
                   placeholder="seu.email@email.com"
                   type=""
-                  value=""
+                  value="agostinho@gmail.com"
                 />
               </div>
             </div>
             <div
-              class="sc-7d1c6-0 gJJZQZ"
+              class="sc-365eeaa8-0 jmluUC"
             >
               <span
                 class="splu5g7 splu5g5"
@@ -193,18 +192,18 @@ exports[`UserRegister should render UserRegister 1`] = `
                 style="position: relative;"
               >
                 <input
-                  class="sc-dc61514b-0 cTRskw"
+                  class="sc-dc61514b-0 dMMbyf"
                   name="phone"
                   placeholder="(00) 00000-0000"
                   type=""
-                  value=""
+                  value="11999999999"
                 />
               </div>
             </div>
           </div>
         </div>
         <div
-          class="sc-7d1c6-0 gJJZQZ"
+          class="sc-365eeaa8-0 jmluUC"
         >
           <span
             class="splu5g7 splu5g5"
@@ -217,11 +216,10 @@ exports[`UserRegister should render UserRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-dc61514b-0 cTRskw"
+              class="sc-dc61514b-0 dMMbyf"
               name="password"
               placeholder="Crie a sua senha"
-              type=""
-              value=""
+              value="abobrinha"
             />
           </div>
         </div>
