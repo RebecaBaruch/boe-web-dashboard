@@ -38,7 +38,7 @@ export default function UserRegister({
               <Text1 regular>
                 <Row space={0.7}>
                   <Text1 regular>Já possui uma conta?</Text1>
-                  <LinkComponent to={''} text={'Log in'} />
+                  <LinkComponent onChange={() => {}} text={'Log in'} />
                 </Row>
               </Text1>
             </Stack>
