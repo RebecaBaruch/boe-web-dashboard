@@ -72,12 +72,11 @@ exports[`UserRegister should render UserRegister 1`] = `
                       </span>
                     </div>
                     <div>
-                      <a
+                      <button
                         class="link"
-                        href=""
                       >
                         Log in
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </span>
@@ -142,11 +141,11 @@ exports[`UserRegister should render UserRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-dc61514b-0 cTRskw"
+              class="sc-dc61514b-0 dMMbyf"
               name="name"
               placeholder="Insira seu nome"
               type=""
-              value=""
+              value="Agostinho Carrara"
             />
           </div>
         </div>
@@ -171,11 +170,11 @@ exports[`UserRegister should render UserRegister 1`] = `
                 style="position: relative;"
               >
                 <input
-                  class="sc-dc61514b-0 cTRskw"
+                  class="sc-dc61514b-0 dMMbyf"
                   name="email"
                   placeholder="seu.email@email.com"
                   type=""
-                  value=""
+                  value="agostinho@gmail.com"
                 />
               </div>
             </div>
@@ -193,11 +192,11 @@ exports[`UserRegister should render UserRegister 1`] = `
                 style="position: relative;"
               >
                 <input
-                  class="sc-dc61514b-0 cTRskw"
+                  class="sc-dc61514b-0 dMMbyf"
                   name="phone"
                   placeholder="(00) 00000-0000"
                   type=""
-                  value=""
+                  value="11999999999"
                 />
               </div>
             </div>
@@ -217,11 +216,10 @@ exports[`UserRegister should render UserRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-dc61514b-0 cTRskw"
+              class="sc-dc61514b-0 dMMbyf"
               name="password"
               placeholder="Crie a sua senha"
-              type=""
-              value=""
+              value="abobrinha"
             />
           </div>
         </div>

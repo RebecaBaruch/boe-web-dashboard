@@ -62,12 +62,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
                 >
                   Já possui uma conta?
                 </span>
-                <a
+                <button
                   class="link"
-                  href=""
                 >
                   Log in
-                </a>
+                </button>
               </div>
             </span>
           </div>
@@ -90,11 +89,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             style="position: relative;"
           >
             <input
-              class="sc-dc61514b-0 cTRskw"
+              class="sc-dc61514b-0 dMMbyf"
               name="property-name"
               placeholder="Insira o nome da fazenda"
               type=""
-              value=""
+              value="Agostinho Carrara Farm"
             />
           </div>
         </div>
@@ -115,11 +114,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-dc61514b-0 cTRskw"
+                class="sc-dc61514b-0 dMMbyf"
                 name="property-phone"
                 placeholder="(00) 00000-0000"
                 type=""
-                value=""
+                value="11999999999"
               />
             </div>
           </div>
@@ -137,11 +136,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-dc61514b-0 cTRskw"
+                class="sc-dc61514b-0 dMMbyf"
                 name="cnpj"
                 placeholder="0.000.000/0000-00"
                 type=""
-                value=""
+                value="123456789"
               />
             </div>
           </div>
@@ -163,11 +162,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-dc61514b-0 cTRskw"
+                class="sc-dc61514b-0 dMMbyf"
                 name="postal-code"
                 placeholder="00000-000"
                 type=""
-                value=""
+                value="12345678"
               />
             </div>
           </div>
@@ -185,11 +184,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-dc61514b-0 cTRskw"
+                class="sc-dc61514b-0 dMMbyf"
                 name="uf-state"
                 placeholder="UF"
                 type=""
-                value=""
+                value="SP"
               />
             </div>
           </div>
@@ -211,11 +210,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-dc61514b-0 cTRskw"
+                class="sc-dc61514b-0 dMMbyf"
                 name="city"
                 placeholder="Localidade"
                 type=""
-                value=""
+                value="São Paulo"
               />
             </div>
           </div>
@@ -233,11 +232,11 @@ exports[`FarmRegister should render FarmRegister 1`] = `
               style="position: relative;"
             >
               <input
-                class="sc-dc61514b-0 cTRskw"
+                class="sc-dc61514b-0 dMMbyf"
                 name="street-address"
                 placeholder="Bairro, Rua, nº"
                 type=""
-                value=""
+                value="Rua das Margaridas, 123"
               />
             </div>
           </div>
