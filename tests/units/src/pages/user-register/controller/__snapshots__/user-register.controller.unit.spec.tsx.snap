@@ -5,7 +5,7 @@ exports[`UserRegister should render UserRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-4e3acad9-0 dmnGWt"
+    class="sc-3475e50e-0 GShXl"
   >
     <div
       class="_1xgjmkvc"
@@ -128,7 +128,7 @@ exports[`UserRegister should render UserRegister 1`] = `
         class="sc-a33e0322-0 iSznKf"
       >
         <div
-          class="sc-7d1c6-0 gJJZQZ"
+          class="sc-365eeaa8-0 jmluUC"
         >
           <span
             class="splu5g7 splu5g5"
@@ -157,7 +157,7 @@ exports[`UserRegister should render UserRegister 1`] = `
             class="sc-7117240f-0 cCCHfK"
           >
             <div
-              class="sc-7d1c6-0 gJJZQZ"
+              class="sc-365eeaa8-0 jmluUC"
             >
               <span
                 class="splu5g7 splu5g5"
@@ -179,7 +179,7 @@ exports[`UserRegister should render UserRegister 1`] = `
               </div>
             </div>
             <div
-              class="sc-7d1c6-0 gJJZQZ"
+              class="sc-365eeaa8-0 jmluUC"
             >
               <span
                 class="splu5g7 splu5g5"
@@ -203,7 +203,7 @@ exports[`UserRegister should render UserRegister 1`] = `
           </div>
         </div>
         <div
-          class="sc-7d1c6-0 gJJZQZ"
+          class="sc-365eeaa8-0 jmluUC"
         >
           <span
             class="splu5g7 splu5g5"

@@ -5,7 +5,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
   style="isolation: isolate;"
 >
   <div
-    class="sc-4e3acad9-0 dmnGWt"
+    class="sc-3475e50e-0 GShXl"
   >
     <div
       class="_1xgjmkvc"
@@ -76,7 +76,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
         class="sc-27a4d30c-0 bImiIJ"
       >
         <div
-          class="sc-7d1c6-0 gJJZQZ"
+          class="sc-365eeaa8-0 jmluUC"
         >
           <span
             class="splu5g7 splu5g5"
@@ -101,7 +101,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           class="sc-7117240f-0 cCCHfK"
         >
           <div
-            class="sc-7d1c6-0 kjVrCv"
+            class="sc-365eeaa8-0 ddDRSk"
           >
             <span
               class="splu5g7 splu5g5"
@@ -123,7 +123,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             </div>
           </div>
           <div
-            class="sc-7d1c6-0 bczNaM"
+            class="sc-365eeaa8-0 fXjQbv"
           >
             <span
               class="splu5g7 splu5g5"
@@ -149,7 +149,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           class="sc-7117240f-0 cCCHfK"
         >
           <div
-            class="sc-7d1c6-0 fWuyLt"
+            class="sc-365eeaa8-0 gLLJre"
           >
             <span
               class="splu5g7 splu5g5"
@@ -171,7 +171,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             </div>
           </div>
           <div
-            class="sc-7d1c6-0 kjVrCv"
+            class="sc-365eeaa8-0 ddDRSk"
           >
             <span
               class="splu5g7 splu5g5"
@@ -197,7 +197,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
           class="sc-7117240f-0 cCCHfK"
         >
           <div
-            class="sc-7d1c6-0 kjVrCv"
+            class="sc-365eeaa8-0 ddDRSk"
           >
             <span
               class="splu5g7 splu5g5"
@@ -219,7 +219,7 @@ exports[`FarmRegister should render FarmRegister 1`] = `
             </div>
           </div>
           <div
-            class="sc-7d1c6-0 fWuyLt"
+            class="sc-365eeaa8-0 gLLJre"
           >
             <span
               class="splu5g7 splu5g5"
