@@ -49,6 +49,7 @@ export default function Input({
         formattedValue = formatCnpj(value);
         break;
       default:
+        formattedValue = value;
         break;
     }
 
@@ -74,7 +75,7 @@ export default function Input({
         error={error}
         placeholder={placeholder}
         name={name}
-        type={type}
+        type={type === 'password' ? (showPassword ? 'text' : 'password') : type}
       />
 
       {renderPasswordToggle()}

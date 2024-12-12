@@ -14,81 +14,103 @@ import TopFormBox from '../../../components/top-form-box/index.component';
 import ButtonPrimary from '../../../components/button-primary/button-primary.component';
 import RememberLogin from '../components/remember-login/index.component';
 import LinkComponent from '../../../components/link-component/link.component';
+import LoadingComponent from 'components/loading/loading.component';
 
 export default function Login({
   email,
+  password,
   isButtonDisabled,
   onLogin,
+  onRegister,
+  isLoading,
+  onEmailChange,
+  onPasswordChange,
 }: LoginProps) {
   const BoeLogo02: string = '/assets/boe-logo02.svg';
-  return (
-    <Wrapper>
-      <SideWrapper>
-        <Box width={'56%'}>
-          <Stack space={32}>
-            <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
 
-            <TopFormBox
-              title="Log in"
-              description="Bem vindo de volta! Monitore da melhor forma a saúde do seu gado!"
-              dividerText="Ou entre com o e-mail"
-              buttonText="Entre com Google"
-              onClickButton={() => {}}
-            />
+  const renderContent = () => {
+    if (isLoading) {
+      return <LoadingComponent />;
+    }
 
-            <Stack space={16}>
-              <InputBox
-                title="E-mail"
-                input={
-                  <Input
-                    placeholder="Insira seu e-mail"
-                    name="myInput"
-                    type="text"
-                    value={email}
-                    onChange={() => {}}
-                  />
-                }
+    return (
+      <Wrapper>
+        <SideWrapper>
+          <Box width={'56%'}>
+            <Stack space={32}>
+              <Image src={BoeLogo02} alt="boe-logo" width={60} height={60} />
+
+              <TopFormBox
+                title="Log in"
+                description="Bem vindo de volta! Monitore da melhor forma a saúde do seu gado!"
+                dividerText="Ou entre com o e-mail"
+                buttonText="Entre com Google"
+                onClickButton={() => {}}
               />
 
-              <InputBox
-                title="Senha"
-                input={
-                  <Stack space={4}>
+              <Stack space={16}>
+                <InputBox
+                  title="E-mail"
+                  input={
                     <Input
-                      placeholder="Digite a sua senha"
-                      name="myInput"
+                      placeholder="Insira seu e-mail"
+                      name="email"
                       type="text"
                       value={email}
-                      onChange={() => {}}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                        onEmailChange(e.target.value)
+                      }
                     />
+                  }
+                />
 
-                    <Inline space="between" alignItems="center">
-                      <RememberLogin />
-                      <LinkComponent to={''} text={'Esqueceu a senha?'} />
-                    </Inline>
-                  </Stack>
-                }
-              />
-              <ButtonPrimary
-                content={'Login'}
-                disabled={isButtonDisabled}
-                onClick={() => onLogin}
-              />
+                <InputBox
+                  title="Senha"
+                  input={
+                    <Stack space={4}>
+                      <Input
+                        placeholder="Digite a sua senha"
+                        name="password"
+                        type="password"
+                        value={password}
+                        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                          onPasswordChange(e.target.value)
+                        }
+                      />
 
-              <Inline space={8} alignItems="center">
-                <Text1 regular>Não tem conta?</Text1>
-                <LinkComponent to={''} text={'Registre-se'} />
-              </Inline>
+                      <Inline space="between" alignItems="center">
+                        <RememberLogin />
+                        <LinkComponent
+                          onChange={() => {}}
+                          text={'Esqueceu a senha?'}
+                        />
+                      </Inline>
+                    </Stack>
+                  }
+                />
+                <ButtonPrimary
+                  content={'Login'}
+                  disabled={isButtonDisabled}
+                  onClick={onLogin}
+                />
+
+                <Inline space={8} alignItems="center">
+                  <Text1 regular>Não tem conta?</Text1>
+                  <LinkComponent onChange={onRegister} text={'Registre-se'} />
+                </Inline>
+              </Stack>
             </Stack>
-          </Stack>
-        </Box>
+          </Box>
 
-        <span className={styles.allRights}>
-          @2024 Böe Todos os direitos reservados
-        </span>
-      </SideWrapper>
+          <span className={styles.allRights}>
+            @2024 Böe Todos os direitos reservados
+          </span>
+        </SideWrapper>
 
-      <RightSideFrame />
-    </Wrapper>
-  );
+        <RightSideFrame />
+      </Wrapper>
+    );
+  };
+
+  return renderContent();
 }
