@@ -33,7 +33,7 @@ export default function UserRegister({
             description={
               <Inline space={8} alignItems="center">
                 <Text1 regular>Já possui uma conta?</Text1>
-                <LinkComponent to={''} text="Log in" />
+                <LinkComponent onChange={() => {}} text="Log in" />
               </Inline>
             }
             buttonText="Criar com Google"
