@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { toast } from 'react-toastify';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 interface CustomError extends Error {
