@@ -20,11 +20,7 @@ export default function LoginController() {
   const [isButtonDisabled, setIsButtonDisabled] = React.useState(true);
 
   const validateForm = (email: string, password: string) => {
-    if (email && password) {
-      setIsButtonDisabled(false);
-    } else {
-      setIsButtonDisabled(true);
-    }
+    setIsButtonDisabled(!(email && password));
   };
 
   const handleLogin = React.useCallback(async () => {
@@ -37,12 +33,22 @@ export default function LoginController() {
         jwt: loginData.jwt,
       });
       localStorage.setItem('jwt', loginData.jwt);
+      router.push(RoutesUrls.BASE_URL);
     } catch (error) {
-      if (error.statusCode === 401) {
-        toast.error('Credenciais inválidas. Verifique o email e senha.');
-      } else {
-        const errorMessage = (error as Error).message || 'Erro desconhecido';
-        toast.error(errorMessage);
+      switch (error.statusCode) {
+        case 401:
+          toast.error('Credenciais inválidas. Verifique o email e senha.');
+          break;
+        case 405:
+          toast.error(
+            '⚠️ Provavelmente no servidor está fora do ar. Por favor, tente novamente mais tarde.',
+          );
+          break;
+        default: {
+          const errorMessage = (error as Error).message || 'Erro desconhecido';
+          toast.error(errorMessage);
+          break;
+        }
       }
     } finally {
       setIsLoading(false);

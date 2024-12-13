@@ -29,6 +29,9 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
     return () => clearTimeout(timer);
   }, []);
 
+  const isProtectedRoute = !['/login', '/register', '/public-page'].includes(
+    router.pathname,
+  );
   return (
     <>
       <Head>
@@ -37,10 +40,14 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
       </Head>
       <ThemeContextProvider theme={theme}>
         <LoginContextProvider>
-          <ProtectedRoute>
-            <ToastContainer />
+          <ToastContainer />
+          {isProtectedRoute ? (
+            <ProtectedRoute>
+              <AppLayout Component={Component} pageProps={pageProps} />
+            </ProtectedRoute>
+          ) : (
             <AppLayout Component={Component} pageProps={pageProps} />
-          </ProtectedRoute>
+          )}
         </LoginContextProvider>
       </ThemeContextProvider>
     </>

@@ -19,7 +19,7 @@ const boeApiV2 = {
         const statusCode = error.response?.status;
         const errorMessage =
           error.response?.data?.message ||
-          'Falha na autenticação. Tente novamente.';
+          `Erro ${statusCode}. Tente novamente.`;
 
         const axiosError: CustomError = new Error(errorMessage);
         axiosError.statusCode = statusCode;
