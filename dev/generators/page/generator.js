@@ -16,7 +16,7 @@ export default (plop) => {
       },
       {
         type: 'add',
-        path: '../../src/pages/{{kebabCase name}}/index.tsx',
+        path: '../../src/pages/{{kebabCase name}}/index.page.tsx',
         templateFile: 'page/templates/index.page.tsx.hbs',
       },
       {
