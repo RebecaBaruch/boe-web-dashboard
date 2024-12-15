@@ -3,6 +3,10 @@ import DiagnosisList from '../../../../../../src/pages/diagnosis-list/index.page
 import { renderWithTheme } from '../../../../../../src/utils/render-with-theme';
 import { screen } from '@testing-library/react';
 
+jest.mock('../../../../../../src/services/api/boe-api-v2', () => ({
+  getAnalysisHistory: jest.fn(() => Promise.resolve([])),
+}));
+
 const mockedRouter = {
   push: jest.fn(),
 };
@@ -11,8 +15,8 @@ jest.mock('next/router', () => ({
   useRouter: () => mockedRouter,
 }));
 
-describe('DiagnosisList', () => {
-  it('should render DiagnosisList', () => {
+describe('DiagnosisList Controller', () => {
+  it('should render DiagnosisList', async () => {
     renderWithTheme(<DiagnosisList />);
 
     expect(screen.getByText('Id do animal')).toBeInTheDocument();

@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { useLoginContext } from 'context/login-context';
 import SidebarLayout from '../components/sidebar-menu/index.componente';
-import LoadingComponent from '../components/loading/loading.component';
 import { RoutesUrls } from 'utils/enums/routes-url';
 
 interface AppLayoutProps {
@@ -29,16 +28,32 @@ const AppLayout: React.FC<AppLayoutProps> = ({ Component, pageProps }) => {
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
   const { jwt } = useLoginContext();
   const router = useRouter();
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (!jwt) {
-      router.push(RoutesUrls.LOGIN);
+    const isPublicRoute = [
+      '/login',
+      '/register',
+      '/public-page',
+      '/error/generic-error',
+    ].includes(router.pathname);
+
+    if (jwt && isPublicRoute) {
+      router.replace(RoutesUrls.BASE_URL);
+    } else if (!jwt && !isPublicRoute) {
+      router.replace(RoutesUrls.LOGIN);
     }
-    setIsLoading(!jwt);
   }, [jwt, router]);
 
-  return isLoading ? <LoadingComponent /> : <>{children}</>;
+  const isLoading =
+    (jwt && ['/login', '/register'].includes(router.pathname)) ||
+    (!jwt &&
+      !['/login', '/register', '/public-page'].includes(router.pathname));
+
+  if (isLoading) {
+    return null;
+  }
+
+  return <>{children}</>;
 };
 
 export { AppLayout, ProtectedRoute };
