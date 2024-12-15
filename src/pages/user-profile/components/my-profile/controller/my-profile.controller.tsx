@@ -22,7 +22,6 @@ export default function MyProfileController() {
   }, []);
 
   const handleUpdateInfo = React.useCallback(() => {
-    console.log('Update info');
     handleEditInfo();
   }, []);
 

@@ -1,26 +1,25 @@
 import React, { ReactNode, useState } from 'react';
 
-interface LoginDataProps {
+interface UserDataProps {
   name: string;
   email: string;
   jwt: string;
 }
 
-interface LoginContextProps extends LoginDataProps {
-  setLoginData: (data: LoginDataProps) => void;
+interface LoginContextProps {
+  userData: UserDataProps;
+  setLoginData: (data: UserDataProps) => void;
 }
 
 export const LoginContext = React.createContext<LoginContextProps>({
-  name: '',
-  email: '',
-  jwt: '',
+  userData: { name: '', email: '', jwt: '' },
   setLoginData: () => {},
 });
 
 export const LoginContextProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [loginData, setLoginData] = useState<LoginDataProps>({
+  const [loginData, setLoginData] = useState<UserDataProps>({
     name: '',
     email: '',
     jwt: '',
@@ -28,17 +27,17 @@ export const LoginContextProvider: React.FC<{ children: ReactNode }> = ({
 
   React.useEffect(() => {
     const jwt = localStorage.getItem('jwt');
-    if (jwt) {
+    if (!jwt) {
       setLoginData({
         name: '',
         email: '',
-        jwt,
+        jwt: '',
       });
     }
   }, []);
 
   return (
-    <LoginContext.Provider value={{ ...loginData, setLoginData }}>
+    <LoginContext.Provider value={{ userData: loginData, setLoginData }}>
       {children}
     </LoginContext.Provider>
   );

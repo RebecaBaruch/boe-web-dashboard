@@ -14,7 +14,8 @@ interface ProtectedRouteProps {
 }
 
 const AppLayout: React.FC<AppLayoutProps> = ({ Component, pageProps }) => {
-  const { jwt } = useLoginContext();
+  const { userData } = useLoginContext();
+  const jwt = userData.jwt;
 
   return jwt ? (
     <SidebarLayout>
@@ -26,7 +27,9 @@ const AppLayout: React.FC<AppLayoutProps> = ({ Component, pageProps }) => {
 };
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
-  const { jwt } = useLoginContext();
+  const { userData } = useLoginContext();
+  const jwt = userData.jwt;
+
   const router = useRouter();
 
   useEffect(() => {

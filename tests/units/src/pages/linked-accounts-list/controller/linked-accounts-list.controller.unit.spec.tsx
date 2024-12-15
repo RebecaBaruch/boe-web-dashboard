@@ -79,7 +79,7 @@ describe('LinkedAccountsListController', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Prev' }));
     expect(mockHandlePrev).toHaveBeenCalled();
   });
-  
+
   it('should toggle select mode', () => {
     renderWithTheme(<LinkedAccountsList />);
 

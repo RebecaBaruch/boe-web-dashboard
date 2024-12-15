@@ -1,3 +1,3 @@
 export interface GenericErrorsProps {
-    onBack: () => void;
+  onBack: () => void;
 }
