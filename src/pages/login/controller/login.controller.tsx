@@ -27,6 +27,7 @@ export default function LoginController() {
     setIsLoading(true);
     try {
       const loginData = await boeApiV2.signIn(email, password);
+      console.log(loginData.jwt);
       setLoginData({
         email: loginData.data.email,
         name: loginData.data.name,
@@ -35,6 +36,7 @@ export default function LoginController() {
       localStorage.setItem('jwt', loginData.jwt);
       router.push(RoutesUrls.BASE_URL);
     } catch (error) {
+      if (!error.response) router.push(RoutesUrls.GENERIC_ERROR);
       switch (error.statusCode) {
         case 401:
           toast.error('Credenciais inválidas. Verifique o email e senha.');
@@ -43,10 +45,14 @@ export default function LoginController() {
           toast.error(
             '⚠️ Provavelmente no servidor está fora do ar. Por favor, tente novamente mais tarde.',
           );
+          router.push(RoutesUrls.GENERIC_ERROR);
+          break;
+        case 503:
+          console.log('Redirecionando para a página de erro...');
+          router.push(RoutesUrls.GENERIC_ERROR);
           break;
         default: {
-          const errorMessage = (error as Error).message || 'Erro desconhecido';
-          toast.error(errorMessage);
+          router.push(RoutesUrls.GENERIC_ERROR);
           break;
         }
       }

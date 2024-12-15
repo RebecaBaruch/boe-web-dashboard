@@ -29,7 +29,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
     return () => clearTimeout(timer);
   }, []);
 
-  const isProtectedRoute = !['/login', '/register', '/public-page'].includes(
+  const isProtectedRoute = !['/login', '/register', '/public-page', '/error/generic-error'].includes(
     router.pathname,
   );
   return (

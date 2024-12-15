@@ -27,9 +27,11 @@ const usePagedSelection = ({ data, itemsPerPage }: UsePagedSelectionProps) => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
 
-  const currentItems = data
-    .slice(indexOfFirstItem, indexOfLastItem)
-    .map((item) => ({ ...item, id: item.id ? item.id.toString() : '' }));
+  const currentItems = Array.isArray(data)
+    ? data
+        .slice(indexOfFirstItem, indexOfLastItem)
+        .map((item) => ({ ...item, id: item.id ? item.id.toString() : '' }))
+    : [];
 
   // Handlers for pagination
   const handlePrev = React.useCallback(() => {

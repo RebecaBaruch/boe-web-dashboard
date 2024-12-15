@@ -8,6 +8,13 @@ interface CustomError extends Error {
 const boeApiV2 = {
   signIn: async (email: string, password: string) => {
     try {
+      // throw {
+      //   response: {
+      //     status: 405, // Ou o status que você quiser testar
+      //     data: { message: 'Erro de rede' },
+      //   },
+      // };
+
       const response = await axios.post(`${API_URL}/api/user/signin`, {
         email,
         password,
@@ -16,10 +23,18 @@ const boeApiV2 = {
       return response.data;
     } catch (error) {
       if (axios.isAxiosError(error)) {
-        const statusCode = error.response?.status;
+        let statusCode = error.response?.status;
+
+        if (!error.response) {
+          statusCode = 503;
+        }
+
+        console.log('Error:', error.response);
         const errorMessage =
-          error.response?.data?.message ||
-          `Erro ${statusCode}. Tente novamente.`;
+          statusCode === 503
+            ? 'Servidor indisponível. Por favor, tente novamente mais tarde.'
+            : error.response?.data?.message ||
+              `Erro ${statusCode}. Tente novamente.`;
 
         const axiosError: CustomError = new Error(errorMessage);
         axiosError.statusCode = statusCode;
@@ -69,7 +84,7 @@ const boeApiV2 = {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWEyMmM1NmMxZDM1N2MyNDQyM2U2NSIsImlhdCI6MTczMzk2MTg3MiwiZXhwIjoxNzMzOTY1NDcyfQ.iw-KJ-ydLJspVhp4uQPoyR_zOsAPHVsyqoepu0Ouav8`,
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
         },
         body: JSON.stringify({
           name: propertyName,
@@ -85,6 +100,23 @@ const boeApiV2 = {
       const data = await response.json();
       console.log('Response:', data);
       return data;
+    } catch (error) {
+      console.error('Farm Register Error:', error);
+      throw error;
+    }
+  },
+
+  getFarmEmployees: async () => {
+    try {
+      const response = await fetch(`${API_URL}/api/farm/employees`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+        },
+      });
+      console.log('Response:', response);
+      return await response.json();
     } catch (error) {
       console.error('Farm Register Error:', error);
       throw error;
