@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenericError should render GenericError with text GenericError 1`] = `
+<div
+  style="isolation: isolate;"
+>
+  <div
+    style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 40px; width: 100vw; height: 100vh;"
+  >
+    <img
+      alt="cow-illustration"
+      data-nimg="1"
+      decoding="async"
+      height="300"
+      loading="lazy"
+      src="/assets/cow-generic-error.svg"
+      style="color: transparent;"
+      width="500"
+    />
+    <div
+      class="xjgm6d4"
+      style="--xjgm6d0: 4px;"
+    >
+      <div>
+        <h1
+          style="font-size: 30px; font-weight: bold; color: rgb(40, 47, 217); font-family: Roboto, sans-serif; text-align: center; margin: 0px; padding: 0px;"
+        >
+          Opa, parece que algo deu errado...
+        </h1>
+      </div>
+      <div>
+        <span
+          class="splu5g7 splu5g5"
+          data-component-name="Text3"
+          style="--splu5g0: 1.000rem; --splu5g2: 1.500rem; --splu5g1: 1.125rem; --splu5g3: 1.500rem; hyphens: auto; font-weight: 400; text-transform: inherit; text-decoration: inherit; overflow-wrap: anywhere; white-space: pre-line;"
+        >
+          Se o problema persistir, por favor tente novamente mais tarde!
+        </span>
+      </div>
+    </div>
+    <button
+      class="sc-daa8886c-0 bGwwUN"
+    >
+      Voltar
+    </button>
+  </div>
+</div>
+`;
