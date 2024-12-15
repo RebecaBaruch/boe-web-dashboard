@@ -8,13 +8,6 @@ interface CustomError extends Error {
 const boeApiV2 = {
   signIn: async (email: string, password: string) => {
     try {
-      // throw {
-      //   response: {
-      //     status: 405, // Ou o status que você quiser testar
-      //     data: { message: 'Erro de rede' },
-      //   },
-      // };
-
       const response = await axios.post(`${API_URL}/api/user/signin`, {
         email,
         password,
@@ -109,6 +102,40 @@ const boeApiV2 = {
   getFarmEmployees: async () => {
     try {
       const response = await fetch(`${API_URL}/api/farm/employees`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+        },
+      });
+      console.log('Response:', response);
+      return await response.json();
+    } catch (error) {
+      console.error('Farm Register Error:', error);
+      throw error;
+    }
+  },
+
+  getAnalysisHistory: async () => {
+    try {
+      const response = await fetch(`${API_URL}/api/farm/farm-detailed-statistics`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+        },
+      });
+      console.log('Response:', response);
+      return await response.json();
+    } catch (error) {
+      console.error('Farm Register Error:', error);
+      throw error;
+    }
+  },
+
+  getAnimalsList: async () => {
+    try {
+      const response = await fetch(`${API_URL}/api/farm/all-animals`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

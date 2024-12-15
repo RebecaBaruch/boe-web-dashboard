@@ -4,17 +4,18 @@ import { ThemeContextProvider } from '@telefonica/mistica';
 import usePagedSelection from '../../../../../hooks/use-paged-selection';
 import { TableAnimalsData } from '../../../../../components/data-table/types';
 import AnimalsView from '../view';
-import { animalsMockData } from '../../../mock/table-data';
 import { theme } from '../../../../../config/theme';
 import { animalsListColumns } from '../../../../../config/constants/column-headers';
+import boeApiV2 from 'services/api/boe-api-v2';
 
 export default function AnimalsViewController() {
   const [tableData, setTableData] = React.useState<TableAnimalsData[]>([]);
   const itemsPerPage = 6;
 
   React.useEffect(() => {
-    const mockedData = animalsMockData;
-    setTableData(mockedData);
+    boeApiV2.getAnimalsList().then((data) => {
+      setTableData(data);
+    });
   }, []);
 
   const { currentPage, totalPages, currentItems, handlePrev, handleNext } =
