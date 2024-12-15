@@ -2,13 +2,22 @@ import React from 'react';
 import LinkedAccountsList from '../view/linked-accounts-list.view';
 import { ThemeContextProvider } from '@telefonica/mistica';
 import { theme } from '../../../config/theme';
-import { dataMock } from '../mock/table-data';
 import { accountsColumns } from 'config/constants/column-headers';
 import usePagedSelection from 'hooks/use-paged-selection';
+import boeApiV2 from 'services/api/boe-api-v2';
+import { AccountData } from '../types';
 
 export default function LinkedAccountsListController() {
-  const mockedData = dataMock;
+  const [employeeData, setEmployeeData] = React.useState<
+    (AccountData & { id: string | number })[]
+  >([]);
   const itemsPerPage = 6;
+
+  React.useEffect(() => {
+    boeApiV2.getFarmEmployees().then((data) => {
+      setEmployeeData(data);
+    });
+  }, []);
 
   const {
     currentPage,
@@ -22,7 +31,7 @@ export default function LinkedAccountsListController() {
     toggleSelectRow,
     toggleSelectAll,
     handleSelectMode,
-  } = usePagedSelection({ data: mockedData, itemsPerPage });
+  } = usePagedSelection({ data: employeeData, itemsPerPage });
 
   return (
     <ThemeContextProvider theme={theme}>
