@@ -6,7 +6,7 @@ import ErrorWrapper from 'pages/error/components/error-wrapper';
 import ErrorTitle from 'pages/error/components/error-title';
 import { GenericErrorsProps } from '../types';
 
-export default function GenericError({onBack}: GenericErrorsProps) {
+export default function GenericError({ onBack }: GenericErrorsProps) {
   const CowGenericError: string = '/assets/cow-generic-error.svg';
 
   return (

@@ -105,7 +105,6 @@ const boeApiV2 = {
           Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
         },
       });
-      ('Response:', response);
       return await response.json();
     } catch (error) {
       console.error('Farm Register Error:', error);
@@ -115,14 +114,16 @@ const boeApiV2 = {
 
   getAnalysisHistory: async () => {
     try {
-      const response = await fetch(`${API_URL}/api/farm/farm-detailed-statistics`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+      const response = await fetch(
+        `${API_URL}/api/farm/farm-detailed-statistics`,
+        {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+          },
         },
-      });
-      ('Response:', response);
+      );
       return await response.json();
     } catch (error) {
       console.error('Farm Register Error:', error);

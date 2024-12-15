@@ -12,7 +12,7 @@ import boeApiV2 from 'services/api/boe-api-v2';
 export default function DiagnosisViewController() {
   const [tableData, setTableData] = React.useState<TableDiagnosisData[]>([]);
   const itemsPerPage = 6;
-   
+
   React.useEffect(() => {
     boeApiV2.getAnalysisHistory().then((data) => {
       setTableData(data);

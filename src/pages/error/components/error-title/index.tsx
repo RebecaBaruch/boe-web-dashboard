@@ -9,7 +9,11 @@ interface ErrorTitleProps {
   alignText?: alignText;
 }
 
-export default function ErrorTitle({ children, size, alignText }: ErrorTitleProps) {
+export default function ErrorTitle({
+  children,
+  size,
+  alignText,
+}: ErrorTitleProps) {
   return (
     <h1
       style={{
