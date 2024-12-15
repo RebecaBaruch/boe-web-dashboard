@@ -24,7 +24,6 @@ export default function FarmProfileController() {
   }, []);
 
   const handleUpdateInfo = React.useCallback(() => {
-    console.log('Update info');
     handleEditInfo();
   }, []);
 

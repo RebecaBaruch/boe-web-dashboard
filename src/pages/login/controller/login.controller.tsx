@@ -48,7 +48,6 @@ export default function LoginController() {
           router.push(RoutesUrls.GENERIC_ERROR);
           break;
         case 503:
-          console.log('Redirecionando para a página de erro...');
           router.push(RoutesUrls.GENERIC_ERROR);
           break;
         default: {

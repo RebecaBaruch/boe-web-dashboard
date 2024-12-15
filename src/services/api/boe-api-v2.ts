@@ -22,7 +22,6 @@ const boeApiV2 = {
           statusCode = 503;
         }
 
-        console.log('Error:', error.response);
         const errorMessage =
           statusCode === 503
             ? 'Servidor indisponível. Por favor, tente novamente mais tarde.'
@@ -55,7 +54,6 @@ const boeApiV2 = {
       });
 
       const data = await response.json();
-      console.log('Response:', data);
       return data;
     } catch (error) {
       console.error('SignIn Error:', error);
@@ -91,7 +89,6 @@ const boeApiV2 = {
       });
 
       const data = await response.json();
-      console.log('Response:', data);
       return data;
     } catch (error) {
       console.error('Farm Register Error:', error);
@@ -108,7 +105,7 @@ const boeApiV2 = {
           Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
         },
       });
-      console.log('Response:', response);
+      ('Response:', response);
       return await response.json();
     } catch (error) {
       console.error('Farm Register Error:', error);
@@ -125,7 +122,7 @@ const boeApiV2 = {
           Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
         },
       });
-      console.log('Response:', response);
+      ('Response:', response);
       return await response.json();
     } catch (error) {
       console.error('Farm Register Error:', error);
@@ -142,7 +139,6 @@ const boeApiV2 = {
           Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
         },
       });
-      console.log('Response:', response);
       return await response.json();
     } catch (error) {
       console.error('Farm Register Error:', error);

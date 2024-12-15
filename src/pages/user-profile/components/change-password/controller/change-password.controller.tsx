@@ -14,8 +14,6 @@ export default function ChangePasswordController() {
 
   React.useEffect(() => {
     setIsEditMode(confirmCurrentPassword === currentPassword);
-    console.log('confirmCurrentPassword:', confirmCurrentPassword);
-    console.log(isEditMode);
   }, [confirmCurrentPassword, currentPassword, isEditMode]);
 
   React.useEffect(() => {
@@ -28,7 +26,6 @@ export default function ChangePasswordController() {
     setConfirmNewPassword('');
     setConfirmCurrentPassword('');
     setIsEditMode(false);
-    console.log('Senha alterada com sucesso!');
   };
 
   const handleCancel = () => {
