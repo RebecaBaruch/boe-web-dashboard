@@ -25,4 +25,5 @@ export interface LinkedAccountsProps {
   onSelectMode: () => void;
   onDeleteSelected?: (rowIndex: number) => void;
   isAllDataSelected?: boolean;
+  isLoading: boolean;
 }

@@ -10,13 +10,19 @@ import { generateTablePDF } from '../../../../../utils/pdf-table-generator';
 import boeApiV2 from 'services/api/boe-api-v2';
 
 export default function DiagnosisViewController() {
+  const [isLoading, setIsLoading] = React.useState(true);
   const [tableData, setTableData] = React.useState<TableDiagnosisData[]>([]);
   const itemsPerPage = 6;
 
   React.useEffect(() => {
-    boeApiV2.getAnalysisHistory().then((data) => {
-      setTableData(data);
-    });
+    boeApiV2
+      .getAnalysisHistory()
+      .then((data) => {
+        setTableData(data);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   }, []);
 
   const {
@@ -47,6 +53,7 @@ export default function DiagnosisViewController() {
         selectedDiagnosisRows={selectedRows}
         selectDiagnosisMode={isSelectMode}
         onDownload={handleDownload}
+        isLoading={isLoading}
       />
     </ThemeContextProvider>
   );

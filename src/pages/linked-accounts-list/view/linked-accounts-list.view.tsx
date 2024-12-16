@@ -10,6 +10,8 @@ import ButtonPrimary from '../../../components/button-primary/button-primary.com
 import { ChevronDown, Plus, Trash } from 'react-feather';
 import ButtonSecondary from '../../../components/button-secondary/button-secondary.component';
 import { CheckSquare } from 'react-feather';
+import InfoCard from '../../../components/info-card';
+import SkeletonComponent from '../../../components/skeleton';
 
 export default function LinkedAccountsList({
   accountsData,
@@ -24,7 +26,55 @@ export default function LinkedAccountsList({
   toggleSelectRow,
   toggleSelectAll,
   onSelectMode,
+  isLoading,
 }: LinkedAccountsProps) {
+  const Loading = () => {
+    return <SkeletonComponent repeatSkeleton={1} heightSkeleton={570} />;
+  };
+
+  const ContentRender = () => {
+    if (isLoading) {
+      return <Loading />;
+    }
+
+    // eslint-disable-next-line react/prop-types
+    if (accountsData.length === 0) {
+      return (
+        <InfoCard
+          type="empty-state"
+          empty="animals"
+          title="O seu histórico está vazio"
+          description="Os registros feitos pelas contas associadas à sua fazenda aparecerão aqui!"
+          border
+          action="Adicionar conta"
+          onClick={() => {}}
+        />
+      );
+    }
+
+    return (
+      <Column width="100%" height="100%" justify="space-between">
+        <DataTable
+          data={accountsData}
+          columns={columnsHeader}
+          action="delete"
+          selectMode={selectMode}
+          selectedRows={selectedRows}
+          toggleSelectRow={toggleSelectRow}
+        />
+
+        <Row align="flex-end">
+          <PageStepper
+            currentPage={currentPage}
+            lastPage={lastPage}
+            prevPage={prevPage}
+            nextPage={nextPage}
+          />
+        </Row>
+      </Column>
+    );
+  };
+
   return (
     <>
       <Container space={2} padding={1.5}>
@@ -98,26 +148,7 @@ export default function LinkedAccountsList({
             )}
           </Row>
         </Row>
-
-        <Column width="100%" height="100%" justify="space-between">
-          <DataTable
-            data={accountsData}
-            columns={columnsHeader}
-            action="delete"
-            selectMode={selectMode}
-            selectedRows={selectedRows}
-            toggleSelectRow={toggleSelectRow}
-          />
-
-          <Row align="flex-end">
-            <PageStepper
-              currentPage={currentPage}
-              lastPage={lastPage}
-              prevPage={prevPage}
-              nextPage={nextPage}
-            />
-          </Row>
-        </Column>
+        {ContentRender()}
       </Container>
     </>
   );

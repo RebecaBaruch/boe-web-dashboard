@@ -17,4 +17,5 @@ export interface DiagnosisListProps {
   onDeleteDiagnosisSelected?: (rowIndex: number) => void;
   isAllDiagnosisSelected?: boolean;
   onDownload: () => void;
+  isLoading: boolean;
 }

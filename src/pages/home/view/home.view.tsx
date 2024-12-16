@@ -3,11 +3,24 @@ import { HomeProps } from '../types';
 import { Text4 } from '@telefonica/mistica';
 import { Wrapper } from '../components/wrapper/styled';
 import styles from '../styles.module.css';
+import SkeletonComponent from '../../../components/skeleton';
 
-export default function Home({ greetingText, userName }: HomeProps) {
+export default function Home({ greetingText, userName, isLoading }: HomeProps) {
+  const Loading = () => {
+    return <SkeletonComponent repeatSkeleton={1} heightSkeleton={20} />;
+  };
+
+  const ContentRender = () => {
+    if (isLoading) {
+      return <Loading />;
+    }
+
+    return <Text4 regular>{greetingText + ', ' + userName}</Text4>;
+  };
+
   return (
     <Wrapper>
-      <Text4 regular>{greetingText + ', ' + userName}</Text4>
+      {ContentRender()}
       <iframe
         title="Dashboard - BOE"
         width="100%"

@@ -8,15 +8,21 @@ import boeApiV2 from 'services/api/boe-api-v2';
 import { AccountData } from '../types';
 
 export default function LinkedAccountsListController() {
+  const [isLoading, setIsLoading] = React.useState(true);
   const [employeeData, setEmployeeData] = React.useState<
     (AccountData & { id: string | number })[]
   >([]);
   const itemsPerPage = 6;
 
   React.useEffect(() => {
-    boeApiV2.getFarmEmployees().then((data) => {
-      setEmployeeData(data);
-    });
+    boeApiV2
+      .getFarmEmployees()
+      .then((data) => {
+        setEmployeeData(data);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   }, []);
 
   const {
@@ -48,6 +54,7 @@ export default function LinkedAccountsListController() {
         isAllDataSelected={isAllDataSelected}
         selectMode={isSelectMode}
         onSelectMode={handleSelectMode}
+        isLoading={isLoading}
       />
     </ThemeContextProvider>
   );

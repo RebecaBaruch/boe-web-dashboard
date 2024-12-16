@@ -11,4 +11,5 @@ export interface AnimalsListProps {
   lastAnimalsPage: number | string;
   prevAnimalsPage: () => void;
   nextAnimalsPage: () => void;
+  isLoading: boolean;
 }

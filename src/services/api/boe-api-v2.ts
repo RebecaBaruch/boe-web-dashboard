@@ -75,7 +75,7 @@ const boeApiV2 = {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
         },
         body: JSON.stringify({
           name: propertyName,
@@ -102,7 +102,7 @@ const boeApiV2 = {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
         },
       });
       return await response.json();
@@ -120,7 +120,7 @@ const boeApiV2 = {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+            Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
           },
         },
       );
@@ -137,7 +137,7 @@ const boeApiV2 = {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDI5MTUyMywiZXhwIjoxNzM0Mjk1MTIzfQ.DU9Y3y5oCjaQ2uEeQ9uH45hi4mjHiwzSzgni4wORGOY`,
+          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
         },
       });
       return await response.json();

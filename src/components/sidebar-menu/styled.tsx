@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  /* height: 100vh; */
+  height: 10vh;
   width: 100vw;
 `;
 
@@ -24,6 +24,7 @@ export const Content = styled.div`
   justify-content: center;
   padding: 25px 25px 25px 25px;
   width: 100%;
+  height: 100%;
   transition: width 0.3s ease;
   box-sizing: border-box;
   background-color: #f1f1f1;
