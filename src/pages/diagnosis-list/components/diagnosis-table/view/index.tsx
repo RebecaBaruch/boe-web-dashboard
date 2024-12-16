@@ -23,12 +23,12 @@ export default function DiagnosisView({
   toggleDiagnosisSelectRow,
   selectedDiagnosisRows,
   onDownload,
-  isLoading
+  isLoading,
 }: DiagnosisListProps) {
   const Loading = () => {
     return <SkeletonComponent repeatSkeleton={1} heightSkeleton={470} />;
   };
-  
+
   const ContentRender = () => {
     if (isLoading) {
       return <Loading />;

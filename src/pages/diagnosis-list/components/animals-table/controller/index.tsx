@@ -14,12 +14,14 @@ export default function AnimalsViewController() {
   const itemsPerPage = 6;
 
   React.useEffect(() => {
-    boeApiV2.getAnimalsList().then((data) => {
-      setTableData(data);
-    })
-    .finally(() => {
-      setIsLoading(false);
-    });
+    boeApiV2
+      .getAnimalsList()
+      .then((data) => {
+        setTableData(data);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   }, []);
 
   const { currentPage, totalPages, currentItems, handlePrev, handleNext } =
