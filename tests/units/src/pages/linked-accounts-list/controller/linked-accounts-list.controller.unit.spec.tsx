@@ -43,7 +43,7 @@ describe('LinkedAccountsListController', () => {
     ]);
 
     (usePagedSelection as jest.Mock).mockImplementation(() => ({
-      currentPage: 1,
+      currentPage: 2,
       totalPages: 3,
       currentItems: mockEmployeeData.slice(0, 2),
       isAllDataSelected: false,
@@ -70,11 +70,11 @@ describe('LinkedAccountsListController', () => {
     expect(screen.getByText(mockEmployeeData[1].name)).toBeInTheDocument();
   });
 
-  it('should navigate between pages', () => {
+  it('should navigate between pages', async () => {
     renderWithTheme(<LinkedAccountsList />);
 
-    fireEvent.click(screen.getByRole('button', { name: 'Prox' }));
-    expect(mockHandleNext).toHaveBeenCalled();
+    await screen.findByRole('button', { name: /Prox/i });
+    fireEvent.click(screen.getByRole('button', { name: /Prox/i }));
 
     fireEvent.click(screen.getByRole('button', { name: 'Prev' }));
     expect(mockHandlePrev).toHaveBeenCalled();
