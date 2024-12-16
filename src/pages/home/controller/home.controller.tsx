@@ -6,18 +6,27 @@ import { theme } from '../../../config/theme';
 import { useLoginContext } from '../../../context/login-context';
 
 export default function HomeController() {
+  const [isLoading, setIsLoading] = React.useState(true);
   const { userData } = useLoginContext();
   const [userName, setUserName] = React.useState('');
   const [greetingText, setGreetingText] = React.useState('');
 
   React.useEffect(() => {
-    setUserName(userData.name);
-    setGreetingText(getGreeting());
+    if (userData.name) {
+      setUserName(userData.name);
+      setGreetingText(getGreeting());
+      setIsLoading(false);
+    }
   }, [userData]);
 
   return (
     <ThemeContextProvider theme={theme}>
-      <Home greetingText={greetingText} userName={userName} />;
+      <Home
+        greetingText={greetingText}
+        userName={userName}
+        isLoading={isLoading}
+      />
+      ;
     </ThemeContextProvider>
   );
 }

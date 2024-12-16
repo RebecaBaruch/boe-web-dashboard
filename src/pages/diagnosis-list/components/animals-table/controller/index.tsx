@@ -9,13 +9,19 @@ import { animalsListColumns } from '../../../../../config/constants/column-heade
 import boeApiV2 from 'services/api/boe-api-v2';
 
 export default function AnimalsViewController() {
+  const [isLoading, setIsLoading] = React.useState(true);
   const [tableData, setTableData] = React.useState<TableAnimalsData[]>([]);
   const itemsPerPage = 6;
 
   React.useEffect(() => {
-    boeApiV2.getAnimalsList().then((data) => {
-      setTableData(data);
-    });
+    boeApiV2
+      .getAnimalsList()
+      .then((data) => {
+        setTableData(data);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   }, []);
 
   const { currentPage, totalPages, currentItems, handlePrev, handleNext } =
@@ -30,6 +36,7 @@ export default function AnimalsViewController() {
         lastAnimalsPage={totalPages}
         prevAnimalsPage={handlePrev}
         nextAnimalsPage={handleNext}
+        isLoading={isLoading}
       />
     </ThemeContextProvider>
   );

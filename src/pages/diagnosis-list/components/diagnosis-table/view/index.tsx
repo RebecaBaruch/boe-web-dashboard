@@ -9,6 +9,8 @@ import { SearchField, Title3 } from '@telefonica/mistica';
 import ButtonSecondary from '../../../../../components/button-secondary/button-secondary.component';
 import { ChevronDown, Download, Filter } from 'react-feather';
 import ButtonPrimary from '../../../../../components/button-primary/button-primary.component';
+import InfoCard from '../../../../../components/info-card';
+import SkeletonComponent from '../../../../../components/skeleton';
 
 export default function DiagnosisView({
   diagnosisData,
@@ -21,7 +23,53 @@ export default function DiagnosisView({
   toggleDiagnosisSelectRow,
   selectedDiagnosisRows,
   onDownload,
+  isLoading,
 }: DiagnosisListProps) {
+  const Loading = () => {
+    return <SkeletonComponent repeatSkeleton={1} heightSkeleton={470} />;
+  };
+
+  const ContentRender = () => {
+    if (isLoading) {
+      return <Loading />;
+    }
+
+    // eslint-disable-next-line react/prop-types
+    if (diagnosisData.length === 0) {
+      return (
+        <InfoCard
+          type="empty-state"
+          empty="animals"
+          title="O seu histórico está vazio"
+          description="Os registros feitos pelas contas associadas à sua fazenda aparecerão aqui!"
+          border
+        />
+      );
+    }
+
+    return (
+      <Column width="100%" height="100%" justify="space-between">
+        <DataTable
+          data={diagnosisData}
+          columns={diagnosisColumnsHeader}
+          action="download"
+          selectMode={selectDiagnosisMode}
+          selectedRows={selectedDiagnosisRows}
+          toggleSelectRow={toggleDiagnosisSelectRow}
+        />
+
+        <Row align="flex-end">
+          <PageStepper
+            currentPage={currentDiagnosisPage}
+            lastPage={lastDiagnosisPage}
+            prevPage={prevDiagnosisPage}
+            nextPage={nextDiagnosisPage}
+          />
+        </Row>
+      </Column>
+    );
+  };
+
   return (
     <Container space={2} padding={1.5}>
       <Row align="space-between">
@@ -67,25 +115,7 @@ export default function DiagnosisView({
           />
         </Row>
       </Row>
-      <Column width="100%" height="100%" justify="space-between">
-        <DataTable
-          data={diagnosisData}
-          columns={diagnosisColumnsHeader}
-          action="download"
-          selectMode={selectDiagnosisMode}
-          selectedRows={selectedDiagnosisRows}
-          toggleSelectRow={toggleDiagnosisSelectRow}
-        />
-
-        <Row align="flex-end">
-          <PageStepper
-            currentPage={currentDiagnosisPage}
-            lastPage={lastDiagnosisPage}
-            prevPage={prevDiagnosisPage}
-            nextPage={nextDiagnosisPage}
-          />
-        </Row>
-      </Column>
+      {ContentRender()}
     </Container>
   );
 }
