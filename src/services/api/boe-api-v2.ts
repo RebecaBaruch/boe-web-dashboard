@@ -1,17 +1,34 @@
 import axios from 'axios';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
 interface CustomError extends Error {
   statusCode?: number;
 }
 
 const boeApiV2 = {
+  token: null as string | null,
+
+  setAuthToken: (newToken: string) => {
+    boeApiV2.token = newToken;
+  },
+
+  getAuthToken: () => {
+    const token = localStorage.getItem('jwt');
+    return token;
+  },
+
   signIn: async (email: string, password: string) => {
     try {
       const response = await axios.post(`${API_URL}/api/user/signin`, {
         email,
         password,
       });
+
+      // Opcional: Definir o token automaticamente após o login
+      if (response.data?.token) {
+        boeApiV2.setAuthToken(response.data.token);
+      }
 
       return response.data;
     } catch (error) {
@@ -71,11 +88,12 @@ const boeApiV2 = {
     address: string,
   ) => {
     try {
+      const token = boeApiV2.getAuthToken();
       const response = await fetch(`${API_URL}/api/farm/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify({
           name: propertyName,
@@ -98,51 +116,55 @@ const boeApiV2 = {
 
   getFarmEmployees: async () => {
     try {
+      const token = boeApiV2.getAuthToken();
       const response = await fetch(`${API_URL}/api/farm/employees`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
+          Authorization: `Bearer ${token}`,
         },
       });
+      console.log('Dynamic token: ', token);
       return await response.json();
     } catch (error) {
-      console.error('Farm Register Error:', error);
+      console.error('Get Farm Employees Error:', error);
       throw error;
     }
   },
 
   getAnalysisHistory: async () => {
     try {
+      const token = boeApiV2.getAuthToken();
       const response = await fetch(
         `${API_URL}/api/farm/farm-detailed-statistics`,
         {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
+            Authorization: `Bearer ${token}`,
           },
         },
       );
       return await response.json();
     } catch (error) {
-      console.error('Farm Register Error:', error);
+      console.error('Get Analysis History Error:', error);
       throw error;
     }
   },
 
   getAnimalsList: async () => {
     try {
+      const token = boeApiV2.getAuthToken();
       const response = await fetch(`${API_URL}/api/farm/all-animals`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NWQ4MWZjN2VlZTAwOGViMDQ0ZGQxMiIsImlhdCI6MTczNDMxMjcyNCwiZXhwIjoxNzM0MzE2MzI0fQ.2k1TVwkHgvjKBvvfByRYEq0S9H5G2yqs3GiwqFJBxvM`,
+          Authorization: `Bearer ${token}`,
         },
       });
       return await response.json();
     } catch (error) {
-      console.error('Farm Register Error:', error);
+      console.error('Get Animals List Error:', error);
       throw error;
     }
   },
