@@ -224,4 +224,4 @@ Contribuições são super bem-vindas! Seja no código, no design da interface n
 - [Rebeca (@RebecaBaruch)](https://github.com/RebecaBaruch)
 
 #### 🎨 Figma do Projeto
-O layout e design do **Boe Web Dashboard** podem ser visualizados no Figma através [deste link](https://www.figma.com/design/cvLw92mqgMty9e3KDp1R6Q/BOE?node-id=603-2&t=RQD6WhoRtFEg49vV-1). Caso tenha alguma sugestão de melhoria e novas features no nosso desgin, é só entrar em contato comigo (Rebeca Baruch) através do e-mail  [Rebeca (rebecabaruch@outlook.com)](rebecabaruch@outlook.com)📩.
+O layout e design do **Boe Web Dashboard** podem ser visualizados no Figma através [deste link](https://www.figma.com/design/cvLw92mqgMty9e3KDp1R6Q/BOE?node-id=603-2&t=RQD6WhoRtFEg49vV-1). Caso tenha alguma sugestão de melhoria e novas features no nosso desgin, é só entrar em contato comigo (Rebeca Baruch) através do e-mail  [rebecabaruch@outlook.com](rebecabaruch@outlook.com)📩.
