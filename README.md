@@ -197,8 +197,25 @@ Para rodar o **Boe Web Dashboard** localmente, siga os passos abaixo:
 Se você também precisa configurar a API Boe, consulte as instruções no repositório da [BoeApiV2](https://github.com/isefshondo/BoeApiV2).
 
 ![banner-app](./public/assets/boe-banner.png)
-## Quer contribuir com a melhora desta aplicação? 😊💙
 
+## 🚧 Limitações e Pontos Pendentes
+Devido ao prazo reduzido, não conseguimos corrigir todos os bugs nem implementar todas as funcionalidades. A necessidade de criar o dashboard web surgiu no último semestre do curso, com menos de três meses para a entrega final. Por isso, priorizamos as funcionalidades principais.
+
+### ❗Algumas issues e pontos faltantes:
+
+- ⚠️ **Tratamento de erros** implementado apenas na tela de login.
+- 📊 **Dados do dashboard em Power BI** estão estáticos (integração com o BFF pendente).
+- 🔒 **Rotas de atualização de perfil e senha** não foram conectadas.
+- ⚙️ **Telas de configurações e dúvidas** não foram criadas.
+- 📧 **Solicitação por e-mail para associar contas** entre app mobile e web não foi implementada, nem as notificações.
+- 🖼️ **O BFF não retorna as imagens** corretamente.
+- 🚫 **Fluxo de registro está incompleto** (falta implementar as rotas de cadastro).
+- 🐛 **Bug ao baixar registros isolados** no histórico de análises.
+- 📱 **Sistema ainda não é responsivo.**
+
+Contribuições são super bem-vindas! Seja no código, no design da interface no Figma ou sugerindo melhorias. Veja as instruções nas seções abaixo para saber como colaborar.
+
+## Quer contribuir com a melhora desta aplicação? 😊💙
 É simples! Se você deseja contribuir para o desenvolvimento do Boe Web Dashboard ou tem dúvidas, você também pode entrar em contato com a gente. Em uma branch separada, implemente suas sugestões e abra uma Pull Request! Você pode colocar como revisores os seguintes perfis:
 
 - [Isabelle (@isefshondo)](https://github.com/isefshondo)
@@ -207,4 +224,4 @@ Se você também precisa configurar a API Boe, consulte as instruções no repos
 - [Rebeca (@RebecaBaruch)](https://github.com/RebecaBaruch)
 
 #### 🎨 Figma do Projeto
-O layout e design do **Boe Web Dashboard** podem ser visualizados no Figma através [deste link](https://www.figma.com/design/cvLw92mqgMty9e3KDp1R6Q/BOE?node-id=603-2&t=RQD6WhoRtFEg49vV-1).
+O layout e design do **Boe Web Dashboard** podem ser visualizados no Figma através [deste link](https://www.figma.com/design/cvLw92mqgMty9e3KDp1R6Q/BOE?node-id=603-2&t=RQD6WhoRtFEg49vV-1). Caso tenha alguma sugestão de melhoria e novas features no nosso desgin, é só entrar em contato comigo (Rebeca Baruch) através do e-mail  [Rebeca (rebecabaruch@outlook.com)](rebecabaruch@outlook.com)📩.
